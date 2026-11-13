@@ -1,0 +1,18 @@
+    public static final synchronized boolean a(Context context, long j10) {
+        m0.a("GrmP79xlVg==\n", "edbhm7kdImI=\n");
+        context.getClass();
+        if (ni.i.f89495a.w() && com.neeeex.eraser.module.report.bytedance.a.k()) {
+            b bVar = f65481a;
+            SharedPreferences sharedPreferencesD = bVar.d(context);
+            long jG = bVar.g(context, j10);
+            if (j10 >= jG && j10 - jG >= 10800000) {
+                long j11 = sharedPreferencesD.getLong(f65484d, 0L);
+                if (j11 <= j10 && j10 - j11 >= 2400000) {
+                    return (v.c(sharedPreferencesD.getString(f65485e, null), bVar.c(j10)) ? sharedPreferencesD.getInt(f65486f, 0) : 0) < 7;
+                }
+                return false;
+            }
+            return false;
+        }
+        return false;
+    }

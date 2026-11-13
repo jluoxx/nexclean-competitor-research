@@ -1,0 +1,158 @@
+{
+  "job": {
+    "id": "j020",
+    "package": "com.nexclean.junkclean.phoneclean",
+    "tool": "inspect_android_method",
+    "args": {
+      "path": "D:\\python daima\\outputs\\nexclean_analysis_20261113\\apk\\base.apk",
+      "class_name": "com.neeeex.eraser.launcher.OpenSceneAdPolicy",
+      "method_name": "canShowOnMinusOneSwipe"
+    }
+  },
+  "start": "2026-11-13T08:00:31.200Z",
+  "end": "2026-11-13T08:00:31.701Z",
+  "result": {
+    "_meta": {
+      "provenance": {
+        "untrusted_content": true,
+        "source": "analysis_target"
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"evidence_id\":\"ev_3b725a8c8d869d84addaa0a389bba1c895675ae4d80e10aa574d55fe015b3db2\",\"subject\":{\"name\":\"base.apk\",\"digest\":{\"sha256\":\"777986bd4381674a7c2afda682847daabc5daa27789b0671e411411d504c054a\"},\"local_path\":\"D:\\\\python daima\\\\outputs\\\\nexclean_analysis_20261113\\\\apk\\\\base.apk\",\"format\":\"apk\",\"architecture\":null},\"provider\":{\"id\":\"jadx\",\"name\":\"JADX headless\",\"version\":\"0.7.1\"},\"analysis_profile\":null,\"predicate_type\":\"rea.analysis\",\"operation\":\"inspect_android_method\",\"parameters\":{\"path\":\"D:\\\\python daima\\\\outputs\\\\nexclean_analysis_20261113\\\\apk\\\\base.apk\",\"class_name\":\"com.neeeex.eraser.launcher.OpenSceneAdPolicy\",\"method_name\":\"canShowOnMinusOneSwipe\"},\"raw_result\":{\"server\":{\"name\":\"rea-jadx-bridge\",\"version\":\"7\"},\"bridge_sha256\":\"e5044a8312dd0731f53af3f095508b3e5cff54df6b971c95d4305e2f39b4fa30\",\"jar_sha256\":\"6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75\",\"loaded\":{\"state\":\"LOADED\",\"apk_path\":\"C:\\\\Users\\\\asus\\\\AppData\\\\Local\\\\Temp\\\\rea-android-060c8a1949f6c0e0b05503c23d884bca\\\\target.apk\",\"class_count\":34574,\"resource_count\":3764,\"threads\":1,\"resources\":\"full\"},\"calls\":[{\"operation\":\"rea_jvm_status\",\"input\":{},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"java_version\\\":\\\"17.0.12\\\",\\\"available_processors\\\":3,\\\"engine_reported_version\\\":\\\"0.7.1\\\",\\\"metadata_scope\\\":\\\"parsed_members\\\",\\\"max_heap_bytes\\\":3221225472}\"}],\"isError\":false}},{\"operation\":\"get_class_summary\",\"input\":{\"class_name\":\"com.neeeex.eraser.launcher.OpenSceneAdPolicy\"},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"method_count\\\":5,\\\"raw_name\\\":\\\"com.neeeex.eraser.launcher.OpenSceneAdPolicy\\\",\\\"fields\\\":[{\\\"def_pos\\\":0,\\\"name\\\":\\\"INSTANCE\\\",\\\"type\\\":\\\"com.neeeex.eraser.launcher.OpenSceneAdPolicy\\\"},{\\\"def_pos\\\":0,\\\"name\\\":\\\"LAST_SHOWN\\\",\\\"type\\\":\\\"java.lang.String\\\"},{\\\"def_pos\\\":0,\\\"name\\\":\\\"POSITION\\\",\\\"type\\\":\\\"java.lang.String\\\"}],\\\"methods\\\":[{\\\"name\\\":\\\"\\\\u003cclinit\\\\u003e\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"()V\\\",\\\"signature\\\":\\\"\\\\u003cclinit\\\\u003e(): void\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"\\\\u003cinit\\\\u003e\\\",\\\"is_constructor\\\":true,\\\"dex_descriptor\\\":\\\"()V\\\",\\\"signature\\\":\\\"\\\\u003cinit\\\\u003e(): void\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"canShowOnMinusOneSwipe\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"()Z\\\",\\\"signature\\\":\\\"canShowOnMinusOneSwipe(): boolean\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"markOpenSceneAdShown\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"()V\\\",\\\"signature\\\":\\\"markOpenSceneAdShown(): void\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"tryShowOnMinusOneSwipe\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(Landroid/app/Activity;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;)V\\\",\\\"signature\\\":\\\"tryShowOnMinusOneSwipe(android.app.Activity, kotlin.jvm.functions.Function0, kotlin.jvm.functions.Function0, kotlin.jvm.functions.Function0): void\\\",\\\"def_pos\\\":0}],\\\"inner_classes\\\":[\\\"com.neeeex.eraser.launcher.OpenSceneAdPolicy.AnonymousClass1\\\"],\\\"inner_class_count\\\":1,\\\"name\\\":\\\"OpenSceneAdPolicy\\\",\\\"field_count\\\":3,\\\"full_name\\\":\\\"com.neeeex.eraser.launcher.OpenSceneAdPolicy\\\"}\"}],\"isError\":false}},{\"operation\":\"get_method_body\",\"input\":{\"class_name\":\"com.neeeex.eraser.launcher.OpenSceneAdPolicy\",\"method_name\":\"canShowOnMinusOneSwipe\",\"overload_index\":0,\"smali_fallback\":true},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"full_name\\\":\\\"com.neeeex.eraser.launcher.OpenSceneAdPolicy.canShowOnMinusOneSwipe\\\",\\\"overload_index\\\":0,\\\"method_name\\\":\\\"canShowOnMinusOneSwipe\\\",\\\"overload_count\\\":1,\\\"dex_descriptor\\\":\\\"()Z\\\",\\\"class_name\\\":\\\"com.neeeex.eraser.launcher.OpenSceneAdPolicy\\\",\\\"mode\\\":\\\"java\\\",\\\"body\\\":\\\"    public final boolean canShowOnMinusOneSwipe() {\\\\r\\\\n        ni.i iVar \\\\u003d ni.i.f89495a;\\\\r\\\\n        boolean z10 \\\\u003d false;\\\\r\\\\n        if (!iVar.x()) {\\\\r\\\\n            return false;\\\\r\\\\n        }\\\\r\\\\n        MinusOneAdPolicy minusOneAdPolicy \\\\u003d MinusOneAdPolicy.INSTANCE;\\\\r\\\\n        long jCurrentTimeMillis \\\\u003d System.currentTimeMillis();\\\\r\\\\n        com.neeeex.eraser.utils.b0 b0Var \\\\u003d com.neeeex.eraser.utils.b0.f66131a;\\\\r\\\\n        long jV \\\\u003d b0Var.v(m0.a(\\\\\\\"vGIFr8lDsYe3TTyo3lWgvbxmO7PYeaCLonc\\\\u003d\\\\\\\\n\\\\\\\", \\\\\\\"zxJawawm1OI\\\\u003d\\\\\\\\n\\\\\\\"), 0L);\\\\r\\\\n        long jV2 \\\\u003d b0Var.v(LAST_SHOWN, 0L);\\\\r\\\\n        boolean zK \\\\u003d com.neeeex.eraser.module.report.bytedance.a.k();\\\\r\\\\n        com.neeeex.eraser.ads.h hVar \\\\u003d com.neeeex.eraser.ads.h.f64923a;\\\\r\\\\n        if (hVar.l() \\\\u0026\\\\u0026 hVar.e().c() \\\\u003e -0.1d) {\\\\r\\\\n            z10 \\\\u003d true;\\\\r\\\\n        }\\\\r\\\\n        return minusOneAdPolicy.eligible(jCurrentTimeMillis, jV, jV2, zK, z10, iVar.t());\\\\r\\\\n    }\\\",\\\"markers\\\":[],\\\"fell_back\\\":false}\"}],\"isError\":false}}]},\"normalized_result\":{\"engine\":{\"name\":\"jadx-headless-mcp\",\"version\":\"0.7.1\",\"artifact_sha256\":\"6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75\",\"source_revision\":\"5844800a486d2248fa949b74c9896285f5b54de2\",\"worker_count\":1,\"heap_limit_mib\":3072},\"class_name\":\"com.neeeex.eraser.launcher.OpenSceneAdPolicy\",\"method\":{\"name\":\"canShowOnMinusOneSwipe\",\"reported_signature\":\"canShowOnMinusOneSwipe(): boolean\",\"overload_index\":0,\"is_constructor\":false,\"dex_descriptor\":\"()Z\"},\"overload_count\":1,\"representation\":\"java\",\"body_status\":\"available\",\"fell_back\":false,\"markers\":[],\"source\":{\"status\":\"complete\",\"text\":\"    public final boolean canShowOnMinusOneSwipe() {\\r\\n        ni.i iVar = ni.i.f89495a;\\r\\n        boolean z10 = false;\\r\\n        if (!iVar.x()) {\\r\\n            return false;\\r\\n        }\\r\\n        MinusOneAdPolicy minusOneAdPolicy = MinusOneAdPolicy.INSTANCE;\\r\\n        long jCurrentTimeMillis = System.currentTimeMillis();\\r\\n        com.neeeex.eraser.utils.b0 b0Var = com.neeeex.eraser.utils.b0.f66131a;\\r\\n        long jV = b0Var.v(m0.a(\\\"vGIFr8lDsYe3TTyo3lWgvbxmO7PYeaCLonc=\\\\n\\\", \\\"zxJawawm1OI=\\\\n\\\"), 0L);\\r\\n        long jV2 = b0Var.v(LAST_SHOWN, 0L);\\r\\n        boolean zK = com.neeeex.eraser.module.report.bytedance.a.k();\\r\\n        com.neeeex.eraser.ads.h hVar = com.neeeex.eraser.ads.h.f64923a;\\r\\n        if (hVar.l() && hVar.e().c() > -0.1d) {\\r\\n            z10 = true;\\r\\n        }\\r\\n        return minusOneAdPolicy.eligible(jCurrentTimeMillis, jV, jV2, zK, z10, iVar.t());\\r\\n    }\",\"reported_total_bytes\":null}},\"confidence\":\"derived\",\"authority\":\"shipped-artifact\",\"environment\":null,\"limitations\":[\"Static decompiler observations do not establish runtime behavior; the APK is never executed.\",\"Method signatures use provider display types; DEX prototypes come from frozen JADX metadata. Display names may be aliases, and overload indices are local to this engine and artifact.\",\"Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.\",\"Incoming reference totals count JADX using nodes. Direct invoke entries within a using method report raw DEX code-unit offsets and method indexes, but coverage is limited to those nodes and directly matched invokes; it does not establish every possible dynamic or reflective call site.\",\"Manifest summaries are parsed once by REA's bridge from the exact root AndroidManifest.xml resource, using namespace-aware XML attributes; decoded XML is retained. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider.\"],\"relationship_coverage\":null,\"locations\":[],\"evidence_links\":[]}"
+      }
+    ],
+    "structuredContent": {
+      "evidence_id": "ev_3b725a8c8d869d84addaa0a389bba1c895675ae4d80e10aa574d55fe015b3db2",
+      "subject": {
+        "name": "base.apk",
+        "digest": {
+          "sha256": "777986bd4381674a7c2afda682847daabc5daa27789b0671e411411d504c054a"
+        },
+        "local_path": "D:\\python daima\\outputs\\nexclean_analysis_20261113\\apk\\base.apk",
+        "format": "apk",
+        "architecture": null
+      },
+      "provider": {
+        "id": "jadx",
+        "name": "JADX headless",
+        "version": "0.7.1"
+      },
+      "analysis_profile": null,
+      "predicate_type": "rea.analysis",
+      "operation": "inspect_android_method",
+      "parameters": {
+        "path": "D:\\python daima\\outputs\\nexclean_analysis_20261113\\apk\\base.apk",
+        "class_name": "com.neeeex.eraser.launcher.OpenSceneAdPolicy",
+        "method_name": "canShowOnMinusOneSwipe"
+      },
+      "raw_result": {
+        "server": {
+          "name": "rea-jadx-bridge",
+          "version": "7"
+        },
+        "bridge_sha256": "e5044a8312dd0731f53af3f095508b3e5cff54df6b971c95d4305e2f39b4fa30",
+        "jar_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+        "loaded": {
+          "state": "LOADED",
+          "apk_path": "C:\\Users\\asus\\AppData\\Local\\Temp\\rea-android-060c8a1949f6c0e0b05503c23d884bca\\target.apk",
+          "class_count": 34574,
+          "resource_count": 3764,
+          "threads": 1,
+          "resources": "full"
+        },
+        "calls": [
+          {
+            "operation": "rea_jvm_status",
+            "input": {},
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"java_version\":\"17.0.12\",\"available_processors\":3,\"engine_reported_version\":\"0.7.1\",\"metadata_scope\":\"parsed_members\",\"max_heap_bytes\":3221225472}"
+                }
+              ],
+              "isError": false
+            }
+          },
+          {
+            "operation": "get_class_summary",
+            "input": {
+              "class_name": "com.neeeex.eraser.launcher.OpenSceneAdPolicy"
+            },
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"method_count\":5,\"raw_name\":\"com.neeeex.eraser.launcher.OpenSceneAdPolicy\",\"fields\":[{\"def_pos\":0,\"name\":\"INSTANCE\",\"type\":\"com.neeeex.eraser.launcher.OpenSceneAdPolicy\"},{\"def_pos\":0,\"name\":\"LAST_SHOWN\",\"type\":\"java.lang.String\"},{\"def_pos\":0,\"name\":\"POSITION\",\"type\":\"java.lang.String\"}],\"methods\":[{\"name\":\"\\u003cclinit\\u003e\",\"is_constructor\":false,\"dex_descriptor\":\"()V\",\"signature\":\"\\u003cclinit\\u003e(): void\",\"def_pos\":0},{\"name\":\"\\u003cinit\\u003e\",\"is_constructor\":true,\"dex_descriptor\":\"()V\",\"signature\":\"\\u003cinit\\u003e(): void\",\"def_pos\":0},{\"name\":\"canShowOnMinusOneSwipe\",\"is_constructor\":false,\"dex_descriptor\":\"()Z\",\"signature\":\"canShowOnMinusOneSwipe(): boolean\",\"def_pos\":0},{\"name\":\"markOpenSceneAdShown\",\"is_constructor\":false,\"dex_descriptor\":\"()V\",\"signature\":\"markOpenSceneAdShown(): void\",\"def_pos\":0},{\"name\":\"tryShowOnMinusOneSwipe\",\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/app/Activity;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;)V\",\"signature\":\"tryShowOnMinusOneSwipe(android.app.Activity, kotlin.jvm.functions.Function0, kotlin.jvm.functions.Function0, kotlin.jvm.functions.Function0): void\",\"def_pos\":0}],\"inner_classes\":[\"com.neeeex.eraser.launcher.OpenSceneAdPolicy.AnonymousClass1\"],\"inner_class_count\":1,\"name\":\"OpenSceneAdPolicy\",\"field_count\":3,\"full_name\":\"com.neeeex.eraser.launcher.OpenSceneAdPolicy\"}"
+                }
+              ],
+              "isError": false
+            }
+          },
+          {
+            "operation": "get_method_body",
+            "input": {
+              "class_name": "com.neeeex.eraser.launcher.OpenSceneAdPolicy",
+              "method_name": "canShowOnMinusOneSwipe",
+              "overload_index": 0,
+              "smali_fallback": true
+            },
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"full_name\":\"com.neeeex.eraser.launcher.OpenSceneAdPolicy.canShowOnMinusOneSwipe\",\"overload_index\":0,\"method_name\":\"canShowOnMinusOneSwipe\",\"overload_count\":1,\"dex_descriptor\":\"()Z\",\"class_name\":\"com.neeeex.eraser.launcher.OpenSceneAdPolicy\",\"mode\":\"java\",\"body\":\"    public final boolean canShowOnMinusOneSwipe() {\\r\\n        ni.i iVar \\u003d ni.i.f89495a;\\r\\n        boolean z10 \\u003d false;\\r\\n        if (!iVar.x()) {\\r\\n            return false;\\r\\n        }\\r\\n        MinusOneAdPolicy minusOneAdPolicy \\u003d MinusOneAdPolicy.INSTANCE;\\r\\n        long jCurrentTimeMillis \\u003d System.currentTimeMillis();\\r\\n        com.neeeex.eraser.utils.b0 b0Var \\u003d com.neeeex.eraser.utils.b0.f66131a;\\r\\n        long jV \\u003d b0Var.v(m0.a(\\\"vGIFr8lDsYe3TTyo3lWgvbxmO7PYeaCLonc\\u003d\\\\n\\\", \\\"zxJawawm1OI\\u003d\\\\n\\\"), 0L);\\r\\n        long jV2 \\u003d b0Var.v(LAST_SHOWN, 0L);\\r\\n        boolean zK \\u003d com.neeeex.eraser.module.report.bytedance.a.k();\\r\\n        com.neeeex.eraser.ads.h hVar \\u003d com.neeeex.eraser.ads.h.f64923a;\\r\\n        if (hVar.l() \\u0026\\u0026 hVar.e().c() \\u003e -0.1d) {\\r\\n            z10 \\u003d true;\\r\\n        }\\r\\n        return minusOneAdPolicy.eligible(jCurrentTimeMillis, jV, jV2, zK, z10, iVar.t());\\r\\n    }\",\"markers\":[],\"fell_back\":false}"
+                }
+              ],
+              "isError": false
+            }
+          }
+        ]
+      },
+      "normalized_result": {
+        "engine": {
+          "name": "jadx-headless-mcp",
+          "version": "0.7.1",
+          "artifact_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+          "source_revision": "5844800a486d2248fa949b74c9896285f5b54de2",
+          "worker_count": 1,
+          "heap_limit_mib": 3072
+        },
+        "class_name": "com.neeeex.eraser.launcher.OpenSceneAdPolicy",
+        "method": {
+          "name": "canShowOnMinusOneSwipe",
+          "reported_signature": "canShowOnMinusOneSwipe(): boolean",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": "()Z"
+        },
+        "overload_count": 1,
+        "representation": "java",
+        "body_status": "available",
+        "fell_back": false,
+        "markers": [],
+        "source": {
+          "status": "complete",
+          "text": "    public final boolean canShowOnMinusOneSwipe() {\r\n        ni.i iVar = ni.i.f89495a;\r\n        boolean z10 = false;\r\n        if (!iVar.x()) {\r\n            return false;\r\n        }\r\n        MinusOneAdPolicy minusOneAdPolicy = MinusOneAdPolicy.INSTANCE;\r\n        long jCurrentTimeMillis = System.currentTimeMillis();\r\n        com.neeeex.eraser.utils.b0 b0Var = com.neeeex.eraser.utils.b0.f66131a;\r\n        long jV = b0Var.v(m0.a(\"vGIFr8lDsYe3TTyo3lWgvbxmO7PYeaCLonc=\\n\", \"zxJawawm1OI=\\n\"), 0L);\r\n        long jV2 = b0Var.v(LAST_SHOWN, 0L);\r\n        boolean zK = com.neeeex.eraser.module.report.bytedance.a.k();\r\n        com.neeeex.eraser.ads.h hVar = com.neeeex.eraser.ads.h.f64923a;\r\n        if (hVar.l() && hVar.e().c() > -0.1d) {\r\n            z10 = true;\r\n        }\r\n        return minusOneAdPolicy.eligible(jCurrentTimeMillis, jV, jV2, zK, z10, iVar.t());\r\n    }",
+          "reported_total_bytes": null
+        }
+      },
+      "confidence": "derived",
+      "authority": "shipped-artifact",
+      "environment": null,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; DEX prototypes come from frozen JADX metadata. Display names may be aliases, and overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Incoming reference totals count JADX using nodes. Direct invoke entries within a using method report raw DEX code-unit offsets and method indexes, but coverage is limited to those nodes and directly matched invokes; it does not establish every possible dynamic or reflective call site.",
+        "Manifest summaries are parsed once by REA's bridge from the exact root AndroidManifest.xml resource, using namespace-aware XML attributes; decoded XML is retained. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ],
+      "relationship_coverage": null,
+      "locations": [],
+      "evidence_links": []
+    }
+  }
+}

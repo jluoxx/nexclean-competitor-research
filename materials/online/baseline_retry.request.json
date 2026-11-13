@@ -1,0 +1,27 @@
+{
+  "started_at": "2026-11-13T08:46:43.406248+00:00",
+  "url": "https://firebaseremoteconfig.googleapis.com/v1/projects/295587597504/namespaces/firebase:fetch",
+  "context": {
+    "appInstanceId": "cUtSijwbRnmtXVSAVZsyJw",
+    "appId": "1:295587597504:android:1477558da2469363d63125",
+    "countryCode": "US",
+    "languageCode": "en-US",
+    "platformVersion": "34",
+    "timeZone": "America/New_York",
+    "appVersion": "1.3.5",
+    "appBuild": "10305",
+    "packageName": "com.nexclean.junkclean.phoneclean",
+    "sdkVersion": "22.0.1",
+    "analyticsUserProperties": {}
+  },
+  "synthetic": true,
+  "installation_auth": "not registered; omitted",
+  "request_headers": {
+    "X-Goog-Api-Key": "APK public client API key omitted from audit",
+    "X-Android-Package": "com.nexclean.junkclean.phoneclean",
+    "X-Android-Cert": "441190E15BE0043966E0E8A2B1AF5C1B15CBDE1D",
+    "X-Google-GFE-Can-Retry": "yes",
+    "Content-Type": "application/json",
+    "Accept": "application/json"
+  }
+}

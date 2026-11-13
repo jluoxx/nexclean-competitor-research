@@ -1,0 +1,9 @@
+﻿字段,实际层级,判定,证据边界
+channel_id,归因回调缓存,不是Firebase远控键,-1缺省；任意非-1满足门控
+neeeex_attr_channel / neeeex_attr_campaign,归因标签/属性,不是在线开关,回调及事件关联
+brNtInterSeconds / pNtInterSeconds / pInterSeconds,本地getter键,本次未找到ni.i注册远端命令,默认300秒/600秒/120秒；不要写成已确认在线键
+scenes / id / interSeconds / limit,push.h残留常量,不能仅凭常量认定远控生效,h.d直接回传limit、h.e直接将传入秒×1000
+n_count_日期 / last_post_time / today_post_count_id_*,本地频控状态,不属于线上策略,记录计数与时间
+sp_key_pp_value_* / sn_pp_aa/bb/cc,广告本地统计缓存,不是服务器底价,hj.y保存每广告单元最近最多6个值的均值
+localStrategy a_c.app_st_param,APK嵌套二进制,未在所追本地应用策略reader内消费,可解压含国家码，不证明地域限制
+SolarEngine RemoteConfig WITH_CACHE,归因SDK自身配置,不是ni.i业务键,初始化启用；业务调用处未取得独立配置值回调

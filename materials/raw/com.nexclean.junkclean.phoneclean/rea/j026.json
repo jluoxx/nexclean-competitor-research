@@ -1,0 +1,158 @@
+{
+  "job": {
+    "id": "j026",
+    "package": "com.nexclean.junkclean.phoneclean",
+    "tool": "inspect_android_method",
+    "args": {
+      "path": "D:\\python daima\\outputs\\nexclean_analysis_20261113\\apk\\base.apk",
+      "class_name": "li.a",
+      "method_name": "c"
+    }
+  },
+  "start": "2026-11-13T08:00:34.182Z",
+  "end": "2026-11-13T08:00:34.625Z",
+  "result": {
+    "_meta": {
+      "provenance": {
+        "untrusted_content": true,
+        "source": "analysis_target"
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"evidence_id\":\"ev_1272b673750f922b50f1f0744419a7031c144bff9b1a9d82228fdf13f0ee7868\",\"subject\":{\"name\":\"base.apk\",\"digest\":{\"sha256\":\"777986bd4381674a7c2afda682847daabc5daa27789b0671e411411d504c054a\"},\"local_path\":\"D:\\\\python daima\\\\outputs\\\\nexclean_analysis_20261113\\\\apk\\\\base.apk\",\"format\":\"apk\",\"architecture\":null},\"provider\":{\"id\":\"jadx\",\"name\":\"JADX headless\",\"version\":\"0.7.1\"},\"analysis_profile\":null,\"predicate_type\":\"rea.analysis\",\"operation\":\"inspect_android_method\",\"parameters\":{\"path\":\"D:\\\\python daima\\\\outputs\\\\nexclean_analysis_20261113\\\\apk\\\\base.apk\",\"class_name\":\"li.a\",\"method_name\":\"c\"},\"raw_result\":{\"server\":{\"name\":\"rea-jadx-bridge\",\"version\":\"7\"},\"bridge_sha256\":\"e5044a8312dd0731f53af3f095508b3e5cff54df6b971c95d4305e2f39b4fa30\",\"jar_sha256\":\"6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75\",\"loaded\":{\"state\":\"LOADED\",\"apk_path\":\"C:\\\\Users\\\\asus\\\\AppData\\\\Local\\\\Temp\\\\rea-android-060c8a1949f6c0e0b05503c23d884bca\\\\target.apk\",\"class_count\":34574,\"resource_count\":3764,\"threads\":1,\"resources\":\"full\"},\"calls\":[{\"operation\":\"rea_jvm_status\",\"input\":{},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"java_version\\\":\\\"17.0.12\\\",\\\"available_processors\\\":3,\\\"engine_reported_version\\\":\\\"0.7.1\\\",\\\"metadata_scope\\\":\\\"parsed_members\\\",\\\"max_heap_bytes\\\":3221225472}\"}],\"isError\":false}},{\"operation\":\"get_class_summary\",\"input\":{\"class_name\":\"li.a\"},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"method_count\\\":10,\\\"raw_name\\\":\\\"li.a\\\",\\\"fields\\\":[{\\\"def_pos\\\":0,\\\"name\\\":\\\"f87855b\\\",\\\"type\\\":\\\"java.lang.String\\\"},{\\\"def_pos\\\":0,\\\"name\\\":\\\"f87856a\\\",\\\"type\\\":\\\"java.lang.String\\\"}],\\\"methods\\\":[{\\\"name\\\":\\\"\\\\u003cclinit\\\\u003e\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"()V\\\",\\\"signature\\\":\\\"\\\\u003cclinit\\\\u003e(): void\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"\\\\u003cinit\\\\u003e\\\",\\\"is_constructor\\\":true,\\\"dex_descriptor\\\":\\\"()V\\\",\\\"signature\\\":\\\"\\\\u003cinit\\\\u003e(): void\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"a\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(Lli/a;Ljava/lang/String;)V\\\",\\\"signature\\\":\\\"a(li.a, java.lang.String): void\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"b\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(Ljava/lang/String;)V\\\",\\\"signature\\\":\\\"b(java.lang.String): void\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"c\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(Lli/a$c;)Ljava/util/Map;\\\",\\\"signature\\\":\\\"c(li.a$c): java.util.Map\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"d\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"()Ljava/lang/String;\\\",\\\"signature\\\":\\\"d(): java.lang.String\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"e\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/json/JSONObject;\\\",\\\"signature\\\":\\\"e(java.lang.String, java.lang.String, java.lang.String): org.json.JSONObject\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"f\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(Lli/a$c;)V\\\",\\\"signature\\\":\\\"f(li.a$c): void\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"g\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"()Ljava/lang/String;\\\",\\\"signature\\\":\\\"g(): java.lang.String\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"h\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V\\\",\\\"signature\\\":\\\"h(android.content.Context, java.lang.String, java.lang.String, java.lang.String): void\\\",\\\"def_pos\\\":0}],\\\"inner_classes\\\":[\\\"li.a.C1122a\\\",\\\"li.a.b\\\",\\\"li.a.c\\\"],\\\"inner_class_count\\\":3,\\\"name\\\":\\\"a\\\",\\\"field_count\\\":2,\\\"full_name\\\":\\\"li.a\\\"}\"}],\"isError\":false}},{\"operation\":\"get_method_body\",\"input\":{\"class_name\":\"li.a\",\"method_name\":\"c\",\"overload_index\":0,\"smali_fallback\":true},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"full_name\\\":\\\"li.a.c\\\",\\\"overload_index\\\":0,\\\"method_name\\\":\\\"c\\\",\\\"overload_count\\\":1,\\\"dex_descriptor\\\":\\\"(Lli/a$c;)Ljava/util/Map;\\\",\\\"class_name\\\":\\\"li.a\\\",\\\"mode\\\":\\\"java\\\",\\\"body\\\":\\\"    public final Map c(c cVar) {\\\\r\\\\n        HashMap map \\\\u003d new HashMap();\\\\r\\\\n        try {\\\\r\\\\n            b bVar \\\\u003d new b(e(d(), cVar.f87863c, cVar.f87864d));\\\\r\\\\n            map.put(m0.a(\\\\\\\"QsIoCQ\\\\u003d\\\\u003d\\\\\\\\n\\\\\\\", \\\\\\\"IKNbbEZ88FU\\\\u003d\\\\\\\\n\\\\\\\"), bVar.f87858a);\\\\r\\\\n            map.put(m0.a(\\\\\\\"wqQFkExNWEHG\\\\\\\\n\\\\\\\", \\\\\\\"ts1o9T85OSw\\\\u003d\\\\\\\\n\\\\\\\"), bVar.f87859b);\\\\r\\\\n            map.put(m0.a(\\\\\\\"zzNl+Ns\\\\u003d\\\\\\\\n\\\\\\\", \\\\\\\"oVwLm74YpoU\\\\u003d\\\\\\\\n\\\\\\\"), bVar.f87860c);\\\\r\\\\n            map.put(m0.a(\\\\\\\"3SyFiv0Q17bINw\\\\u003d\\\\u003d\\\\\\\\n\\\\\\\", \\\\\\\"rVn24qJkuN0\\\\u003d\\\\\\\\n\\\\\\\"), cVar.f87862b);\\\\r\\\\n            map.put(m0.a(\\\\\\\"qtjkbA\\\\u003d\\\\u003d\\\\\\\\n\\\\\\\", \\\\\\\"2bGDArEC/YQ\\\\u003d\\\\\\\\n\\\\\\\"), bVar.a());\\\\r\\\\n            map.put(m0.a(\\\\\\\"3FxjCg\\\\u003d\\\\u003d\\\\\\\\n\\\\\\\", \\\\\\\"uz0KbjzTXfw\\\\u003d\\\\\\\\n\\\\\\\"), y.Companion.b());\\\\r\\\\n            map.put(m0.a(\\\\\\\"32VYhCa9UPPBZVaK\\\\\\\\n\\\\\\\", \\\\\\\"rwQ770faNaw\\\\u003d\\\\\\\\n\\\\\\\"), cVar.f87861a.getPackageName());\\\\r\\\\n            return map;\\\\r\\\\n        } catch (Exception e10) {\\\\r\\\\n            e10.printStackTrace();\\\\r\\\\n            return map;\\\\r\\\\n        }\\\\r\\\\n    }\\\",\\\"markers\\\":[],\\\"fell_back\\\":false}\"}],\"isError\":false}}]},\"normalized_result\":{\"engine\":{\"name\":\"jadx-headless-mcp\",\"version\":\"0.7.1\",\"artifact_sha256\":\"6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75\",\"source_revision\":\"5844800a486d2248fa949b74c9896285f5b54de2\",\"worker_count\":1,\"heap_limit_mib\":3072},\"class_name\":\"li.a\",\"method\":{\"name\":\"c\",\"reported_signature\":\"c(li.a$c): java.util.Map\",\"overload_index\":0,\"is_constructor\":false,\"dex_descriptor\":\"(Lli/a$c;)Ljava/util/Map;\"},\"overload_count\":1,\"representation\":\"java\",\"body_status\":\"available\",\"fell_back\":false,\"markers\":[],\"source\":{\"status\":\"complete\",\"text\":\"    public final Map c(c cVar) {\\r\\n        HashMap map = new HashMap();\\r\\n        try {\\r\\n            b bVar = new b(e(d(), cVar.f87863c, cVar.f87864d));\\r\\n            map.put(m0.a(\\\"QsIoCQ==\\\\n\\\", \\\"IKNbbEZ88FU=\\\\n\\\"), bVar.f87858a);\\r\\n            map.put(m0.a(\\\"wqQFkExNWEHG\\\\n\\\", \\\"ts1o9T85OSw=\\\\n\\\"), bVar.f87859b);\\r\\n            map.put(m0.a(\\\"zzNl+Ns=\\\\n\\\", \\\"oVwLm74YpoU=\\\\n\\\"), bVar.f87860c);\\r\\n            map.put(m0.a(\\\"3SyFiv0Q17bINw==\\\\n\\\", \\\"rVn24qJkuN0=\\\\n\\\"), cVar.f87862b);\\r\\n            map.put(m0.a(\\\"qtjkbA==\\\\n\\\", \\\"2bGDArEC/YQ=\\\\n\\\"), bVar.a());\\r\\n            map.put(m0.a(\\\"3FxjCg==\\\\n\\\", \\\"uz0KbjzTXfw=\\\\n\\\"), y.Companion.b());\\r\\n            map.put(m0.a(\\\"32VYhCa9UPPBZVaK\\\\n\\\", \\\"rwQ770faNaw=\\\\n\\\"), cVar.f87861a.getPackageName());\\r\\n            return map;\\r\\n        } catch (Exception e10) {\\r\\n            e10.printStackTrace();\\r\\n            return map;\\r\\n        }\\r\\n    }\",\"reported_total_bytes\":null}},\"confidence\":\"derived\",\"authority\":\"shipped-artifact\",\"environment\":null,\"limitations\":[\"Static decompiler observations do not establish runtime behavior; the APK is never executed.\",\"Method signatures use provider display types; DEX prototypes come from frozen JADX metadata. Display names may be aliases, and overload indices are local to this engine and artifact.\",\"Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.\",\"Incoming reference totals count JADX using nodes. Direct invoke entries within a using method report raw DEX code-unit offsets and method indexes, but coverage is limited to those nodes and directly matched invokes; it does not establish every possible dynamic or reflective call site.\",\"Manifest summaries are parsed once by REA's bridge from the exact root AndroidManifest.xml resource, using namespace-aware XML attributes; decoded XML is retained. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider.\"],\"relationship_coverage\":null,\"locations\":[],\"evidence_links\":[]}"
+      }
+    ],
+    "structuredContent": {
+      "evidence_id": "ev_1272b673750f922b50f1f0744419a7031c144bff9b1a9d82228fdf13f0ee7868",
+      "subject": {
+        "name": "base.apk",
+        "digest": {
+          "sha256": "777986bd4381674a7c2afda682847daabc5daa27789b0671e411411d504c054a"
+        },
+        "local_path": "D:\\python daima\\outputs\\nexclean_analysis_20261113\\apk\\base.apk",
+        "format": "apk",
+        "architecture": null
+      },
+      "provider": {
+        "id": "jadx",
+        "name": "JADX headless",
+        "version": "0.7.1"
+      },
+      "analysis_profile": null,
+      "predicate_type": "rea.analysis",
+      "operation": "inspect_android_method",
+      "parameters": {
+        "path": "D:\\python daima\\outputs\\nexclean_analysis_20261113\\apk\\base.apk",
+        "class_name": "li.a",
+        "method_name": "c"
+      },
+      "raw_result": {
+        "server": {
+          "name": "rea-jadx-bridge",
+          "version": "7"
+        },
+        "bridge_sha256": "e5044a8312dd0731f53af3f095508b3e5cff54df6b971c95d4305e2f39b4fa30",
+        "jar_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+        "loaded": {
+          "state": "LOADED",
+          "apk_path": "C:\\Users\\asus\\AppData\\Local\\Temp\\rea-android-060c8a1949f6c0e0b05503c23d884bca\\target.apk",
+          "class_count": 34574,
+          "resource_count": 3764,
+          "threads": 1,
+          "resources": "full"
+        },
+        "calls": [
+          {
+            "operation": "rea_jvm_status",
+            "input": {},
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"java_version\":\"17.0.12\",\"available_processors\":3,\"engine_reported_version\":\"0.7.1\",\"metadata_scope\":\"parsed_members\",\"max_heap_bytes\":3221225472}"
+                }
+              ],
+              "isError": false
+            }
+          },
+          {
+            "operation": "get_class_summary",
+            "input": {
+              "class_name": "li.a"
+            },
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"method_count\":10,\"raw_name\":\"li.a\",\"fields\":[{\"def_pos\":0,\"name\":\"f87855b\",\"type\":\"java.lang.String\"},{\"def_pos\":0,\"name\":\"f87856a\",\"type\":\"java.lang.String\"}],\"methods\":[{\"name\":\"\\u003cclinit\\u003e\",\"is_constructor\":false,\"dex_descriptor\":\"()V\",\"signature\":\"\\u003cclinit\\u003e(): void\",\"def_pos\":0},{\"name\":\"\\u003cinit\\u003e\",\"is_constructor\":true,\"dex_descriptor\":\"()V\",\"signature\":\"\\u003cinit\\u003e(): void\",\"def_pos\":0},{\"name\":\"a\",\"is_constructor\":false,\"dex_descriptor\":\"(Lli/a;Ljava/lang/String;)V\",\"signature\":\"a(li.a, java.lang.String): void\",\"def_pos\":0},{\"name\":\"b\",\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/String;)V\",\"signature\":\"b(java.lang.String): void\",\"def_pos\":0},{\"name\":\"c\",\"is_constructor\":false,\"dex_descriptor\":\"(Lli/a$c;)Ljava/util/Map;\",\"signature\":\"c(li.a$c): java.util.Map\",\"def_pos\":0},{\"name\":\"d\",\"is_constructor\":false,\"dex_descriptor\":\"()Ljava/lang/String;\",\"signature\":\"d(): java.lang.String\",\"def_pos\":0},{\"name\":\"e\",\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/json/JSONObject;\",\"signature\":\"e(java.lang.String, java.lang.String, java.lang.String): org.json.JSONObject\",\"def_pos\":0},{\"name\":\"f\",\"is_constructor\":false,\"dex_descriptor\":\"(Lli/a$c;)V\",\"signature\":\"f(li.a$c): void\",\"def_pos\":0},{\"name\":\"g\",\"is_constructor\":false,\"dex_descriptor\":\"()Ljava/lang/String;\",\"signature\":\"g(): java.lang.String\",\"def_pos\":0},{\"name\":\"h\",\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V\",\"signature\":\"h(android.content.Context, java.lang.String, java.lang.String, java.lang.String): void\",\"def_pos\":0}],\"inner_classes\":[\"li.a.C1122a\",\"li.a.b\",\"li.a.c\"],\"inner_class_count\":3,\"name\":\"a\",\"field_count\":2,\"full_name\":\"li.a\"}"
+                }
+              ],
+              "isError": false
+            }
+          },
+          {
+            "operation": "get_method_body",
+            "input": {
+              "class_name": "li.a",
+              "method_name": "c",
+              "overload_index": 0,
+              "smali_fallback": true
+            },
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"full_name\":\"li.a.c\",\"overload_index\":0,\"method_name\":\"c\",\"overload_count\":1,\"dex_descriptor\":\"(Lli/a$c;)Ljava/util/Map;\",\"class_name\":\"li.a\",\"mode\":\"java\",\"body\":\"    public final Map c(c cVar) {\\r\\n        HashMap map \\u003d new HashMap();\\r\\n        try {\\r\\n            b bVar \\u003d new b(e(d(), cVar.f87863c, cVar.f87864d));\\r\\n            map.put(m0.a(\\\"QsIoCQ\\u003d\\u003d\\\\n\\\", \\\"IKNbbEZ88FU\\u003d\\\\n\\\"), bVar.f87858a);\\r\\n            map.put(m0.a(\\\"wqQFkExNWEHG\\\\n\\\", \\\"ts1o9T85OSw\\u003d\\\\n\\\"), bVar.f87859b);\\r\\n            map.put(m0.a(\\\"zzNl+Ns\\u003d\\\\n\\\", \\\"oVwLm74YpoU\\u003d\\\\n\\\"), bVar.f87860c);\\r\\n            map.put(m0.a(\\\"3SyFiv0Q17bINw\\u003d\\u003d\\\\n\\\", \\\"rVn24qJkuN0\\u003d\\\\n\\\"), cVar.f87862b);\\r\\n            map.put(m0.a(\\\"qtjkbA\\u003d\\u003d\\\\n\\\", \\\"2bGDArEC/YQ\\u003d\\\\n\\\"), bVar.a());\\r\\n            map.put(m0.a(\\\"3FxjCg\\u003d\\u003d\\\\n\\\", \\\"uz0KbjzTXfw\\u003d\\\\n\\\"), y.Companion.b());\\r\\n            map.put(m0.a(\\\"32VYhCa9UPPBZVaK\\\\n\\\", \\\"rwQ770faNaw\\u003d\\\\n\\\"), cVar.f87861a.getPackageName());\\r\\n            return map;\\r\\n        } catch (Exception e10) {\\r\\n            e10.printStackTrace();\\r\\n            return map;\\r\\n        }\\r\\n    }\",\"markers\":[],\"fell_back\":false}"
+                }
+              ],
+              "isError": false
+            }
+          }
+        ]
+      },
+      "normalized_result": {
+        "engine": {
+          "name": "jadx-headless-mcp",
+          "version": "0.7.1",
+          "artifact_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+          "source_revision": "5844800a486d2248fa949b74c9896285f5b54de2",
+          "worker_count": 1,
+          "heap_limit_mib": 3072
+        },
+        "class_name": "li.a",
+        "method": {
+          "name": "c",
+          "reported_signature": "c(li.a$c): java.util.Map",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": "(Lli/a$c;)Ljava/util/Map;"
+        },
+        "overload_count": 1,
+        "representation": "java",
+        "body_status": "available",
+        "fell_back": false,
+        "markers": [],
+        "source": {
+          "status": "complete",
+          "text": "    public final Map c(c cVar) {\r\n        HashMap map = new HashMap();\r\n        try {\r\n            b bVar = new b(e(d(), cVar.f87863c, cVar.f87864d));\r\n            map.put(m0.a(\"QsIoCQ==\\n\", \"IKNbbEZ88FU=\\n\"), bVar.f87858a);\r\n            map.put(m0.a(\"wqQFkExNWEHG\\n\", \"ts1o9T85OSw=\\n\"), bVar.f87859b);\r\n            map.put(m0.a(\"zzNl+Ns=\\n\", \"oVwLm74YpoU=\\n\"), bVar.f87860c);\r\n            map.put(m0.a(\"3SyFiv0Q17bINw==\\n\", \"rVn24qJkuN0=\\n\"), cVar.f87862b);\r\n            map.put(m0.a(\"qtjkbA==\\n\", \"2bGDArEC/YQ=\\n\"), bVar.a());\r\n            map.put(m0.a(\"3FxjCg==\\n\", \"uz0KbjzTXfw=\\n\"), y.Companion.b());\r\n            map.put(m0.a(\"32VYhCa9UPPBZVaK\\n\", \"rwQ770faNaw=\\n\"), cVar.f87861a.getPackageName());\r\n            return map;\r\n        } catch (Exception e10) {\r\n            e10.printStackTrace();\r\n            return map;\r\n        }\r\n    }",
+          "reported_total_bytes": null
+        }
+      },
+      "confidence": "derived",
+      "authority": "shipped-artifact",
+      "environment": null,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; DEX prototypes come from frozen JADX metadata. Display names may be aliases, and overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Incoming reference totals count JADX using nodes. Direct invoke entries within a using method report raw DEX code-unit offsets and method indexes, but coverage is limited to those nodes and directly matched invokes; it does not establish every possible dynamic or reflective call site.",
+        "Manifest summaries are parsed once by REA's bridge from the exact root AndroidManifest.xml resource, using namespace-aware XML attributes; decoded XML is retained. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ],
+      "relationship_coverage": null,
+      "locations": [],
+      "evidence_links": []
+    }
+  }
+}

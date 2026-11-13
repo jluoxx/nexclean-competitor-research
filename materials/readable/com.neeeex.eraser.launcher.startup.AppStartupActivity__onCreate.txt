@@ -1,0 +1,36 @@
+    @Override // android.app.Activity
+    public void onCreate(Bundle savedInstanceState) {
+        ActivityManager.RecentTaskInfo taskInfo;
+        super.onCreate(savedInstanceState);
+        boolean z10 = false;
+        boolean z11 = getIntent().getBooleanExtra(LauncherRoutes.EXTRA_INTERNAL_TOOL, false) || getIntent().getBooleanExtra("com.neeeex.eraser.OPEN_CLEAN_FROM_DESKTOP", false);
+        StartupRoutePolicy.Entry entry = z11 ? StartupRoutePolicy.Entry.INTERNAL_TOOL : StartupRoutePolicy.Entry.EXTERNAL_ICON;
+        Application application = getApplication();
+        application.getClass();
+        y yVar = (y) application;
+        if (yVar.isToolRuntimeInitialized() && !yVar.isToolStartupInProgress() && StartupStateStore.INSTANCE.requiredFlowComplete()) {
+            z10 = true;
+        }
+        StartupRoutePolicy.Route routeResolve = StartupRoutePolicy.INSTANCE.resolve(entry, z10);
+        if (!routeResolve.getRunColdStartup() && !z11) {
+            if (z11) {
+                DesktopNavigator.deliverTool$default(DesktopNavigator.INSTANCE, this, new Intent(this, (Class<?>) MainActivity.class), false, 4, null);
+                return;
+            }
+            DesktopNavigator desktopNavigator = DesktopNavigator.INSTANCE;
+            desktopNavigator.openDesktop(this, true, true);
+            ActivityManager.AppTask appTaskFindHomeTask = desktopNavigator.findHomeTask(this);
+            desktopNavigator.finishDelivery(this, (appTaskFindHomeTask == null || (taskInfo = appTaskFindHomeTask.getTaskInfo()) == null) ? null : Integer.valueOf(taskInfo.id));
+            return;
+        }
+        StartupStateStore startupStateStore = StartupStateStore.INSTANCE;
+        Intent intentContinuationIntent = startupStateStore.continuationIntent(this);
+        Bundle extras = getIntent().getExtras();
+        if (extras != null) {
+            intentContinuationIntent.putExtras(extras);
+        }
+        intentContinuationIntent.putExtra(LauncherRoutes.EXTRA_DESTINATION, z11 ? "TOOL" : routeResolve.getDestination().name());
+        intentContinuationIntent.putExtra(LauncherRoutes.EXTRA_OPEN_DESKTOP_AFTER_STARTUP, !z11);
+        startupStateStore.startInOwnerTask(this, intentContinuationIntent);
+        finish();
+    }

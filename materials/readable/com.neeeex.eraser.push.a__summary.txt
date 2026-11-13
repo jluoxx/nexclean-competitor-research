@@ -1,0 +1,195 @@
+{
+  "engine": {
+    "name": "jadx-headless-mcp",
+    "version": "0.7.1",
+    "artifact_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+    "source_revision": "5844800a486d2248fa949b74c9896285f5b54de2",
+    "worker_count": 1,
+    "heap_limit_mib": 3072
+  },
+  "class_name": "com.neeeex.eraser.push.a",
+  "methods": [
+    {
+      "name": "<clinit>",
+      "reported_signature": "<clinit>(): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "()V"
+    },
+    {
+      "name": "<init>",
+      "reported_signature": "<init>(): void",
+      "overload_index": 0,
+      "is_constructor": true,
+      "dex_descriptor": "()V"
+    },
+    {
+      "name": "a",
+      "reported_signature": "a(int, int): int",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "(II)I"
+    },
+    {
+      "name": "b",
+      "reported_signature": "b(int): java.lang.String",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "(I)Ljava/lang/String;"
+    },
+    {
+      "name": "c",
+      "reported_signature": "c(long, long, long): int[]",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "(JJJ)[I"
+    },
+    {
+      "name": "d",
+      "reported_signature": "d(int): java.lang.String",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "(I)Ljava/lang/String;"
+    },
+    {
+      "name": "e",
+      "reported_signature": "e(int): int",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "(I)I"
+    },
+    {
+      "name": "f",
+      "reported_signature": "f(int): int",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "(I)I"
+    },
+    {
+      "name": "g",
+      "reported_signature": "g(): java.util.List",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "()Ljava/util/List;"
+    },
+    {
+      "name": "h",
+      "reported_signature": "h(long): boolean",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "(J)Z"
+    },
+    {
+      "name": "i",
+      "reported_signature": "i(): boolean",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "()Z"
+    },
+    {
+      "name": "j",
+      "reported_signature": "j(): int",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "()I"
+    },
+    {
+      "name": "k",
+      "reported_signature": "k(int, int): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "(II)V"
+    },
+    {
+      "name": "l",
+      "reported_signature": "l(int, int): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "(II)V"
+    },
+    {
+      "name": "m",
+      "reported_signature": "m(int, int): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "(II)V"
+    },
+    {
+      "name": "n",
+      "reported_signature": "n(int, int): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "(II)V"
+    },
+    {
+      "name": "o",
+      "reported_signature": "o(): boolean",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "()Z"
+    }
+  ],
+  "fields": [
+    {
+      "name": "f65469a",
+      "reported_type": "com.neeeex.eraser.push.a",
+      "dex_static_value": null
+    },
+    {
+      "name": "f65470b",
+      "reported_type": "java.lang.String",
+      "dex_static_value": null
+    },
+    {
+      "name": "f65471c",
+      "reported_type": "java.lang.String",
+      "dex_static_value": null
+    },
+    {
+      "name": "f65472d",
+      "reported_type": "java.lang.String",
+      "dex_static_value": null
+    },
+    {
+      "name": "f65473e",
+      "reported_type": "java.lang.String",
+      "dex_static_value": null
+    },
+    {
+      "name": "f65474f",
+      "reported_type": "java.lang.String",
+      "dex_static_value": null
+    },
+    {
+      "name": "f65475g",
+      "reported_type": "java.lang.String",
+      "dex_static_value": null
+    },
+    {
+      "name": "f65476h",
+      "reported_type": "java.lang.String",
+      "dex_static_value": null
+    },
+    {
+      "name": "f65477i",
+      "reported_type": "java.lang.String",
+      "dex_static_value": null
+    },
+    {
+      "name": "f65478j",
+      "reported_type": "java.lang.String",
+      "dex_static_value": null
+    },
+    {
+      "name": "f65479k",
+      "reported_type": "java.lang.String",
+      "dex_static_value": null
+    },
+    {
+      "name": "f65480l",
+      "reported_type": "java.lang.String",
+      "dex_static_value": null
+    }
+  ],
+  "inner_classes": []
+}

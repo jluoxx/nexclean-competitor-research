@@ -1,0 +1,97 @@
+{
+  "engine": {
+    "name": "jadx-headless-mcp",
+    "version": "0.7.1",
+    "artifact_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+    "source_revision": "5844800a486d2248fa949b74c9896285f5b54de2",
+    "worker_count": 1,
+    "heap_limit_mib": 3072
+  },
+  "class_name": "com.neeeex.eraser.launcher.NewUserDesktopFunnelTracker",
+  "method_name": null,
+  "overload_index": null,
+  "reported_signature": null,
+  "dex_descriptor": null,
+  "total": 7,
+  "references": [
+    {
+      "kind": "class",
+      "name": "LawnchairLauncher",
+      "reported_full_name": "app.lawnchair.LawnchairLauncher",
+      "containing_class": "",
+      "top_class": "app.lawnchair.LawnchairLauncher",
+      "source_line": null,
+      "dex_offset": null,
+      "direct_invokes_exhaustive": null,
+      "direct_invokes": null
+    },
+    {
+      "kind": "class",
+      "name": "DefaultHomeOnboardingActivity",
+      "reported_full_name": "com.neeeex.eraser.launcher.DefaultHomeOnboardingActivity",
+      "containing_class": "",
+      "top_class": "com.neeeex.eraser.launcher.DefaultHomeOnboardingActivity",
+      "source_line": null,
+      "dex_offset": null,
+      "direct_invokes_exhaustive": null,
+      "direct_invokes": null
+    },
+    {
+      "kind": "class",
+      "name": "DefaultHomeOnboardingHelper",
+      "reported_full_name": "com.neeeex.eraser.launcher.DefaultHomeOnboardingHelper",
+      "containing_class": "",
+      "top_class": "com.neeeex.eraser.launcher.DefaultHomeOnboardingHelper",
+      "source_line": null,
+      "dex_offset": null,
+      "direct_invokes_exhaustive": null,
+      "direct_invokes": null
+    },
+    {
+      "kind": "class",
+      "name": "NexCleanLauncherHomeView",
+      "reported_full_name": "com.neeeex.eraser.launcher.NexCleanLauncherHomeView",
+      "containing_class": "",
+      "top_class": "com.neeeex.eraser.launcher.NexCleanLauncherHomeView",
+      "source_line": null,
+      "dex_offset": null,
+      "direct_invokes_exhaustive": null,
+      "direct_invokes": null
+    },
+    {
+      "kind": "class",
+      "name": "GuideNEEEEXActivity",
+      "reported_full_name": "com.neeeex.eraser.module.main.GuideNEEEEXActivity",
+      "containing_class": "",
+      "top_class": "com.neeeex.eraser.module.main.GuideNEEEEXActivity",
+      "source_line": null,
+      "dex_offset": null,
+      "direct_invokes_exhaustive": null,
+      "direct_invokes": null
+    },
+    {
+      "kind": "class",
+      "name": "SplashNEEEEXActivity",
+      "reported_full_name": "com.neeeex.eraser.module.main.SplashNEEEEXActivity",
+      "containing_class": "",
+      "top_class": "com.neeeex.eraser.module.main.SplashNEEEEXActivity",
+      "source_line": null,
+      "dex_offset": null,
+      "direct_invokes_exhaustive": null,
+      "direct_invokes": null
+    },
+    {
+      "kind": "class",
+      "name": "y",
+      "reported_full_name": "com.neeeex.eraser.y",
+      "containing_class": "",
+      "top_class": "com.neeeex.eraser.y",
+      "source_line": null,
+      "dex_offset": null,
+      "direct_invokes_exhaustive": null,
+      "direct_invokes": null
+    }
+  ],
+  "coverage": "complete",
+  "reference_unit": "using_node"
+}

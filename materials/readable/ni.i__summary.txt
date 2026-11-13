@@ -1,0 +1,229 @@
+{
+  "engine": {
+    "name": "jadx-headless-mcp",
+    "version": "0.7.1",
+    "artifact_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+    "source_revision": "5844800a486d2248fa949b74c9896285f5b54de2",
+    "worker_count": 1,
+    "heap_limit_mib": 3072
+  },
+  "class_name": "ni.i",
+  "method_name": null,
+  "overload_index": null,
+  "reported_signature": null,
+  "dex_descriptor": null,
+  "total": 19,
+  "references": [
+    {
+      "kind": "class",
+      "name": "OpenSceneAdPolicy",
+      "reported_full_name": "com.neeeex.eraser.launcher.OpenSceneAdPolicy",
+      "containing_class": "",
+      "top_class": "com.neeeex.eraser.launcher.OpenSceneAdPolicy",
+      "source_line": null,
+      "dex_offset": null,
+      "direct_invokes_exhaustive": null,
+      "direct_invokes": null
+    },
+    {
+      "kind": "class",
+      "name": "HomeResolverPromptController",
+      "reported_full_name": "com.neeeex.eraser.launcher.startup.HomeResolverPromptController",
+      "containing_class": "",
+      "top_class": "com.neeeex.eraser.launcher.startup.HomeResolverPromptController",
+      "source_line": null,
+      "dex_offset": null,
+      "direct_invokes_exhaustive": null,
+      "direct_invokes": null
+    },
+    {
+      "kind": "class",
+      "name": "SplashNEEEEXActivity",
+      "reported_full_name": "com.neeeex.eraser.module.main.SplashNEEEEXActivity",
+      "containing_class": "",
+      "top_class": "com.neeeex.eraser.module.main.SplashNEEEEXActivity",
+      "source_line": null,
+      "dex_offset": null,
+      "direct_invokes_exhaustive": null,
+      "direct_invokes": null
+    },
+    {
+      "kind": "class",
+      "name": "SplashNEEEEXHotActivity",
+      "reported_full_name": "com.neeeex.eraser.module.main.SplashNEEEEXHotActivity",
+      "containing_class": "",
+      "top_class": "com.neeeex.eraser.module.main.SplashNEEEEXHotActivity",
+      "source_line": null,
+      "dex_offset": null,
+      "direct_invokes_exhaustive": null,
+      "direct_invokes": null
+    },
+    {
+      "kind": "class",
+      "name": "b",
+      "reported_full_name": "com.neeeex.eraser.push.b",
+      "containing_class": "",
+      "top_class": "com.neeeex.eraser.push.b",
+      "source_line": null,
+      "dex_offset": null,
+      "direct_invokes_exhaustive": null,
+      "direct_invokes": null
+    },
+    {
+      "kind": "class",
+      "name": "y",
+      "reported_full_name": "com.neeeex.eraser.y",
+      "containing_class": "",
+      "top_class": "com.neeeex.eraser.y",
+      "source_line": null,
+      "dex_offset": null,
+      "direct_invokes_exhaustive": null,
+      "direct_invokes": null
+    },
+    {
+      "kind": "class",
+      "name": "b",
+      "reported_full_name": "ni.i.b",
+      "containing_class": "ni.i",
+      "top_class": "ni.i",
+      "source_line": null,
+      "dex_offset": null,
+      "direct_invokes_exhaustive": null,
+      "direct_invokes": null
+    },
+    {
+      "kind": "class",
+      "name": "c",
+      "reported_full_name": "ni.i.c",
+      "containing_class": "ni.i",
+      "top_class": "ni.i",
+      "source_line": null,
+      "dex_offset": null,
+      "direct_invokes_exhaustive": null,
+      "direct_invokes": null
+    },
+    {
+      "kind": "class",
+      "name": "d",
+      "reported_full_name": "ni.i.d",
+      "containing_class": "ni.i",
+      "top_class": "ni.i",
+      "source_line": null,
+      "dex_offset": null,
+      "direct_invokes_exhaustive": null,
+      "direct_invokes": null
+    },
+    {
+      "kind": "class",
+      "name": "e",
+      "reported_full_name": "ni.i.e",
+      "containing_class": "ni.i",
+      "top_class": "ni.i",
+      "source_line": null,
+      "dex_offset": null,
+      "direct_invokes_exhaustive": null,
+      "direct_invokes": null
+    },
+    {
+      "kind": "class",
+      "name": "f",
+      "reported_full_name": "ni.i.f",
+      "containing_class": "ni.i",
+      "top_class": "ni.i",
+      "source_line": null,
+      "dex_offset": null,
+      "direct_invokes_exhaustive": null,
+      "direct_invokes": null
+    },
+    {
+      "kind": "class",
+      "name": "g",
+      "reported_full_name": "ni.i.g",
+      "containing_class": "ni.i",
+      "top_class": "ni.i",
+      "source_line": null,
+      "dex_offset": null,
+      "direct_invokes_exhaustive": null,
+      "direct_invokes": null
+    },
+    {
+      "kind": "class",
+      "name": "b",
+      "reported_full_name": "ni.i.b",
+      "containing_class": "ni.i",
+      "top_class": "ni.i",
+      "source_line": null,
+      "dex_offset": null,
+      "direct_invokes_exhaustive": null,
+      "direct_invokes": null
+    },
+    {
+      "kind": "class",
+      "name": "c",
+      "reported_full_name": "ni.i.c",
+      "containing_class": "ni.i",
+      "top_class": "ni.i",
+      "source_line": null,
+      "dex_offset": null,
+      "direct_invokes_exhaustive": null,
+      "direct_invokes": null
+    },
+    {
+      "kind": "class",
+      "name": "d",
+      "reported_full_name": "ni.i.d",
+      "containing_class": "ni.i",
+      "top_class": "ni.i",
+      "source_line": null,
+      "dex_offset": null,
+      "direct_invokes_exhaustive": null,
+      "direct_invokes": null
+    },
+    {
+      "kind": "class",
+      "name": "e",
+      "reported_full_name": "ni.i.e",
+      "containing_class": "ni.i",
+      "top_class": "ni.i",
+      "source_line": null,
+      "dex_offset": null,
+      "direct_invokes_exhaustive": null,
+      "direct_invokes": null
+    },
+    {
+      "kind": "class",
+      "name": "f",
+      "reported_full_name": "ni.i.f",
+      "containing_class": "ni.i",
+      "top_class": "ni.i",
+      "source_line": null,
+      "dex_offset": null,
+      "direct_invokes_exhaustive": null,
+      "direct_invokes": null
+    },
+    {
+      "kind": "class",
+      "name": "g",
+      "reported_full_name": "ni.i.g",
+      "containing_class": "ni.i",
+      "top_class": "ni.i",
+      "source_line": null,
+      "dex_offset": null,
+      "direct_invokes_exhaustive": null,
+      "direct_invokes": null
+    },
+    {
+      "kind": "class",
+      "name": "g",
+      "reported_full_name": "ni.g",
+      "containing_class": "",
+      "top_class": "ni.i",
+      "source_line": null,
+      "dex_offset": null,
+      "direct_invokes_exhaustive": null,
+      "direct_invokes": null
+    }
+  ],
+  "coverage": "complete",
+  "reference_unit": "using_node"
+}

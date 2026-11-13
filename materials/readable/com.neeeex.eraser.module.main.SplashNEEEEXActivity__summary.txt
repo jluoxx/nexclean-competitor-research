@@ -1,0 +1,418 @@
+{
+  "engine": {
+    "name": "jadx-headless-mcp",
+    "version": "0.7.1",
+    "artifact_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+    "source_revision": "5844800a486d2248fa949b74c9896285f5b54de2",
+    "worker_count": 1,
+    "heap_limit_mib": 3072
+  },
+  "class_name": "com.neeeex.eraser.module.main.SplashNEEEEXActivity",
+  "methods": [
+    {
+      "name": "<init>",
+      "reported_signature": "<init>(): void",
+      "overload_index": 0,
+      "is_constructor": true,
+      "dex_descriptor": "()V"
+    },
+    {
+      "name": "A0",
+      "reported_signature": "A0(): com.neeeex.eraser.ads.o",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "()Lcom/neeeex/eraser/ads/o;"
+    },
+    {
+      "name": "B0",
+      "reported_signature": "B0(): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "()V"
+    },
+    {
+      "name": "C0",
+      "reported_signature": "C0(): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "()V"
+    },
+    {
+      "name": "D0",
+      "reported_signature": "D0(): fl.t",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "()Lfl/t;"
+    },
+    {
+      "name": "E0",
+      "reported_signature": "E0(): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "()V"
+    },
+    {
+      "name": "F0",
+      "reported_signature": "F0(double, double): boolean",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "(DD)Z"
+    },
+    {
+      "name": "G0",
+      "reported_signature": "G0(): boolean",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "()Z"
+    },
+    {
+      "name": "H0",
+      "reported_signature": "H0(int): boolean",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "(I)Z"
+    },
+    {
+      "name": "I0",
+      "reported_signature": "I0(): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "()V"
+    },
+    {
+      "name": "J0",
+      "reported_signature": "J0(double, double): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "(DD)V"
+    },
+    {
+      "name": "K0",
+      "reported_signature": "K0(): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "()V"
+    },
+    {
+      "name": "L0",
+      "reported_signature": "L0(): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "()V"
+    },
+    {
+      "name": "M0",
+      "reported_signature": "M0(): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "()V"
+    },
+    {
+      "name": "N0",
+      "reported_signature": "N0(): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "()V"
+    },
+    {
+      "name": "O0",
+      "reported_signature": "O0(): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "()V"
+    },
+    {
+      "name": "P0",
+      "reported_signature": "P0(): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "()V"
+    },
+    {
+      "name": "h0",
+      "reported_signature": "h0(com.neeeex.eraser.module.main.SplashNEEEEXActivity, double, double): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "(Lcom/neeeex/eraser/module/main/SplashNEEEEXActivity;DD)V"
+    },
+    {
+      "name": "i0",
+      "reported_signature": "i0(com.neeeex.eraser.module.main.SplashNEEEEXActivity, fl.m0): fl.m0",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "(Lcom/neeeex/eraser/module/main/SplashNEEEEXActivity;Lfl/m0;)Lfl/m0;"
+    },
+    {
+      "name": "j0",
+      "reported_signature": "j0(com.neeeex.eraser.module.main.SplashNEEEEXActivity): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "(Lcom/neeeex/eraser/module/main/SplashNEEEEXActivity;)V"
+    },
+    {
+      "name": "k0",
+      "reported_signature": "k0(com.neeeex.eraser.module.main.SplashNEEEEXActivity): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "(Lcom/neeeex/eraser/module/main/SplashNEEEEXActivity;)V"
+    },
+    {
+      "name": "l0",
+      "reported_signature": "l0(com.neeeex.eraser.module.main.SplashNEEEEXActivity, kl.f): java.lang.Object",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "(Lcom/neeeex/eraser/module/main/SplashNEEEEXActivity;Lkl/f;)Ljava/lang/Object;"
+    },
+    {
+      "name": "m0",
+      "reported_signature": "m0(com.neeeex.eraser.module.main.SplashNEEEEXActivity): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "(Lcom/neeeex/eraser/module/main/SplashNEEEEXActivity;)V"
+    },
+    {
+      "name": "n0",
+      "reported_signature": "n0(com.neeeex.eraser.module.main.SplashNEEEEXActivity): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "(Lcom/neeeex/eraser/module/main/SplashNEEEEXActivity;)V"
+    },
+    {
+      "name": "o0",
+      "reported_signature": "o0(com.neeeex.eraser.module.main.SplashNEEEEXActivity): fl.t",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "(Lcom/neeeex/eraser/module/main/SplashNEEEEXActivity;)Lfl/t;"
+    },
+    {
+      "name": "onBackPressed",
+      "reported_signature": "onBackPressed(): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "()V"
+    },
+    {
+      "name": "onCreate",
+      "reported_signature": "onCreate(android.os.Bundle): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "(Landroid/os/Bundle;)V"
+    },
+    {
+      "name": "onDestroy",
+      "reported_signature": "onDestroy(): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "()V"
+    },
+    {
+      "name": "onNewIntent",
+      "reported_signature": "onNewIntent(android.content.Intent): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "(Landroid/content/Intent;)V"
+    },
+    {
+      "name": "onResume",
+      "reported_signature": "onResume(): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "()V"
+    },
+    {
+      "name": "onSaveInstanceState",
+      "reported_signature": "onSaveInstanceState(android.os.Bundle): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "(Landroid/os/Bundle;)V"
+    },
+    {
+      "name": "onStart",
+      "reported_signature": "onStart(): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "()V"
+    },
+    {
+      "name": "onStop",
+      "reported_signature": "onStop(): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "()V"
+    },
+    {
+      "name": "p0",
+      "reported_signature": "p0(com.neeeex.eraser.module.main.SplashNEEEEXActivity): java.lang.String",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "(Lcom/neeeex/eraser/module/main/SplashNEEEEXActivity;)Ljava/lang/String;"
+    },
+    {
+      "name": "q0",
+      "reported_signature": "q0(com.neeeex.eraser.module.main.SplashNEEEEXActivity, double, double): boolean",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "(Lcom/neeeex/eraser/module/main/SplashNEEEEXActivity;DD)Z"
+    },
+    {
+      "name": "r0",
+      "reported_signature": "r0(com.neeeex.eraser.module.main.SplashNEEEEXActivity): boolean",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "(Lcom/neeeex/eraser/module/main/SplashNEEEEXActivity;)Z"
+    },
+    {
+      "name": "s0",
+      "reported_signature": "s0(com.neeeex.eraser.module.main.SplashNEEEEXActivity, double, double): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "(Lcom/neeeex/eraser/module/main/SplashNEEEEXActivity;DD)V"
+    },
+    {
+      "name": "t0",
+      "reported_signature": "t0(com.neeeex.eraser.module.main.SplashNEEEEXActivity): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "(Lcom/neeeex/eraser/module/main/SplashNEEEEXActivity;)V"
+    },
+    {
+      "name": "u0",
+      "reported_signature": "u0(com.neeeex.eraser.module.main.SplashNEEEEXActivity, boolean): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "(Lcom/neeeex/eraser/module/main/SplashNEEEEXActivity;Z)V"
+    },
+    {
+      "name": "v0",
+      "reported_signature": "v0(com.neeeex.eraser.module.main.SplashNEEEEXActivity, boolean): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "(Lcom/neeeex/eraser/module/main/SplashNEEEEXActivity;Z)V"
+    },
+    {
+      "name": "w0",
+      "reported_signature": "w0(long): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "(J)V"
+    },
+    {
+      "name": "x0",
+      "reported_signature": "x0(kl.f): java.lang.Object",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "(Lkl/f;)Ljava/lang/Object;"
+    },
+    {
+      "name": "y0",
+      "reported_signature": "y0(): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "()V"
+    },
+    {
+      "name": "z0",
+      "reported_signature": "z0(android.content.Context): void",
+      "overload_index": 0,
+      "is_constructor": false,
+      "dex_descriptor": "(Landroid/content/Context;)V"
+    }
+  ],
+  "fields": [
+    {
+      "name": "f65296c",
+      "reported_type": "boolean",
+      "dex_static_value": null
+    },
+    {
+      "name": "f65297d",
+      "reported_type": "boolean",
+      "dex_static_value": null
+    },
+    {
+      "name": "f65298e",
+      "reported_type": "long",
+      "dex_static_value": null
+    },
+    {
+      "name": "f65299f",
+      "reported_type": "java.util.Timer",
+      "dex_static_value": null
+    },
+    {
+      "name": "f65300g",
+      "reported_type": "boolean",
+      "dex_static_value": null
+    },
+    {
+      "name": "f65301h",
+      "reported_type": "java.lang.String",
+      "dex_static_value": null
+    },
+    {
+      "name": "f65302i",
+      "reported_type": "ji.x",
+      "dex_static_value": null
+    },
+    {
+      "name": "f65303j",
+      "reported_type": "int",
+      "dex_static_value": null
+    },
+    {
+      "name": "f65304k",
+      "reported_type": "boolean",
+      "dex_static_value": null
+    },
+    {
+      "name": "f65305l",
+      "reported_type": "boolean",
+      "dex_static_value": null
+    },
+    {
+      "name": "f65306m",
+      "reported_type": "boolean",
+      "dex_static_value": null
+    },
+    {
+      "name": "f65307n",
+      "reported_type": "boolean",
+      "dex_static_value": null
+    },
+    {
+      "name": "f65308o",
+      "reported_type": "boolean",
+      "dex_static_value": null
+    },
+    {
+      "name": "f65309p",
+      "reported_type": "boolean",
+      "dex_static_value": null
+    },
+    {
+      "name": "f65310q",
+      "reported_type": "boolean",
+      "dex_static_value": null
+    },
+    {
+      "name": "f65311r",
+      "reported_type": "kotlinx.coroutines.Job",
+      "dex_static_value": null
+    },
+    {
+      "name": "f65312s",
+      "reported_type": "android.animation.ObjectAnimator",
+      "dex_static_value": null
+    }
+  ],
+  "inner_classes": [
+    "com.neeeex.eraser.module.main.SplashNEEEEXActivity.a",
+    "com.neeeex.eraser.module.main.SplashNEEEEXActivity.b",
+    "com.neeeex.eraser.module.main.SplashNEEEEXActivity.c",
+    "com.neeeex.eraser.module.main.SplashNEEEEXActivity.d",
+    "com.neeeex.eraser.module.main.SplashNEEEEXActivity.e",
+    "com.neeeex.eraser.module.main.SplashNEEEEXActivity.f",
+    "com.neeeex.eraser.module.main.SplashNEEEEXActivity.g",
+    "com.neeeex.eraser.module.main.SplashNEEEEXActivity.h"
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "job": {
+    "id": "j027",
+    "package": "com.nexclean.junkclean.phoneclean",
+    "tool": "inspect_android_method",
+    "args": {
+      "path": "D:\\python daima\\outputs\\nexclean_analysis_20261113\\apk\\base.apk",
+      "class_name": "com.neeeex.eraser.push.b",
+      "method_name": "a"
+    }
+  },
+  "start": "2026-11-13T08:00:34.625Z",
+  "end": "2026-11-13T08:00:35.048Z",
+  "result": {
+    "_meta": {
+      "provenance": {
+        "untrusted_content": true,
+        "source": "analysis_target"
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"evidence_id\":\"ev_83be47296b039030ec8b2cd9740aa16c242797a99bd8b24173d0b692bbf96150\",\"subject\":{\"name\":\"base.apk\",\"digest\":{\"sha256\":\"777986bd4381674a7c2afda682847daabc5daa27789b0671e411411d504c054a\"},\"local_path\":\"D:\\\\python daima\\\\outputs\\\\nexclean_analysis_20261113\\\\apk\\\\base.apk\",\"format\":\"apk\",\"architecture\":null},\"provider\":{\"id\":\"jadx\",\"name\":\"JADX headless\",\"version\":\"0.7.1\"},\"analysis_profile\":null,\"predicate_type\":\"rea.analysis\",\"operation\":\"inspect_android_method\",\"parameters\":{\"path\":\"D:\\\\python daima\\\\outputs\\\\nexclean_analysis_20261113\\\\apk\\\\base.apk\",\"class_name\":\"com.neeeex.eraser.push.b\",\"method_name\":\"a\"},\"raw_result\":{\"server\":{\"name\":\"rea-jadx-bridge\",\"version\":\"7\"},\"bridge_sha256\":\"e5044a8312dd0731f53af3f095508b3e5cff54df6b971c95d4305e2f39b4fa30\",\"jar_sha256\":\"6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75\",\"loaded\":{\"state\":\"LOADED\",\"apk_path\":\"C:\\\\Users\\\\asus\\\\AppData\\\\Local\\\\Temp\\\\rea-android-060c8a1949f6c0e0b05503c23d884bca\\\\target.apk\",\"class_count\":34574,\"resource_count\":3764,\"threads\":1,\"resources\":\"full\"},\"calls\":[{\"operation\":\"rea_jvm_status\",\"input\":{},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"java_version\\\":\\\"17.0.12\\\",\\\"available_processors\\\":3,\\\"engine_reported_version\\\":\\\"0.7.1\\\",\\\"metadata_scope\\\":\\\"parsed_members\\\",\\\"max_heap_bytes\\\":3221225472}\"}],\"isError\":false}},{\"operation\":\"get_class_summary\",\"input\":{\"class_name\":\"com.neeeex.eraser.push.b\"},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"method_count\\\":9,\\\"raw_name\\\":\\\"com.neeeex.eraser.push.b\\\",\\\"fields\\\":[{\\\"def_pos\\\":0,\\\"name\\\":\\\"f65481a\\\",\\\"type\\\":\\\"com.neeeex.eraser.push.b\\\"},{\\\"def_pos\\\":0,\\\"name\\\":\\\"f65482b\\\",\\\"type\\\":\\\"java.lang.String\\\"},{\\\"def_pos\\\":0,\\\"name\\\":\\\"f65483c\\\",\\\"type\\\":\\\"java.lang.String\\\"},{\\\"def_pos\\\":0,\\\"name\\\":\\\"f65484d\\\",\\\"type\\\":\\\"java.lang.String\\\"},{\\\"def_pos\\\":0,\\\"name\\\":\\\"f65485e\\\",\\\"type\\\":\\\"java.lang.String\\\"},{\\\"def_pos\\\":0,\\\"name\\\":\\\"f65486f\\\",\\\"type\\\":\\\"java.lang.String\\\"}],\\\"methods\\\":[{\\\"name\\\":\\\"\\\\u003cclinit\\\\u003e\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"()V\\\",\\\"signature\\\":\\\"\\\\u003cclinit\\\\u003e(): void\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"\\\\u003cinit\\\\u003e\\\",\\\"is_constructor\\\":true,\\\"dex_descriptor\\\":\\\"()V\\\",\\\"signature\\\":\\\"\\\\u003cinit\\\\u003e(): void\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"a\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(Landroid/content/Context;J)Z\\\",\\\"signature\\\":\\\"a(android.content.Context, long): boolean\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"b\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(Landroid/content/Context;JILjava/lang/Object;)Z\\\",\\\"signature\\\":\\\"b(android.content.Context, long, int, java.lang.Object): boolean\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"c\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(J)Ljava/lang/String;\\\",\\\"signature\\\":\\\"c(long): java.lang.String\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"d\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(Landroid/content/Context;)Landroid/content/SharedPreferences;\\\",\\\"signature\\\":\\\"d(android.content.Context): android.content.SharedPreferences\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"e\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(Landroid/content/Context;J)V\\\",\\\"signature\\\":\\\"e(android.content.Context, long): void\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"f\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(Landroid/content/Context;JILjava/lang/Object;)V\\\",\\\"signature\\\":\\\"f(android.content.Context, long, int, java.lang.Object): void\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"g\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(Landroid/content/Context;J)J\\\",\\\"signature\\\":\\\"g(android.content.Context, long): long\\\",\\\"def_pos\\\":0}],\\\"inner_classes\\\":[],\\\"inner_class_count\\\":0,\\\"name\\\":\\\"b\\\",\\\"field_count\\\":6,\\\"full_name\\\":\\\"com.neeeex.eraser.push.b\\\"}\"}],\"isError\":false}},{\"operation\":\"get_method_body\",\"input\":{\"class_name\":\"com.neeeex.eraser.push.b\",\"method_name\":\"a\",\"overload_index\":0,\"smali_fallback\":true},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"full_name\\\":\\\"com.neeeex.eraser.push.b.a\\\",\\\"overload_index\\\":0,\\\"method_name\\\":\\\"a\\\",\\\"overload_count\\\":1,\\\"dex_descriptor\\\":\\\"(Landroid/content/Context;J)Z\\\",\\\"class_name\\\":\\\"com.neeeex.eraser.push.b\\\",\\\"mode\\\":\\\"java\\\",\\\"body\\\":\\\"    public static final synchronized boolean a(Context context, long j10) {\\\\r\\\\n        m0.a(\\\\\\\"GrmP79xlVg\\\\u003d\\\\u003d\\\\\\\\n\\\\\\\", \\\\\\\"edbhm7kdImI\\\\u003d\\\\\\\\n\\\\\\\");\\\\r\\\\n        context.getClass();\\\\r\\\\n        if (ni.i.f89495a.w() \\\\u0026\\\\u0026 com.neeeex.eraser.module.report.bytedance.a.k()) {\\\\r\\\\n            b bVar \\\\u003d f65481a;\\\\r\\\\n            SharedPreferences sharedPreferencesD \\\\u003d bVar.d(context);\\\\r\\\\n            long jG \\\\u003d bVar.g(context, j10);\\\\r\\\\n            if (j10 \\\\u003e\\\\u003d jG \\\\u0026\\\\u0026 j10 - jG \\\\u003e\\\\u003d 10800000) {\\\\r\\\\n                long j11 \\\\u003d sharedPreferencesD.getLong(f65484d, 0L);\\\\r\\\\n                if (j11 \\\\u003c\\\\u003d j10 \\\\u0026\\\\u0026 j10 - j11 \\\\u003e\\\\u003d 2400000) {\\\\r\\\\n                    return (v.c(sharedPreferencesD.getString(f65485e, null), bVar.c(j10)) ? sharedPreferencesD.getInt(f65486f, 0) : 0) \\\\u003c 7;\\\\r\\\\n                }\\\\r\\\\n                return false;\\\\r\\\\n            }\\\\r\\\\n            return false;\\\\r\\\\n        }\\\\r\\\\n        return false;\\\\r\\\\n    }\\\",\\\"markers\\\":[],\\\"fell_back\\\":false}\"}],\"isError\":false}}]},\"normalized_result\":{\"engine\":{\"name\":\"jadx-headless-mcp\",\"version\":\"0.7.1\",\"artifact_sha256\":\"6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75\",\"source_revision\":\"5844800a486d2248fa949b74c9896285f5b54de2\",\"worker_count\":1,\"heap_limit_mib\":3072},\"class_name\":\"com.neeeex.eraser.push.b\",\"method\":{\"name\":\"a\",\"reported_signature\":\"a(android.content.Context, long): boolean\",\"overload_index\":0,\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/content/Context;J)Z\"},\"overload_count\":1,\"representation\":\"java\",\"body_status\":\"available\",\"fell_back\":false,\"markers\":[],\"source\":{\"status\":\"complete\",\"text\":\"    public static final synchronized boolean a(Context context, long j10) {\\r\\n        m0.a(\\\"GrmP79xlVg==\\\\n\\\", \\\"edbhm7kdImI=\\\\n\\\");\\r\\n        context.getClass();\\r\\n        if (ni.i.f89495a.w() && com.neeeex.eraser.module.report.bytedance.a.k()) {\\r\\n            b bVar = f65481a;\\r\\n            SharedPreferences sharedPreferencesD = bVar.d(context);\\r\\n            long jG = bVar.g(context, j10);\\r\\n            if (j10 >= jG && j10 - jG >= 10800000) {\\r\\n                long j11 = sharedPreferencesD.getLong(f65484d, 0L);\\r\\n                if (j11 <= j10 && j10 - j11 >= 2400000) {\\r\\n                    return (v.c(sharedPreferencesD.getString(f65485e, null), bVar.c(j10)) ? sharedPreferencesD.getInt(f65486f, 0) : 0) < 7;\\r\\n                }\\r\\n                return false;\\r\\n            }\\r\\n            return false;\\r\\n        }\\r\\n        return false;\\r\\n    }\",\"reported_total_bytes\":null}},\"confidence\":\"derived\",\"authority\":\"shipped-artifact\",\"environment\":null,\"limitations\":[\"Static decompiler observations do not establish runtime behavior; the APK is never executed.\",\"Method signatures use provider display types; DEX prototypes come from frozen JADX metadata. Display names may be aliases, and overload indices are local to this engine and artifact.\",\"Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.\",\"Incoming reference totals count JADX using nodes. Direct invoke entries within a using method report raw DEX code-unit offsets and method indexes, but coverage is limited to those nodes and directly matched invokes; it does not establish every possible dynamic or reflective call site.\",\"Manifest summaries are parsed once by REA's bridge from the exact root AndroidManifest.xml resource, using namespace-aware XML attributes; decoded XML is retained. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider.\"],\"relationship_coverage\":null,\"locations\":[],\"evidence_links\":[]}"
+      }
+    ],
+    "structuredContent": {
+      "evidence_id": "ev_83be47296b039030ec8b2cd9740aa16c242797a99bd8b24173d0b692bbf96150",
+      "subject": {
+        "name": "base.apk",
+        "digest": {
+          "sha256": "777986bd4381674a7c2afda682847daabc5daa27789b0671e411411d504c054a"
+        },
+        "local_path": "D:\\python daima\\outputs\\nexclean_analysis_20261113\\apk\\base.apk",
+        "format": "apk",
+        "architecture": null
+      },
+      "provider": {
+        "id": "jadx",
+        "name": "JADX headless",
+        "version": "0.7.1"
+      },
+      "analysis_profile": null,
+      "predicate_type": "rea.analysis",
+      "operation": "inspect_android_method",
+      "parameters": {
+        "path": "D:\\python daima\\outputs\\nexclean_analysis_20261113\\apk\\base.apk",
+        "class_name": "com.neeeex.eraser.push.b",
+        "method_name": "a"
+      },
+      "raw_result": {
+        "server": {
+          "name": "rea-jadx-bridge",
+          "version": "7"
+        },
+        "bridge_sha256": "e5044a8312dd0731f53af3f095508b3e5cff54df6b971c95d4305e2f39b4fa30",
+        "jar_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+        "loaded": {
+          "state": "LOADED",
+          "apk_path": "C:\\Users\\asus\\AppData\\Local\\Temp\\rea-android-060c8a1949f6c0e0b05503c23d884bca\\target.apk",
+          "class_count": 34574,
+          "resource_count": 3764,
+          "threads": 1,
+          "resources": "full"
+        },
+        "calls": [
+          {
+            "operation": "rea_jvm_status",
+            "input": {},
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"java_version\":\"17.0.12\",\"available_processors\":3,\"engine_reported_version\":\"0.7.1\",\"metadata_scope\":\"parsed_members\",\"max_heap_bytes\":3221225472}"
+                }
+              ],
+              "isError": false
+            }
+          },
+          {
+            "operation": "get_class_summary",
+            "input": {
+              "class_name": "com.neeeex.eraser.push.b"
+            },
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"method_count\":9,\"raw_name\":\"com.neeeex.eraser.push.b\",\"fields\":[{\"def_pos\":0,\"name\":\"f65481a\",\"type\":\"com.neeeex.eraser.push.b\"},{\"def_pos\":0,\"name\":\"f65482b\",\"type\":\"java.lang.String\"},{\"def_pos\":0,\"name\":\"f65483c\",\"type\":\"java.lang.String\"},{\"def_pos\":0,\"name\":\"f65484d\",\"type\":\"java.lang.String\"},{\"def_pos\":0,\"name\":\"f65485e\",\"type\":\"java.lang.String\"},{\"def_pos\":0,\"name\":\"f65486f\",\"type\":\"java.lang.String\"}],\"methods\":[{\"name\":\"\\u003cclinit\\u003e\",\"is_constructor\":false,\"dex_descriptor\":\"()V\",\"signature\":\"\\u003cclinit\\u003e(): void\",\"def_pos\":0},{\"name\":\"\\u003cinit\\u003e\",\"is_constructor\":true,\"dex_descriptor\":\"()V\",\"signature\":\"\\u003cinit\\u003e(): void\",\"def_pos\":0},{\"name\":\"a\",\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/content/Context;J)Z\",\"signature\":\"a(android.content.Context, long): boolean\",\"def_pos\":0},{\"name\":\"b\",\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/content/Context;JILjava/lang/Object;)Z\",\"signature\":\"b(android.content.Context, long, int, java.lang.Object): boolean\",\"def_pos\":0},{\"name\":\"c\",\"is_constructor\":false,\"dex_descriptor\":\"(J)Ljava/lang/String;\",\"signature\":\"c(long): java.lang.String\",\"def_pos\":0},{\"name\":\"d\",\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/content/Context;)Landroid/content/SharedPreferences;\",\"signature\":\"d(android.content.Context): android.content.SharedPreferences\",\"def_pos\":0},{\"name\":\"e\",\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/content/Context;J)V\",\"signature\":\"e(android.content.Context, long): void\",\"def_pos\":0},{\"name\":\"f\",\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/content/Context;JILjava/lang/Object;)V\",\"signature\":\"f(android.content.Context, long, int, java.lang.Object): void\",\"def_pos\":0},{\"name\":\"g\",\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/content/Context;J)J\",\"signature\":\"g(android.content.Context, long): long\",\"def_pos\":0}],\"inner_classes\":[],\"inner_class_count\":0,\"name\":\"b\",\"field_count\":6,\"full_name\":\"com.neeeex.eraser.push.b\"}"
+                }
+              ],
+              "isError": false
+            }
+          },
+          {
+            "operation": "get_method_body",
+            "input": {
+              "class_name": "com.neeeex.eraser.push.b",
+              "method_name": "a",
+              "overload_index": 0,
+              "smali_fallback": true
+            },
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"full_name\":\"com.neeeex.eraser.push.b.a\",\"overload_index\":0,\"method_name\":\"a\",\"overload_count\":1,\"dex_descriptor\":\"(Landroid/content/Context;J)Z\",\"class_name\":\"com.neeeex.eraser.push.b\",\"mode\":\"java\",\"body\":\"    public static final synchronized boolean a(Context context, long j10) {\\r\\n        m0.a(\\\"GrmP79xlVg\\u003d\\u003d\\\\n\\\", \\\"edbhm7kdImI\\u003d\\\\n\\\");\\r\\n        context.getClass();\\r\\n        if (ni.i.f89495a.w() \\u0026\\u0026 com.neeeex.eraser.module.report.bytedance.a.k()) {\\r\\n            b bVar \\u003d f65481a;\\r\\n            SharedPreferences sharedPreferencesD \\u003d bVar.d(context);\\r\\n            long jG \\u003d bVar.g(context, j10);\\r\\n            if (j10 \\u003e\\u003d jG \\u0026\\u0026 j10 - jG \\u003e\\u003d 10800000) {\\r\\n                long j11 \\u003d sharedPreferencesD.getLong(f65484d, 0L);\\r\\n                if (j11 \\u003c\\u003d j10 \\u0026\\u0026 j10 - j11 \\u003e\\u003d 2400000) {\\r\\n                    return (v.c(sharedPreferencesD.getString(f65485e, null), bVar.c(j10)) ? sharedPreferencesD.getInt(f65486f, 0) : 0) \\u003c 7;\\r\\n                }\\r\\n                return false;\\r\\n            }\\r\\n            return false;\\r\\n        }\\r\\n        return false;\\r\\n    }\",\"markers\":[],\"fell_back\":false}"
+                }
+              ],
+              "isError": false
+            }
+          }
+        ]
+      },
+      "normalized_result": {
+        "engine": {
+          "name": "jadx-headless-mcp",
+          "version": "0.7.1",
+          "artifact_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+          "source_revision": "5844800a486d2248fa949b74c9896285f5b54de2",
+          "worker_count": 1,
+          "heap_limit_mib": 3072
+        },
+        "class_name": "com.neeeex.eraser.push.b",
+        "method": {
+          "name": "a",
+          "reported_signature": "a(android.content.Context, long): boolean",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": "(Landroid/content/Context;J)Z"
+        },
+        "overload_count": 1,
+        "representation": "java",
+        "body_status": "available",
+        "fell_back": false,
+        "markers": [],
+        "source": {
+          "status": "complete",
+          "text": "    public static final synchronized boolean a(Context context, long j10) {\r\n        m0.a(\"GrmP79xlVg==\\n\", \"edbhm7kdImI=\\n\");\r\n        context.getClass();\r\n        if (ni.i.f89495a.w() && com.neeeex.eraser.module.report.bytedance.a.k()) {\r\n            b bVar = f65481a;\r\n            SharedPreferences sharedPreferencesD = bVar.d(context);\r\n            long jG = bVar.g(context, j10);\r\n            if (j10 >= jG && j10 - jG >= 10800000) {\r\n                long j11 = sharedPreferencesD.getLong(f65484d, 0L);\r\n                if (j11 <= j10 && j10 - j11 >= 2400000) {\r\n                    return (v.c(sharedPreferencesD.getString(f65485e, null), bVar.c(j10)) ? sharedPreferencesD.getInt(f65486f, 0) : 0) < 7;\r\n                }\r\n                return false;\r\n            }\r\n            return false;\r\n        }\r\n        return false;\r\n    }",
+          "reported_total_bytes": null
+        }
+      },
+      "confidence": "derived",
+      "authority": "shipped-artifact",
+      "environment": null,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; DEX prototypes come from frozen JADX metadata. Display names may be aliases, and overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Incoming reference totals count JADX using nodes. Direct invoke entries within a using method report raw DEX code-unit offsets and method indexes, but coverage is limited to those nodes and directly matched invokes; it does not establish every possible dynamic or reflective call site.",
+        "Manifest summaries are parsed once by REA's bridge from the exact root AndroidManifest.xml resource, using namespace-aware XML attributes; decoded XML is retained. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ],
+      "relationship_coverage": null,
+      "locations": [],
+      "evidence_links": []
+    }
+  }
+}

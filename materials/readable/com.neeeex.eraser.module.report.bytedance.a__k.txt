@@ -1,0 +1,4 @@
+    public static boolean k() {
+        b0 b0Var = b0.f66131a;
+        return b0Var.s(m0.a("IbozDKnHDGEvpzUVqNAKYTW+Pge1\n", "av9qU+eCSSQ=\n"), false) || (b0Var.u(m0.a("BatLaJ9d1zcPpw==\n", "ZsMqBvE4u2g=\n"), -1) != -1);
+    }

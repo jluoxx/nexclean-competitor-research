@@ -1,0 +1,10 @@
+    public static void h(JSONObject jSONObject, long j10, Context context) {
+        if (jSONObject == null) {
+            return;
+        }
+        try {
+            new b(jSONObject, j10).a(context);
+        } catch (Exception e10) {
+            com.neeeex.eraser.module.report.bytedance.c.g(e10);
+        }
+    }

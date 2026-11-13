@@ -1,0 +1,51 @@
+[
+  {
+    "id": "vendor",
+    "class": "com.neeeex.eraser.utils.c0",
+    "method": "e",
+    "usable": true,
+    "exit_code": 0
+  },
+  {
+    "id": "config_commands",
+    "class": "ni.i",
+    "method": "q",
+    "usable": true,
+    "exit_code": 0
+  },
+  {
+    "id": "config_init",
+    "class": "ni.i",
+    "method": "u",
+    "usable": true,
+    "exit_code": 0
+  },
+  {
+    "id": "fetch_complete",
+    "class": "ni.i",
+    "method": "a",
+    "usable": true,
+    "exit_code": 0
+  },
+  {
+    "id": "config_long",
+    "class": "ni.i",
+    "method": "A",
+    "usable": true,
+    "exit_code": 0
+  },
+  {
+    "id": "ongoing_policy",
+    "class": "qi.b",
+    "method": "a",
+    "usable": true,
+    "exit_code": 0
+  },
+  {
+    "id": "broadcast_consume",
+    "class": "com.neeeex.eraser.push.c",
+    "method": "D",
+    "usable": true,
+    "exit_code": 0
+  }
+]

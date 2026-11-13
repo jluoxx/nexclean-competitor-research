@@ -1,0 +1,158 @@
+{
+  "job": {
+    "id": "j018",
+    "package": "com.nexclean.junkclean.phoneclean",
+    "tool": "inspect_android_method",
+    "args": {
+      "path": "D:\\python daima\\outputs\\nexclean_analysis_20261113\\apk\\base.apk",
+      "class_name": "com.neeeex.eraser.module.report.bytedance.a",
+      "method_name": "h"
+    }
+  },
+  "start": "2026-11-13T08:00:30.337Z",
+  "end": "2026-11-13T08:00:30.713Z",
+  "result": {
+    "_meta": {
+      "provenance": {
+        "untrusted_content": true,
+        "source": "analysis_target"
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"evidence_id\":\"ev_670dfcf9c798c781282e5a03fc9e677df93b4d524316821949b1f93cc4534763\",\"subject\":{\"name\":\"base.apk\",\"digest\":{\"sha256\":\"777986bd4381674a7c2afda682847daabc5daa27789b0671e411411d504c054a\"},\"local_path\":\"D:\\\\python daima\\\\outputs\\\\nexclean_analysis_20261113\\\\apk\\\\base.apk\",\"format\":\"apk\",\"architecture\":null},\"provider\":{\"id\":\"jadx\",\"name\":\"JADX headless\",\"version\":\"0.7.1\"},\"analysis_profile\":null,\"predicate_type\":\"rea.analysis\",\"operation\":\"inspect_android_method\",\"parameters\":{\"path\":\"D:\\\\python daima\\\\outputs\\\\nexclean_analysis_20261113\\\\apk\\\\base.apk\",\"class_name\":\"com.neeeex.eraser.module.report.bytedance.a\",\"method_name\":\"h\"},\"raw_result\":{\"server\":{\"name\":\"rea-jadx-bridge\",\"version\":\"7\"},\"bridge_sha256\":\"e5044a8312dd0731f53af3f095508b3e5cff54df6b971c95d4305e2f39b4fa30\",\"jar_sha256\":\"6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75\",\"loaded\":{\"state\":\"LOADED\",\"apk_path\":\"C:\\\\Users\\\\asus\\\\AppData\\\\Local\\\\Temp\\\\rea-android-060c8a1949f6c0e0b05503c23d884bca\\\\target.apk\",\"class_count\":34574,\"resource_count\":3764,\"threads\":1,\"resources\":\"full\"},\"calls\":[{\"operation\":\"rea_jvm_status\",\"input\":{},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"java_version\\\":\\\"17.0.12\\\",\\\"available_processors\\\":3,\\\"engine_reported_version\\\":\\\"0.7.1\\\",\\\"metadata_scope\\\":\\\"parsed_members\\\",\\\"max_heap_bytes\\\":3221225472}\"}],\"isError\":false}},{\"operation\":\"get_class_summary\",\"input\":{\"class_name\":\"com.neeeex.eraser.module.report.bytedance.a\"},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"method_count\\\":16,\\\"raw_name\\\":\\\"com.neeeex.eraser.module.report.bytedance.a\\\",\\\"fields\\\":[{\\\"def_pos\\\":0,\\\"name\\\":\\\"f65392a\\\",\\\"type\\\":\\\"java.lang.String\\\"},{\\\"def_pos\\\":0,\\\"name\\\":\\\"f65393b\\\",\\\"type\\\":\\\"java.lang.String\\\"}],\\\"methods\\\":[{\\\"name\\\":\\\"\\\\u003cclinit\\\\u003e\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"()V\\\",\\\"signature\\\":\\\"\\\\u003cclinit\\\\u003e(): void\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"a\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"()V\\\",\\\"signature\\\":\\\"a(): void\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"b\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(Lorg/json/JSONObject;JLandroid/content/Context;)V\\\",\\\"signature\\\":\\\"b(org.json.JSONObject, long, android.content.Context): void\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"c\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(ILjava/lang/String;)V\\\",\\\"signature\\\":\\\"c(int, java.lang.String): void\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"d\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(Landroid/content/Context;Ljava/lang/String;)V\\\",\\\"signature\\\":\\\"d(android.content.Context, java.lang.String): void\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"e\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(ILjava/lang/String;J)V\\\",\\\"signature\\\":\\\"e(int, java.lang.String, long): void\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"f\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"()Lcom/reyun/solar/engine/SolarEngineConfig$Builder;\\\",\\\"signature\\\":\\\"f(): com.reyun.solar.engine.SolarEngineConfig$Builder\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"g\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"()V\\\",\\\"signature\\\":\\\"g(): void\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"h\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(Lorg/json/JSONObject;JLandroid/content/Context;)V\\\",\\\"signature\\\":\\\"h(org.json.JSONObject, long, android.content.Context): void\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"i\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(Landroid/content/Context;Ljava/lang/String;)V\\\",\\\"signature\\\":\\\"i(android.content.Context, java.lang.String): void\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"j\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(Landroid/content/Context;Ljava/lang/String;)V\\\",\\\"signature\\\":\\\"j(android.content.Context, java.lang.String): void\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"k\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"()Z\\\",\\\"signature\\\":\\\"k(): boolean\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"l\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(ILjava/lang/String;)V\\\",\\\"signature\\\":\\\"l(int, java.lang.String): void\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"m\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(Landroid/content/Context;Ljava/lang/String;)V\\\",\\\"signature\\\":\\\"m(android.content.Context, java.lang.String): void\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"n\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(ILjava/lang/String;J)V\\\",\\\"signature\\\":\\\"n(int, java.lang.String, long): void\\\",\\\"def_pos\\\":0},{\\\"name\\\":\\\"o\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"()V\\\",\\\"signature\\\":\\\"o(): void\\\",\\\"def_pos\\\":0}],\\\"inner_classes\\\":[\\\"com.neeeex.eraser.module.report.bytedance.a.C0781a\\\",\\\"com.neeeex.eraser.module.report.bytedance.a.b\\\",\\\"com.neeeex.eraser.module.report.bytedance.a.c\\\"],\\\"inner_class_count\\\":3,\\\"name\\\":\\\"a\\\",\\\"field_count\\\":2,\\\"full_name\\\":\\\"com.neeeex.eraser.module.report.bytedance.a\\\"}\"}],\"isError\":false}},{\"operation\":\"get_method_body\",\"input\":{\"class_name\":\"com.neeeex.eraser.module.report.bytedance.a\",\"method_name\":\"h\",\"overload_index\":0,\"smali_fallback\":true},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"full_name\\\":\\\"com.neeeex.eraser.module.report.bytedance.a.h\\\",\\\"overload_index\\\":0,\\\"method_name\\\":\\\"h\\\",\\\"overload_count\\\":1,\\\"dex_descriptor\\\":\\\"(Lorg/json/JSONObject;JLandroid/content/Context;)V\\\",\\\"class_name\\\":\\\"com.neeeex.eraser.module.report.bytedance.a\\\",\\\"mode\\\":\\\"java\\\",\\\"body\\\":\\\"    public static void h(JSONObject jSONObject, long j10, Context context) {\\\\r\\\\n        if (jSONObject \\\\u003d\\\\u003d null) {\\\\r\\\\n            return;\\\\r\\\\n        }\\\\r\\\\n        try {\\\\r\\\\n            new b(jSONObject, j10).a(context);\\\\r\\\\n        } catch (Exception e10) {\\\\r\\\\n            com.neeeex.eraser.module.report.bytedance.c.g(e10);\\\\r\\\\n        }\\\\r\\\\n    }\\\",\\\"markers\\\":[],\\\"fell_back\\\":false}\"}],\"isError\":false}}]},\"normalized_result\":{\"engine\":{\"name\":\"jadx-headless-mcp\",\"version\":\"0.7.1\",\"artifact_sha256\":\"6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75\",\"source_revision\":\"5844800a486d2248fa949b74c9896285f5b54de2\",\"worker_count\":1,\"heap_limit_mib\":3072},\"class_name\":\"com.neeeex.eraser.module.report.bytedance.a\",\"method\":{\"name\":\"h\",\"reported_signature\":\"h(org.json.JSONObject, long, android.content.Context): void\",\"overload_index\":0,\"is_constructor\":false,\"dex_descriptor\":\"(Lorg/json/JSONObject;JLandroid/content/Context;)V\"},\"overload_count\":1,\"representation\":\"java\",\"body_status\":\"available\",\"fell_back\":false,\"markers\":[],\"source\":{\"status\":\"complete\",\"text\":\"    public static void h(JSONObject jSONObject, long j10, Context context) {\\r\\n        if (jSONObject == null) {\\r\\n            return;\\r\\n        }\\r\\n        try {\\r\\n            new b(jSONObject, j10).a(context);\\r\\n        } catch (Exception e10) {\\r\\n            com.neeeex.eraser.module.report.bytedance.c.g(e10);\\r\\n        }\\r\\n    }\",\"reported_total_bytes\":null}},\"confidence\":\"derived\",\"authority\":\"shipped-artifact\",\"environment\":null,\"limitations\":[\"Static decompiler observations do not establish runtime behavior; the APK is never executed.\",\"Method signatures use provider display types; DEX prototypes come from frozen JADX metadata. Display names may be aliases, and overload indices are local to this engine and artifact.\",\"Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.\",\"Incoming reference totals count JADX using nodes. Direct invoke entries within a using method report raw DEX code-unit offsets and method indexes, but coverage is limited to those nodes and directly matched invokes; it does not establish every possible dynamic or reflective call site.\",\"Manifest summaries are parsed once by REA's bridge from the exact root AndroidManifest.xml resource, using namespace-aware XML attributes; decoded XML is retained. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider.\"],\"relationship_coverage\":null,\"locations\":[],\"evidence_links\":[]}"
+      }
+    ],
+    "structuredContent": {
+      "evidence_id": "ev_670dfcf9c798c781282e5a03fc9e677df93b4d524316821949b1f93cc4534763",
+      "subject": {
+        "name": "base.apk",
+        "digest": {
+          "sha256": "777986bd4381674a7c2afda682847daabc5daa27789b0671e411411d504c054a"
+        },
+        "local_path": "D:\\python daima\\outputs\\nexclean_analysis_20261113\\apk\\base.apk",
+        "format": "apk",
+        "architecture": null
+      },
+      "provider": {
+        "id": "jadx",
+        "name": "JADX headless",
+        "version": "0.7.1"
+      },
+      "analysis_profile": null,
+      "predicate_type": "rea.analysis",
+      "operation": "inspect_android_method",
+      "parameters": {
+        "path": "D:\\python daima\\outputs\\nexclean_analysis_20261113\\apk\\base.apk",
+        "class_name": "com.neeeex.eraser.module.report.bytedance.a",
+        "method_name": "h"
+      },
+      "raw_result": {
+        "server": {
+          "name": "rea-jadx-bridge",
+          "version": "7"
+        },
+        "bridge_sha256": "e5044a8312dd0731f53af3f095508b3e5cff54df6b971c95d4305e2f39b4fa30",
+        "jar_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+        "loaded": {
+          "state": "LOADED",
+          "apk_path": "C:\\Users\\asus\\AppData\\Local\\Temp\\rea-android-060c8a1949f6c0e0b05503c23d884bca\\target.apk",
+          "class_count": 34574,
+          "resource_count": 3764,
+          "threads": 1,
+          "resources": "full"
+        },
+        "calls": [
+          {
+            "operation": "rea_jvm_status",
+            "input": {},
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"java_version\":\"17.0.12\",\"available_processors\":3,\"engine_reported_version\":\"0.7.1\",\"metadata_scope\":\"parsed_members\",\"max_heap_bytes\":3221225472}"
+                }
+              ],
+              "isError": false
+            }
+          },
+          {
+            "operation": "get_class_summary",
+            "input": {
+              "class_name": "com.neeeex.eraser.module.report.bytedance.a"
+            },
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"method_count\":16,\"raw_name\":\"com.neeeex.eraser.module.report.bytedance.a\",\"fields\":[{\"def_pos\":0,\"name\":\"f65392a\",\"type\":\"java.lang.String\"},{\"def_pos\":0,\"name\":\"f65393b\",\"type\":\"java.lang.String\"}],\"methods\":[{\"name\":\"\\u003cclinit\\u003e\",\"is_constructor\":false,\"dex_descriptor\":\"()V\",\"signature\":\"\\u003cclinit\\u003e(): void\",\"def_pos\":0},{\"name\":\"a\",\"is_constructor\":false,\"dex_descriptor\":\"()V\",\"signature\":\"a(): void\",\"def_pos\":0},{\"name\":\"b\",\"is_constructor\":false,\"dex_descriptor\":\"(Lorg/json/JSONObject;JLandroid/content/Context;)V\",\"signature\":\"b(org.json.JSONObject, long, android.content.Context): void\",\"def_pos\":0},{\"name\":\"c\",\"is_constructor\":false,\"dex_descriptor\":\"(ILjava/lang/String;)V\",\"signature\":\"c(int, java.lang.String): void\",\"def_pos\":0},{\"name\":\"d\",\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/content/Context;Ljava/lang/String;)V\",\"signature\":\"d(android.content.Context, java.lang.String): void\",\"def_pos\":0},{\"name\":\"e\",\"is_constructor\":false,\"dex_descriptor\":\"(ILjava/lang/String;J)V\",\"signature\":\"e(int, java.lang.String, long): void\",\"def_pos\":0},{\"name\":\"f\",\"is_constructor\":false,\"dex_descriptor\":\"()Lcom/reyun/solar/engine/SolarEngineConfig$Builder;\",\"signature\":\"f(): com.reyun.solar.engine.SolarEngineConfig$Builder\",\"def_pos\":0},{\"name\":\"g\",\"is_constructor\":false,\"dex_descriptor\":\"()V\",\"signature\":\"g(): void\",\"def_pos\":0},{\"name\":\"h\",\"is_constructor\":false,\"dex_descriptor\":\"(Lorg/json/JSONObject;JLandroid/content/Context;)V\",\"signature\":\"h(org.json.JSONObject, long, android.content.Context): void\",\"def_pos\":0},{\"name\":\"i\",\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/content/Context;Ljava/lang/String;)V\",\"signature\":\"i(android.content.Context, java.lang.String): void\",\"def_pos\":0},{\"name\":\"j\",\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/content/Context;Ljava/lang/String;)V\",\"signature\":\"j(android.content.Context, java.lang.String): void\",\"def_pos\":0},{\"name\":\"k\",\"is_constructor\":false,\"dex_descriptor\":\"()Z\",\"signature\":\"k(): boolean\",\"def_pos\":0},{\"name\":\"l\",\"is_constructor\":false,\"dex_descriptor\":\"(ILjava/lang/String;)V\",\"signature\":\"l(int, java.lang.String): void\",\"def_pos\":0},{\"name\":\"m\",\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/content/Context;Ljava/lang/String;)V\",\"signature\":\"m(android.content.Context, java.lang.String): void\",\"def_pos\":0},{\"name\":\"n\",\"is_constructor\":false,\"dex_descriptor\":\"(ILjava/lang/String;J)V\",\"signature\":\"n(int, java.lang.String, long): void\",\"def_pos\":0},{\"name\":\"o\",\"is_constructor\":false,\"dex_descriptor\":\"()V\",\"signature\":\"o(): void\",\"def_pos\":0}],\"inner_classes\":[\"com.neeeex.eraser.module.report.bytedance.a.C0781a\",\"com.neeeex.eraser.module.report.bytedance.a.b\",\"com.neeeex.eraser.module.report.bytedance.a.c\"],\"inner_class_count\":3,\"name\":\"a\",\"field_count\":2,\"full_name\":\"com.neeeex.eraser.module.report.bytedance.a\"}"
+                }
+              ],
+              "isError": false
+            }
+          },
+          {
+            "operation": "get_method_body",
+            "input": {
+              "class_name": "com.neeeex.eraser.module.report.bytedance.a",
+              "method_name": "h",
+              "overload_index": 0,
+              "smali_fallback": true
+            },
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"full_name\":\"com.neeeex.eraser.module.report.bytedance.a.h\",\"overload_index\":0,\"method_name\":\"h\",\"overload_count\":1,\"dex_descriptor\":\"(Lorg/json/JSONObject;JLandroid/content/Context;)V\",\"class_name\":\"com.neeeex.eraser.module.report.bytedance.a\",\"mode\":\"java\",\"body\":\"    public static void h(JSONObject jSONObject, long j10, Context context) {\\r\\n        if (jSONObject \\u003d\\u003d null) {\\r\\n            return;\\r\\n        }\\r\\n        try {\\r\\n            new b(jSONObject, j10).a(context);\\r\\n        } catch (Exception e10) {\\r\\n            com.neeeex.eraser.module.report.bytedance.c.g(e10);\\r\\n        }\\r\\n    }\",\"markers\":[],\"fell_back\":false}"
+                }
+              ],
+              "isError": false
+            }
+          }
+        ]
+      },
+      "normalized_result": {
+        "engine": {
+          "name": "jadx-headless-mcp",
+          "version": "0.7.1",
+          "artifact_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+          "source_revision": "5844800a486d2248fa949b74c9896285f5b54de2",
+          "worker_count": 1,
+          "heap_limit_mib": 3072
+        },
+        "class_name": "com.neeeex.eraser.module.report.bytedance.a",
+        "method": {
+          "name": "h",
+          "reported_signature": "h(org.json.JSONObject, long, android.content.Context): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": "(Lorg/json/JSONObject;JLandroid/content/Context;)V"
+        },
+        "overload_count": 1,
+        "representation": "java",
+        "body_status": "available",
+        "fell_back": false,
+        "markers": [],
+        "source": {
+          "status": "complete",
+          "text": "    public static void h(JSONObject jSONObject, long j10, Context context) {\r\n        if (jSONObject == null) {\r\n            return;\r\n        }\r\n        try {\r\n            new b(jSONObject, j10).a(context);\r\n        } catch (Exception e10) {\r\n            com.neeeex.eraser.module.report.bytedance.c.g(e10);\r\n        }\r\n    }",
+          "reported_total_bytes": null
+        }
+      },
+      "confidence": "derived",
+      "authority": "shipped-artifact",
+      "environment": null,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; DEX prototypes come from frozen JADX metadata. Display names may be aliases, and overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Incoming reference totals count JADX using nodes. Direct invoke entries within a using method report raw DEX code-unit offsets and method indexes, but coverage is limited to those nodes and directly matched invokes; it does not establish every possible dynamic or reflective call site.",
+        "Manifest summaries are parsed once by REA's bridge from the exact root AndroidManifest.xml resource, using namespace-aware XML attributes; decoded XML is retained. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ],
+      "relationship_coverage": null,
+      "locations": [],
+      "evidence_links": []
+    }
+  }
+}

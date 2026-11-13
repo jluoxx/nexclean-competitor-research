@@ -1,0 +1,42 @@
+[main] INFO jadx.api.JadxArgsValidator - output directory: base
+[main] INFO jadx.api.JadxDecompiler - loading ...
+[main] INFO jadx.core.utils.android.AndroidResourcesUtils - Found several 'R' class candidates: [androidx.browser.R, com.mbridge.msdk.R, com.tradplus.ads.R, com.tradplus.ads.adapter.R, androidx.lifecycle.ktx.R, androidx.lifecycle.lifecycle.viewmodel.anchor.R, androidx.lifecycle.lifecycle.viewmodel.savedstate.anchor.R, androidx.lifecycle.livedata.R, androidx.lifecycle.livedata.core.R, androidx.lifecycle.livedata.core.ktx.R, androidx.lifecycle.livedata.ktx.R, androidx.lifecycle.process.R, androidx.lifecycle.runtime.R, androidx.lifecycle.runtime.compose.R, androidx.lifecycle.service.R, androidx.lifecycle.viewmodel.R, androidx.lifecycle.viewmodel.compose.R, androidx.lifecycle.viewmodel.ktx.R, androidx.lifecycle.viewmodel.savedstate.R, androidx.recyclerview.R, app.lawnchair.compatlib.R, app.lawnchair.compatlib.eleven.R, app.lawnchair.compatlib.fifteen.R, app.lawnchair.compatlib.fourteen.R, app.lawnchair.compatlib.ten.R, app.lawnchair.compatlib.thirteen.R, app.lawnchair.compatlib.twelve.R, com.android.app.animation.R, com.android.app.search.R, com.android.app.viewcapture.R, com.android.installreferrer.R, com.android.launcher3.R, com.android.launcher3.flags.R, com.android.launcher3.icons.R, com.android.systemui.animation.R, com.android.systemui.log.R, com.android.systemui.plugin_core.R, com.android.systemui.shared.R, com.android.systemui.unfold.R, com.android.volley.R, com.android.wm.shell.R, com.apm.insight.R, com.bytedance.R, com.bytedance.applog.R, com.bytedance.applog.aggregation.R, com.bytedance.applog.log.R, com.bytedance.frameworks.encryptor.R, com.bytedance.mpaas.R, com.bytedance.pag.shell.R, com.facebook.ads.R, com.google.ads.mediation.bigo.R, com.google.ads.mediation.common.R, com.google.ads.mediation.facebook.R, com.google.ads.mediation.mintegral.R, com.google.ads.mediation.pangle.R, com.google.android.gms.ads_identifier.R, com.google.android.gms.appset.R, com.google.android.gms.base.R, com.google.android.gms.cloudmessaging.R, com.google.android.gms.common.R, com.google.android.gms.cronet.R, com.google.android.gms.location.R, com.google.android.gms.measurement.api.R, com.google.android.gms.measurement.sdk.R, com.google.android.gms.measurement.sdk.api.R, com.google.android.gms.measurement_base.R, com.google.android.gms.stats.R, com.google.android.gms.tasks.R, com.google.android.libraries.ads.mobile.sdk.R, com.iab.omid.library.tradplus.R, com.kieronquinn.app.smartspacer.sdk.R, com.kieronquinn.app.smartspacer.sdk.client.R, com.neeeex.eraser.launcher.contract.R, com.reyun.plugin.meta.R, com.reyun.remote.config.R, com.reyun.solar.R, com.thinkup.network.admob.R, com.thinkup.network.bigo.R, com.thinkup.network.facebook.R, com.thinkup.network.gtm.R, com.thinkup.network.pangle.R, com.thinkup.sdk.core.R, com.tiktok.R, com.tradplus.ads.bigo.R, com.tradplus.ads.core.R, com.tradplus.ads.facebook.R, com.tradplus.ads.fpangolin.R, com.tradplus.ads.google.R, com.tradplus.ads.mintegral.R, com.tradplus.ads.open.R, com.trustlook.sdk.R, com.vungle.ads.R, org.chickenhook.restrictionbypass.R, org.chromium.net.R, sg.bigo.ads.R]
+[main] INFO jadx.core.utils.android.AndroidResourcesUtils - App 'R' class not found, put all resources ids into : 'com.nexclean.junkclean.phoneclean.R'
+[main] WARN jadx.core.dex.nodes.RootNode - Found duplicated class: kotlin.Metadata, count: 2, sources:
+  assets/audience_network/classes.dex
+  classes8.dex
+ Keep class with source: classes8.dex, others will be removed.
+[main] INFO jadx.core.dex.nodes.RootNode - Loaded classes: 64263, methods: 370774, instructions: 10359319
+LOADED 34574
+[main] WARN jadx.core.dex.trycatch.ExceptionHandler - No support yet for finding bottom block of try body with multipe inner trys
+[main] WARN jadx.core.dex.trycatch.ExceptionHandler - No support yet for finding bottom block of try body with multipe inner trys
+[main] WARN jadx.core.dex.trycatch.ExceptionHandler - No support yet for finding bottom block of try body with multipe inner trys
+[main] WARN jadx.core.dex.trycatch.ExceptionHandler - No support yet for finding bottom block of try body with multipe inner trys
+[main] WARN jadx.core.utils.ErrorsCounter - Code restructure failed: missing block: B:24:0x0065, code lost:
+
+    if (r8.collect(r1, r7) == r0) goto L28;
+ in method: kotlinx.coroutines.flow.w.a.invokeSuspend(java.lang.Object):java.lang.Object, file: classes8.dex
+[main] WARN jadx.core.utils.ErrorsCounter - Code restructure failed: missing block: B:16:0x003b, code lost:
+
+    if (r8.collect(r1, r7) == r0) goto L28;
+ in method: kotlinx.coroutines.flow.w.a.invokeSuspend(java.lang.Object):java.lang.Object, file: classes8.dex
+[main] WARN jadx.core.utils.ErrorsCounter - Code restructure failed: missing block: B:27:0x0089, code lost:
+
+    if (kotlinx.coroutines.flow.i.i(r8, r1, r7) == r0) goto L28;
+ in method: kotlinx.coroutines.flow.w.a.invokeSuspend(java.lang.Object):java.lang.Object, file: classes8.dex
+[main] ERROR jadx.core.utils.ErrorsCounter - JadxOverflowException in pass: RegionMakerVisitor in method: com.neeeex.eraser.module.main.GuideNEEEEXActivity.f.invokeSuspend(java.lang.Object):java.lang.Object, file: classes7.dex, details: Regions count limit reached at block B:13:0x002e
+[main] ERROR jadx.core.utils.ErrorsCounter - StackOverflowError in pass: RegionMakerVisitor in method: com.neeeex.eraser.module.main.GuideNEEEEXActivity.g.invokeSuspend(java.lang.Object):java.lang.Object, file: classes7.dex, error: StackOverflowError
+[main] WARN jadx.core.utils.ErrorsCounter - Code restructure failed: missing block: B:14:0x0039, code lost:
+
+    if (r6.x0(r5) == r0) goto L15;
+ in method: com.neeeex.eraser.module.main.SplashNEEEEXActivity.b.invokeSuspend(java.lang.Object):java.lang.Object, file: classes7.dex
+[main] ERROR jadx.core.utils.ErrorsCounter - StackOverflowError in pass: RegionMakerVisitor in method: com.neeeex.ctools.features.device.DeviceStatusNEEEEXActivity.j1(kl.f):java.lang.Object, file: classes7.dex, error: StackOverflowError
+[main] WARN jadx.core.utils.ErrorsCounter - Code restructure failed: missing block: B:38:0x00c6, code lost:
+
+    if (r5.j1(r8) == r1) goto L39;
+ in method: com.neeeex.ctools.features.device.DeviceStatusNEEEEXActivity.f.invokeSuspend(java.lang.Object):java.lang.Object, file: classes7.dex
+[main] WARN jadx.core.utils.ErrorsCounter - Code restructure failed: missing block: B:20:0x0068, code lost:
+
+    if (kotlinx.coroutines.z0.b(800, r0) == r1) goto L21;
+ in method: com.neeeex.eraser.ads.h.n(kl.f):java.lang.Object, file: classes7.dex
+DONE 38

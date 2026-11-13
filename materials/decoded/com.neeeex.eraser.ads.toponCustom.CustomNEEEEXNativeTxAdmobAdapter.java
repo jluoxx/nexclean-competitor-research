@@ -1,0 +1,9 @@
+package com.neeeex.eraser.ads.toponCustom;
+
+import com.sg.sdk.api.toponCustom.CustomSDKNativeAdapter;
+import p003kotlin.Metadata;
+
+/* JADX INFO: loaded from: classes7.dex */
+@Metadata(d1 = {"\u0000\f\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0003\b\u0007\u0018\u00002\u00020\u0001B\u0007¢\u0006\u0004\b\u0002\u0010\u0003¨\u0006\u0004"}, d2 = {"Lcom/neeeex/eraser/ads/toponCustom/CustomNEEEEXNativeTxAdmobAdapter;", "Lcom/sg/sdk/api/toponCustom/CustomSDKNativeAdapter;", "<init>", "()V", "tool-feature_productionRelease"}, k = 1, mv = {2, 3, 0}, xi = 48)
+public final class CustomNEEEEXNativeTxAdmobAdapter extends CustomSDKNativeAdapter {
+}

@@ -1,0 +1,29 @@
+{
+  "base_defined_classes": 60639,
+  "decompiled_top_level_files": 602,
+  "decoded_literal_calls": 4525,
+  "scene_label_occurrences": 136,
+  "scene_label_unique_candidates": 80,
+  "rea_usable": 28,
+  "rea_calls": 29,
+  "local_strategy_files": 24,
+  "sdk_counts": {
+    "Google GMS Ads": 99,
+    "Google Next Gen Ads": 239,
+    "ThinkUp/TUSDK": 2307,
+    "SG API": 9,
+    "TradPlus": 1633,
+    "Meta": 174,
+    "Mintegral": 3592,
+    "Pangle": 2467,
+    "AppLovin": 0,
+    "Liftoff/Vungle": 669,
+    "Bigo": 2016,
+    "SolarEngine": 630,
+    "Firebase Analytics": 5,
+    "Firebase Remote Config": 18,
+    "BillingClient": 0,
+    "Pairip": 37,
+    "Trustlook": 74
+  }
+}

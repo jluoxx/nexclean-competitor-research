@@ -1,0 +1,158 @@
+{
+  "job": {
+    "id": "j011",
+    "package": "com.nexclean.junkclean.phoneclean",
+    "tool": "inspect_android_method",
+    "args": {
+      "path": "D:\\python daima\\outputs\\nexclean_analysis_20261113\\apk\\base.apk",
+      "class_name": "com.neeeex.eraser.push.AppStartupReceiver",
+      "method_name": "onReceive"
+    }
+  },
+  "start": "2026-11-13T07:50:33.997Z",
+  "end": "2026-11-13T07:50:34.511Z",
+  "result": {
+    "_meta": {
+      "provenance": {
+        "untrusted_content": true,
+        "source": "analysis_target"
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"evidence_id\":\"ev_d7d2ecf05c9a40f8d0f3efe8a099599569ce1cccd4617bcb2f36a73115f8b587\",\"subject\":{\"name\":\"base.apk\",\"digest\":{\"sha256\":\"777986bd4381674a7c2afda682847daabc5daa27789b0671e411411d504c054a\"},\"local_path\":\"D:\\\\python daima\\\\outputs\\\\nexclean_analysis_20261113\\\\apk\\\\base.apk\",\"format\":\"apk\",\"architecture\":null},\"provider\":{\"id\":\"jadx\",\"name\":\"JADX headless\",\"version\":\"0.7.1\"},\"analysis_profile\":null,\"predicate_type\":\"rea.analysis\",\"operation\":\"inspect_android_method\",\"parameters\":{\"path\":\"D:\\\\python daima\\\\outputs\\\\nexclean_analysis_20261113\\\\apk\\\\base.apk\",\"class_name\":\"com.neeeex.eraser.push.AppStartupReceiver\",\"method_name\":\"onReceive\"},\"raw_result\":{\"server\":{\"name\":\"rea-jadx-bridge\",\"version\":\"7\"},\"bridge_sha256\":\"e5044a8312dd0731f53af3f095508b3e5cff54df6b971c95d4305e2f39b4fa30\",\"jar_sha256\":\"6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75\",\"loaded\":{\"state\":\"LOADED\",\"apk_path\":\"C:\\\\Users\\\\asus\\\\AppData\\\\Local\\\\Temp\\\\rea-android-7ece852d542f018ae3901e888f6d95f5\\\\target.apk\",\"class_count\":34574,\"resource_count\":3764,\"threads\":1,\"resources\":\"full\"},\"calls\":[{\"operation\":\"rea_jvm_status\",\"input\":{},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"metadata_scope\\\":\\\"parsed_members\\\",\\\"max_heap_bytes\\\":3221225472,\\\"java_version\\\":\\\"17.0.12\\\",\\\"available_processors\\\":3,\\\"engine_reported_version\\\":\\\"0.7.1\\\"}\"}],\"isError\":false}},{\"operation\":\"get_class_summary\",\"input\":{\"class_name\":\"com.neeeex.eraser.push.AppStartupReceiver\"},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"inner_class_count\\\":0,\\\"name\\\":\\\"AppStartupReceiver\\\",\\\"field_count\\\":0,\\\"full_name\\\":\\\"com.neeeex.eraser.push.AppStartupReceiver\\\",\\\"method_count\\\":2,\\\"raw_name\\\":\\\"com.neeeex.eraser.push.AppStartupReceiver\\\",\\\"fields\\\":[],\\\"methods\\\":[{\\\"signature\\\":\\\"\\\\u003cinit\\\\u003e(): void\\\",\\\"def_pos\\\":0,\\\"name\\\":\\\"\\\\u003cinit\\\\u003e\\\",\\\"is_constructor\\\":true,\\\"dex_descriptor\\\":\\\"()V\\\"},{\\\"signature\\\":\\\"onReceive(android.content.Context, android.content.Intent): void\\\",\\\"def_pos\\\":0,\\\"name\\\":\\\"onReceive\\\",\\\"is_constructor\\\":false,\\\"dex_descriptor\\\":\\\"(Landroid/content/Context;Landroid/content/Intent;)V\\\"}],\\\"inner_classes\\\":[]}\"}],\"isError\":false}},{\"operation\":\"get_method_body\",\"input\":{\"class_name\":\"com.neeeex.eraser.push.AppStartupReceiver\",\"method_name\":\"onReceive\",\"overload_index\":0,\"smali_fallback\":true},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"fell_back\\\":false,\\\"full_name\\\":\\\"com.neeeex.eraser.push.AppStartupReceiver.onReceive\\\",\\\"overload_index\\\":0,\\\"method_name\\\":\\\"onReceive\\\",\\\"overload_count\\\":1,\\\"dex_descriptor\\\":\\\"(Landroid/content/Context;Landroid/content/Intent;)V\\\",\\\"class_name\\\":\\\"com.neeeex.eraser.push.AppStartupReceiver\\\",\\\"mode\\\":\\\"java\\\",\\\"body\\\":\\\"/* JADX INFO: loaded from: classes7.dex */\\\\r\\\\n@Metadata(d1 \\\\u003d {\\\\\\\"\\\\\\\\u0000 \\\\\\\\n\\\\\\\\u0002\\\\\\\\u0018\\\\\\\\u0002\\\\\\\\n\\\\\\\\u0002\\\\\\\\u0018\\\\\\\\u0002\\\\\\\\n\\\\\\\\u0002\\\\\\\\b\\\\\\\\u0002\\\\\\\\n\\\\\\\\u0002\\\\\\\\u0018\\\\\\\\u0002\\\\\\\\n\\\\\\\\u0000\\\\\\\\n\\\\\\\\u0002\\\\\\\\u0018\\\\\\\\u0002\\\\\\\\n\\\\\\\\u0000\\\\\\\\n\\\\\\\\u0002\\\\\\\\u0018\\\\\\\\u0002\\\\\\\\n\\\\\\\\u0002\\\\\\\\b\\\\\\\\u0003\\\\\\\\u0018\\\\\\\\u00002\\\\\\\\u00020\\\\\\\\u0001B\\\\\\\\u0007¢\\\\\\\\u0006\\\\\\\\u0004\\\\\\\\b\\\\\\\\u0002\\\\\\\\u0010\\\\\\\\u0003J\\\\\\\\u001f\\\\\\\\u0010\\\\\\\\t\\\\\\\\u001a\\\\\\\\u00020\\\\\\\\b2\\\\\\\\u0006\\\\\\\\u0010\\\\\\\\u0005\\\\\\\\u001a\\\\\\\\u00020\\\\\\\\u00042\\\\\\\\u0006\\\\\\\\u0010\\\\\\\\u0007\\\\\\\\u001a\\\\\\\\u00020\\\\\\\\u0006H\\\\\\\\u0016¢\\\\\\\\u0006\\\\\\\\u0004\\\\\\\\b\\\\\\\\t\\\\\\\\u0010\\\\\\\\n¨\\\\\\\\u0006\\\\\\\\u000b\\\\\\\"}, d2 \\\\u003d {\\\\\\\"Lcom/neeeex/eraser/push/AppStartupReceiver;\\\\\\\", \\\\\\\"Landroid/content/BroadcastReceiver;\\\\\\\", \\\\\\\"\\\\u003cinit\\\\u003e\\\\\\\", \\\\\\\"()V\\\\\\\", \\\\\\\"Landroid/content/Context;\\\\\\\", \\\\\\\"context\\\\\\\", \\\\\\\"Landroid/content/Intent;\\\\\\\", \\\\\\\"intent\\\\\\\", \\\\\\\"Lfl/m0;\\\\\\\", \\\\\\\"onReceive\\\\\\\", \\\\\\\"(Landroid/content/Context;Landroid/content/Intent;)V\\\\\\\", \\\\\\\"tool-feature_productionRelease\\\\\\\"}, k \\\\u003d 1, mv \\\\u003d {2, 3, 0}, xi \\\\u003d 48)\\\\r\\\\npublic final class AppStartupReceiver extends BroadcastReceiver {\\\\r\\\\n    @Override // android.content.BroadcastReceiver\\\\r\\\\n    public void onReceive(Context context, Intent intent) {\\\\r\\\\n        m0.a(\\\\\\\"8hT8jHkKbQ\\\\u003d\\\\u003d\\\\\\\\n\\\\\\\", \\\\\\\"kXuS+BxyGeY\\\\u003d\\\\\\\\n\\\\\\\");\\\\r\\\\n        context.getClass();\\\\r\\\\n        m0.a(\\\\\\\"uV41+JmJ\\\\\\\\n\\\\\\\", \\\\\\\"0DBBnff9Eoc\\\\u003d\\\\\\\\n\\\\\\\");\\\\r\\\\n        intent.getClass();\\\\r\\\\n        String action \\\\u003d intent.getAction();\\\\r\\\\n        if (action !\\\\u003d null) {\\\\r\\\\n            int iHashCode \\\\u003d action.hashCode();\\\\r\\\\n            if (iHashCode !\\\\u003d 798292259) {\\\\r\\\\n                if (iHashCode !\\\\u003d 1737074039 || !action.equals(m0.a(\\\\\\\"NcH9Ek+ke6c9we0FTrkx6Dfb8A9O41LQC//YI2uMWMwL/dwwbIxczBA\\\\u003d\\\\\\\\n\\\\\\\", \\\\\\\"VK+ZYCDNH4k\\\\u003d\\\\\\\\n\\\\\\\"))) {\\\\r\\\\n                    return;\\\\r\\\\n                }\\\\r\\\\n            } else if (!action.equals(m0.a(\\\\\\\"s/x0qQasXaO7/GS+B7EX7LHmebQH63vCncZPmCaIacGXxlWf\\\\\\\\n\\\\\\\", \\\\\\\"0pIQ22nFOY0\\\\u003d\\\\\\\\n\\\\\\\"))) {\\\\r\\\\n                return;\\\\r\\\\n            }\\\\r\\\\n            m0.a(\\\\\\\"pS4kNsBPv5eRLgYA10uklYEs\\\\\\\\n\\\\\\\", \\\\\\\"5F5UZbQuzeM\\\\u003d\\\\\\\\n\\\\\\\");\\\\r\\\\n            intent.getAction();\\\\r\\\\n            NEEEEXFGService.Companion companion \\\\u003d NEEEEXFGService.INSTANCE;\\\\r\\\\n            Context applicationContext \\\\u003d context.getApplicationContext();\\\\r\\\\n            m0.a(\\\\\\\"I20SqUVutPYnaRKBWnCb8Cp8A5BBNvaxaiE\\\\u003d\\\\\\\\n\\\\\\\", \\\\\\\"RAhm6DUe2J8\\\\u003d\\\\\\\\n\\\\\\\");\\\\r\\\\n            applicationContext.getClass();\\\\r\\\\n            companion.b(applicationContext);\\\\r\\\\n        }\\\\r\\\\n    }\\\",\\\"markers\\\":[]}\"}],\"isError\":false}}]},\"normalized_result\":{\"engine\":{\"name\":\"jadx-headless-mcp\",\"version\":\"0.7.1\",\"artifact_sha256\":\"6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75\",\"source_revision\":\"5844800a486d2248fa949b74c9896285f5b54de2\",\"worker_count\":1,\"heap_limit_mib\":3072},\"class_name\":\"com.neeeex.eraser.push.AppStartupReceiver\",\"method\":{\"name\":\"onReceive\",\"reported_signature\":\"onReceive(android.content.Context, android.content.Intent): void\",\"overload_index\":0,\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/content/Context;Landroid/content/Intent;)V\"},\"overload_count\":1,\"representation\":\"java\",\"body_status\":\"available\",\"fell_back\":false,\"markers\":[],\"source\":{\"status\":\"complete\",\"text\":\"/* JADX INFO: loaded from: classes7.dex */\\r\\n@Metadata(d1 = {\\\"\\\\u0000 \\\\n\\\\u0002\\\\u0018\\\\u0002\\\\n\\\\u0002\\\\u0018\\\\u0002\\\\n\\\\u0002\\\\b\\\\u0002\\\\n\\\\u0002\\\\u0018\\\\u0002\\\\n\\\\u0000\\\\n\\\\u0002\\\\u0018\\\\u0002\\\\n\\\\u0000\\\\n\\\\u0002\\\\u0018\\\\u0002\\\\n\\\\u0002\\\\b\\\\u0003\\\\u0018\\\\u00002\\\\u00020\\\\u0001B\\\\u0007¢\\\\u0006\\\\u0004\\\\b\\\\u0002\\\\u0010\\\\u0003J\\\\u001f\\\\u0010\\\\t\\\\u001a\\\\u00020\\\\b2\\\\u0006\\\\u0010\\\\u0005\\\\u001a\\\\u00020\\\\u00042\\\\u0006\\\\u0010\\\\u0007\\\\u001a\\\\u00020\\\\u0006H\\\\u0016¢\\\\u0006\\\\u0004\\\\b\\\\t\\\\u0010\\\\n¨\\\\u0006\\\\u000b\\\"}, d2 = {\\\"Lcom/neeeex/eraser/push/AppStartupReceiver;\\\", \\\"Landroid/content/BroadcastReceiver;\\\", \\\"<init>\\\", \\\"()V\\\", \\\"Landroid/content/Context;\\\", \\\"context\\\", \\\"Landroid/content/Intent;\\\", \\\"intent\\\", \\\"Lfl/m0;\\\", \\\"onReceive\\\", \\\"(Landroid/content/Context;Landroid/content/Intent;)V\\\", \\\"tool-feature_productionRelease\\\"}, k = 1, mv = {2, 3, 0}, xi = 48)\\r\\npublic final class AppStartupReceiver extends BroadcastReceiver {\\r\\n    @Override // android.content.BroadcastReceiver\\r\\n    public void onReceive(Context context, Intent intent) {\\r\\n        m0.a(\\\"8hT8jHkKbQ==\\\\n\\\", \\\"kXuS+BxyGeY=\\\\n\\\");\\r\\n        context.getClass();\\r\\n        m0.a(\\\"uV41+JmJ\\\\n\\\", \\\"0DBBnff9Eoc=\\\\n\\\");\\r\\n        intent.getClass();\\r\\n        String action = intent.getAction();\\r\\n        if (action != null) {\\r\\n            int iHashCode = action.hashCode();\\r\\n            if (iHashCode != 798292259) {\\r\\n                if (iHashCode != 1737074039 || !action.equals(m0.a(\\\"NcH9Ek+ke6c9we0FTrkx6Dfb8A9O41LQC//YI2uMWMwL/dwwbIxczBA=\\\\n\\\", \\\"VK+ZYCDNH4k=\\\\n\\\"))) {\\r\\n                    return;\\r\\n                }\\r\\n            } else if (!action.equals(m0.a(\\\"s/x0qQasXaO7/GS+B7EX7LHmebQH63vCncZPmCaIacGXxlWf\\\\n\\\", \\\"0pIQ22nFOY0=\\\\n\\\"))) {\\r\\n                return;\\r\\n            }\\r\\n            m0.a(\\\"pS4kNsBPv5eRLgYA10uklYEs\\\\n\\\", \\\"5F5UZbQuzeM=\\\\n\\\");\\r\\n            intent.getAction();\\r\\n            NEEEEXFGService.Companion companion = NEEEEXFGService.INSTANCE;\\r\\n            Context applicationContext = context.getApplicationContext();\\r\\n            m0.a(\\\"I20SqUVutPYnaRKBWnCb8Cp8A5BBNvaxaiE=\\\\n\\\", \\\"RAhm6DUe2J8=\\\\n\\\");\\r\\n            applicationContext.getClass();\\r\\n            companion.b(applicationContext);\\r\\n        }\\r\\n    }\",\"reported_total_bytes\":null}},\"confidence\":\"derived\",\"authority\":\"shipped-artifact\",\"environment\":null,\"limitations\":[\"Static decompiler observations do not establish runtime behavior; the APK is never executed.\",\"Method signatures use provider display types; DEX prototypes come from frozen JADX metadata. Display names may be aliases, and overload indices are local to this engine and artifact.\",\"Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.\",\"Incoming reference totals count JADX using nodes. Direct invoke entries within a using method report raw DEX code-unit offsets and method indexes, but coverage is limited to those nodes and directly matched invokes; it does not establish every possible dynamic or reflective call site.\",\"Manifest summaries are parsed once by REA's bridge from the exact root AndroidManifest.xml resource, using namespace-aware XML attributes; decoded XML is retained. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider.\"],\"relationship_coverage\":null,\"locations\":[],\"evidence_links\":[]}"
+      }
+    ],
+    "structuredContent": {
+      "evidence_id": "ev_d7d2ecf05c9a40f8d0f3efe8a099599569ce1cccd4617bcb2f36a73115f8b587",
+      "subject": {
+        "name": "base.apk",
+        "digest": {
+          "sha256": "777986bd4381674a7c2afda682847daabc5daa27789b0671e411411d504c054a"
+        },
+        "local_path": "D:\\python daima\\outputs\\nexclean_analysis_20261113\\apk\\base.apk",
+        "format": "apk",
+        "architecture": null
+      },
+      "provider": {
+        "id": "jadx",
+        "name": "JADX headless",
+        "version": "0.7.1"
+      },
+      "analysis_profile": null,
+      "predicate_type": "rea.analysis",
+      "operation": "inspect_android_method",
+      "parameters": {
+        "path": "D:\\python daima\\outputs\\nexclean_analysis_20261113\\apk\\base.apk",
+        "class_name": "com.neeeex.eraser.push.AppStartupReceiver",
+        "method_name": "onReceive"
+      },
+      "raw_result": {
+        "server": {
+          "name": "rea-jadx-bridge",
+          "version": "7"
+        },
+        "bridge_sha256": "e5044a8312dd0731f53af3f095508b3e5cff54df6b971c95d4305e2f39b4fa30",
+        "jar_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+        "loaded": {
+          "state": "LOADED",
+          "apk_path": "C:\\Users\\asus\\AppData\\Local\\Temp\\rea-android-7ece852d542f018ae3901e888f6d95f5\\target.apk",
+          "class_count": 34574,
+          "resource_count": 3764,
+          "threads": 1,
+          "resources": "full"
+        },
+        "calls": [
+          {
+            "operation": "rea_jvm_status",
+            "input": {},
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"metadata_scope\":\"parsed_members\",\"max_heap_bytes\":3221225472,\"java_version\":\"17.0.12\",\"available_processors\":3,\"engine_reported_version\":\"0.7.1\"}"
+                }
+              ],
+              "isError": false
+            }
+          },
+          {
+            "operation": "get_class_summary",
+            "input": {
+              "class_name": "com.neeeex.eraser.push.AppStartupReceiver"
+            },
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"inner_class_count\":0,\"name\":\"AppStartupReceiver\",\"field_count\":0,\"full_name\":\"com.neeeex.eraser.push.AppStartupReceiver\",\"method_count\":2,\"raw_name\":\"com.neeeex.eraser.push.AppStartupReceiver\",\"fields\":[],\"methods\":[{\"signature\":\"\\u003cinit\\u003e(): void\",\"def_pos\":0,\"name\":\"\\u003cinit\\u003e\",\"is_constructor\":true,\"dex_descriptor\":\"()V\"},{\"signature\":\"onReceive(android.content.Context, android.content.Intent): void\",\"def_pos\":0,\"name\":\"onReceive\",\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/content/Context;Landroid/content/Intent;)V\"}],\"inner_classes\":[]}"
+                }
+              ],
+              "isError": false
+            }
+          },
+          {
+            "operation": "get_method_body",
+            "input": {
+              "class_name": "com.neeeex.eraser.push.AppStartupReceiver",
+              "method_name": "onReceive",
+              "overload_index": 0,
+              "smali_fallback": true
+            },
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"fell_back\":false,\"full_name\":\"com.neeeex.eraser.push.AppStartupReceiver.onReceive\",\"overload_index\":0,\"method_name\":\"onReceive\",\"overload_count\":1,\"dex_descriptor\":\"(Landroid/content/Context;Landroid/content/Intent;)V\",\"class_name\":\"com.neeeex.eraser.push.AppStartupReceiver\",\"mode\":\"java\",\"body\":\"/* JADX INFO: loaded from: classes7.dex */\\r\\n@Metadata(d1 \\u003d {\\\"\\\\u0000 \\\\n\\\\u0002\\\\u0018\\\\u0002\\\\n\\\\u0002\\\\u0018\\\\u0002\\\\n\\\\u0002\\\\b\\\\u0002\\\\n\\\\u0002\\\\u0018\\\\u0002\\\\n\\\\u0000\\\\n\\\\u0002\\\\u0018\\\\u0002\\\\n\\\\u0000\\\\n\\\\u0002\\\\u0018\\\\u0002\\\\n\\\\u0002\\\\b\\\\u0003\\\\u0018\\\\u00002\\\\u00020\\\\u0001B\\\\u0007¢\\\\u0006\\\\u0004\\\\b\\\\u0002\\\\u0010\\\\u0003J\\\\u001f\\\\u0010\\\\t\\\\u001a\\\\u00020\\\\b2\\\\u0006\\\\u0010\\\\u0005\\\\u001a\\\\u00020\\\\u00042\\\\u0006\\\\u0010\\\\u0007\\\\u001a\\\\u00020\\\\u0006H\\\\u0016¢\\\\u0006\\\\u0004\\\\b\\\\t\\\\u0010\\\\n¨\\\\u0006\\\\u000b\\\"}, d2 \\u003d {\\\"Lcom/neeeex/eraser/push/AppStartupReceiver;\\\", \\\"Landroid/content/BroadcastReceiver;\\\", \\\"\\u003cinit\\u003e\\\", \\\"()V\\\", \\\"Landroid/content/Context;\\\", \\\"context\\\", \\\"Landroid/content/Intent;\\\", \\\"intent\\\", \\\"Lfl/m0;\\\", \\\"onReceive\\\", \\\"(Landroid/content/Context;Landroid/content/Intent;)V\\\", \\\"tool-feature_productionRelease\\\"}, k \\u003d 1, mv \\u003d {2, 3, 0}, xi \\u003d 48)\\r\\npublic final class AppStartupReceiver extends BroadcastReceiver {\\r\\n    @Override // android.content.BroadcastReceiver\\r\\n    public void onReceive(Context context, Intent intent) {\\r\\n        m0.a(\\\"8hT8jHkKbQ\\u003d\\u003d\\\\n\\\", \\\"kXuS+BxyGeY\\u003d\\\\n\\\");\\r\\n        context.getClass();\\r\\n        m0.a(\\\"uV41+JmJ\\\\n\\\", \\\"0DBBnff9Eoc\\u003d\\\\n\\\");\\r\\n        intent.getClass();\\r\\n        String action \\u003d intent.getAction();\\r\\n        if (action !\\u003d null) {\\r\\n            int iHashCode \\u003d action.hashCode();\\r\\n            if (iHashCode !\\u003d 798292259) {\\r\\n                if (iHashCode !\\u003d 1737074039 || !action.equals(m0.a(\\\"NcH9Ek+ke6c9we0FTrkx6Dfb8A9O41LQC//YI2uMWMwL/dwwbIxczBA\\u003d\\\\n\\\", \\\"VK+ZYCDNH4k\\u003d\\\\n\\\"))) {\\r\\n                    return;\\r\\n                }\\r\\n            } else if (!action.equals(m0.a(\\\"s/x0qQasXaO7/GS+B7EX7LHmebQH63vCncZPmCaIacGXxlWf\\\\n\\\", \\\"0pIQ22nFOY0\\u003d\\\\n\\\"))) {\\r\\n                return;\\r\\n            }\\r\\n            m0.a(\\\"pS4kNsBPv5eRLgYA10uklYEs\\\\n\\\", \\\"5F5UZbQuzeM\\u003d\\\\n\\\");\\r\\n            intent.getAction();\\r\\n            NEEEEXFGService.Companion companion \\u003d NEEEEXFGService.INSTANCE;\\r\\n            Context applicationContext \\u003d context.getApplicationContext();\\r\\n            m0.a(\\\"I20SqUVutPYnaRKBWnCb8Cp8A5BBNvaxaiE\\u003d\\\\n\\\", \\\"RAhm6DUe2J8\\u003d\\\\n\\\");\\r\\n            applicationContext.getClass();\\r\\n            companion.b(applicationContext);\\r\\n        }\\r\\n    }\",\"markers\":[]}"
+                }
+              ],
+              "isError": false
+            }
+          }
+        ]
+      },
+      "normalized_result": {
+        "engine": {
+          "name": "jadx-headless-mcp",
+          "version": "0.7.1",
+          "artifact_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+          "source_revision": "5844800a486d2248fa949b74c9896285f5b54de2",
+          "worker_count": 1,
+          "heap_limit_mib": 3072
+        },
+        "class_name": "com.neeeex.eraser.push.AppStartupReceiver",
+        "method": {
+          "name": "onReceive",
+          "reported_signature": "onReceive(android.content.Context, android.content.Intent): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": "(Landroid/content/Context;Landroid/content/Intent;)V"
+        },
+        "overload_count": 1,
+        "representation": "java",
+        "body_status": "available",
+        "fell_back": false,
+        "markers": [],
+        "source": {
+          "status": "complete",
+          "text": "/* JADX INFO: loaded from: classes7.dex */\r\n@Metadata(d1 = {\"\\u0000 \\n\\u0002\\u0018\\u0002\\n\\u0002\\u0018\\u0002\\n\\u0002\\b\\u0002\\n\\u0002\\u0018\\u0002\\n\\u0000\\n\\u0002\\u0018\\u0002\\n\\u0000\\n\\u0002\\u0018\\u0002\\n\\u0002\\b\\u0003\\u0018\\u00002\\u00020\\u0001B\\u0007¢\\u0006\\u0004\\b\\u0002\\u0010\\u0003J\\u001f\\u0010\\t\\u001a\\u00020\\b2\\u0006\\u0010\\u0005\\u001a\\u00020\\u00042\\u0006\\u0010\\u0007\\u001a\\u00020\\u0006H\\u0016¢\\u0006\\u0004\\b\\t\\u0010\\n¨\\u0006\\u000b\"}, d2 = {\"Lcom/neeeex/eraser/push/AppStartupReceiver;\", \"Landroid/content/BroadcastReceiver;\", \"<init>\", \"()V\", \"Landroid/content/Context;\", \"context\", \"Landroid/content/Intent;\", \"intent\", \"Lfl/m0;\", \"onReceive\", \"(Landroid/content/Context;Landroid/content/Intent;)V\", \"tool-feature_productionRelease\"}, k = 1, mv = {2, 3, 0}, xi = 48)\r\npublic final class AppStartupReceiver extends BroadcastReceiver {\r\n    @Override // android.content.BroadcastReceiver\r\n    public void onReceive(Context context, Intent intent) {\r\n        m0.a(\"8hT8jHkKbQ==\\n\", \"kXuS+BxyGeY=\\n\");\r\n        context.getClass();\r\n        m0.a(\"uV41+JmJ\\n\", \"0DBBnff9Eoc=\\n\");\r\n        intent.getClass();\r\n        String action = intent.getAction();\r\n        if (action != null) {\r\n            int iHashCode = action.hashCode();\r\n            if (iHashCode != 798292259) {\r\n                if (iHashCode != 1737074039 || !action.equals(m0.a(\"NcH9Ek+ke6c9we0FTrkx6Dfb8A9O41LQC//YI2uMWMwL/dwwbIxczBA=\\n\", \"VK+ZYCDNH4k=\\n\"))) {\r\n                    return;\r\n                }\r\n            } else if (!action.equals(m0.a(\"s/x0qQasXaO7/GS+B7EX7LHmebQH63vCncZPmCaIacGXxlWf\\n\", \"0pIQ22nFOY0=\\n\"))) {\r\n                return;\r\n            }\r\n            m0.a(\"pS4kNsBPv5eRLgYA10uklYEs\\n\", \"5F5UZbQuzeM=\\n\");\r\n            intent.getAction();\r\n            NEEEEXFGService.Companion companion = NEEEEXFGService.INSTANCE;\r\n            Context applicationContext = context.getApplicationContext();\r\n            m0.a(\"I20SqUVutPYnaRKBWnCb8Cp8A5BBNvaxaiE=\\n\", \"RAhm6DUe2J8=\\n\");\r\n            applicationContext.getClass();\r\n            companion.b(applicationContext);\r\n        }\r\n    }",
+          "reported_total_bytes": null
+        }
+      },
+      "confidence": "derived",
+      "authority": "shipped-artifact",
+      "environment": null,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; DEX prototypes come from frozen JADX metadata. Display names may be aliases, and overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Incoming reference totals count JADX using nodes. Direct invoke entries within a using method report raw DEX code-unit offsets and method indexes, but coverage is limited to those nodes and directly matched invokes; it does not establish every possible dynamic or reflective call site.",
+        "Manifest summaries are parsed once by REA's bridge from the exact root AndroidManifest.xml resource, using namespace-aware XML attributes; decoded XML is retained. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ],
+      "relationship_coverage": null,
+      "locations": [],
+      "evidence_links": []
+    }
+  }
+}

@@ -1,0 +1,12 @@
+﻿键或来源,配置层,包内默认,单位,赋值与消费者,行为和注意,实际线上值
+KEY_NEEEEX_FORCE_ATTR,Firebase Remote Config,false（读取缺省）,boolean,ni.i.m → b0 → attribution.a.k,true 可使归因门控成立；false 仍可能因 channel_id 非 -1 成立,未知
+key_neeeex_minus_one_open_ad_enabled,Firebase Remote Config,true,boolean,ni.i.x → OpenSceneAdPolicy,控制负一屏开屏广告候选,未知
+key_neeeex_minus_one_open_ad_interval_seconds,Firebase Remote Config,300,秒；getter ×1000,ni.i.F/L/J/t → MinusOneAdPolicy,非法小于1或过大值回退300；非关闭开关,未知
+key_neeeex_home_clear_default_enabled,Firebase Remote Config,true,boolean,ni.i.v → HomeResolverPromptController.handleHomeSignal,控制桌面选择提示入口；未证明清除系统默认桌面,未知
+key_neeeex_launcher_view_notification_enabled,Firebase Remote Config,true,boolean,ni.i.w → push.b.a → LauncherFloatingNotification,桌面内通知浮层开关,未知
+key_neeeex_max_one_day_ss,Firebase Remote Config,20,次数,ni.i.n → push.h.j/c,c0.e 条件分支才写/用；另一路999；不覆盖桌面浮层7次上限,未知
+key_neeeex_ongoing_interval_ss,Firebase Remote Config,180,consumer qi.b 按分钟 ×60000,ni.i.o → push.h.k/f → qi.b,条件分支默认180分钟；存在5秒特殊分支及其他30分钟回退,未知
+key_neeeex_broadcast_notify_interval_ss,Firebase Remote Config,18,写入×60成秒，读取×1000毫秒,ni.i.l → push.h.i/a,条件分支默认18分钟；另一路300秒,未知
+key_neeeex_trigger_notify_interval_ss,Firebase Remote Config,18,写入×60成秒，读取×1000毫秒,ni.i.p → push.h.l/g,条件分支默认18分钟；另一路600秒,未知
+localStrategy/*（24文件）,APK assets,包内 Base64 JSON,SDK私有schema,hj.c3 → TUSDK.setLocalStrategyAssetPath,回退策略，不能称当前线上路由、底价、平台占比,未请求
+app/init,业务 HTTPS 接口,nexclean3.com/prod-api/app/init,表单/签名上下文,li.a.c/e/f,所读返回 b() 只解析 code，不能当广告配置拉取源,未请求

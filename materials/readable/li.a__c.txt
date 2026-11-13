@@ -1,0 +1,17 @@
+    public final Map c(c cVar) {
+        HashMap map = new HashMap();
+        try {
+            b bVar = new b(e(d(), cVar.f87863c, cVar.f87864d));
+            map.put(m0.a("QsIoCQ==\n", "IKNbbEZ88FU=\n"), bVar.f87858a);
+            map.put(m0.a("wqQFkExNWEHG\n", "ts1o9T85OSw=\n"), bVar.f87859b);
+            map.put(m0.a("zzNl+Ns=\n", "oVwLm74YpoU=\n"), bVar.f87860c);
+            map.put(m0.a("3SyFiv0Q17bINw==\n", "rVn24qJkuN0=\n"), cVar.f87862b);
+            map.put(m0.a("qtjkbA==\n", "2bGDArEC/YQ=\n"), bVar.a());
+            map.put(m0.a("3FxjCg==\n", "uz0KbjzTXfw=\n"), y.Companion.b());
+            map.put(m0.a("32VYhCa9UPPBZVaK\n", "rwQ770faNaw=\n"), cVar.f87861a.getPackageName());
+            return map;
+        } catch (Exception e10) {
+            e10.printStackTrace();
+            return map;
+        }
+    }

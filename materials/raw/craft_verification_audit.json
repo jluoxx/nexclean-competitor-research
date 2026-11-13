@@ -1,0 +1,74 @@
+[
+  {
+    "id": "attribution_gate",
+    "class": "com.neeeex.eraser.module.report.bytedance.a",
+    "method": "k",
+    "exit_code": 0,
+    "seconds": 0.7823963165283203,
+    "usable": true,
+    "raw": "craft_attribution_gate.json"
+  },
+  {
+    "id": "minus_one_eligible",
+    "class": "com.neeeex.eraser.launcher.MinusOneAdPolicy",
+    "method": "eligible",
+    "exit_code": 0,
+    "seconds": 0.689314603805542,
+    "usable": true,
+    "raw": "craft_minus_one_eligible.json"
+  },
+  {
+    "id": "remote_apply",
+    "class": "ni.i",
+    "method": "m",
+    "exit_code": 0,
+    "seconds": 0.8707675933837891,
+    "usable": true,
+    "raw": "craft_remote_apply.json"
+  },
+  {
+    "id": "remote_interval",
+    "class": "ni.i",
+    "method": "t",
+    "exit_code": 0,
+    "seconds": 0.7594971656799316,
+    "usable": true,
+    "raw": "craft_remote_interval.json"
+  },
+  {
+    "id": "launcher_notice_cap",
+    "class": "com.neeeex.eraser.push.b",
+    "method": "a",
+    "exit_code": 0,
+    "seconds": 0.528383731842041,
+    "usable": true,
+    "raw": "craft_launcher_notice_cap.json"
+  },
+  {
+    "id": "junk_complete",
+    "class": "com.neeeex.similar3p.junk.ui.JunkCleanNEEEEXActivity",
+    "method": "p1",
+    "exit_code": 1,
+    "seconds": 0.5537705421447754,
+    "usable": false,
+    "raw": "craft_junk_complete.json"
+  },
+  {
+    "id": "xor",
+    "class": "nb.a",
+    "method": "b",
+    "exit_code": 0,
+    "seconds": 0.6617293357849121,
+    "usable": true,
+    "raw": "craft_xor.json"
+  },
+  {
+    "id": "junk_complete_corrected",
+    "class": "com.neeeex.similar3p.junk.ui.JunkCleanNEEEEXActivity",
+    "method": "H0",
+    "exit_code": 0,
+    "seconds": 0.4683856964111328,
+    "usable": true,
+    "raw": "craft_junk_complete_corrected.json"
+  }
+]

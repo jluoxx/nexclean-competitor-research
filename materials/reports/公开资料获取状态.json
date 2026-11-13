@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-13",
+  "target": "https://play.google.com/store/apps/details?id=com.nexclean.junkclean.phoneclean",
+  "attempts": [
+    {
+      "tool": "web.run open",
+      "result": "http 400 Unsupported content type"
+    },
+    {
+      "tool": "web.run search_query",
+      "queries": [
+        "\"com.nexclean.junkclean.phoneclean\" NexClean",
+        "\"NexClean\" \"ads\" Google"
+      ],
+      "result": "http 400 Unsupported content type"
+    }
+  ],
+  "boundary": "No usable public page or advertising record obtained; no negative advertising conclusion."
+}

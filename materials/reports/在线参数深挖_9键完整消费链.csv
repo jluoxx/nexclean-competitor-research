@@ -1,0 +1,10 @@
+﻿原始键,类型,包内默认与单位,parser到消费者,生效条件,动作,缺值零值非法值,请求失败行为,缓存与单位转换
+KEY_NEEEEX_FORCE_ATTR,boolean,false（Firebase静态缺省）,m → b0.z → attribution.a.k,全部设备；不等于真实买量,true直接满足门控；false仍可因channel_id!=-1成立,无值返回false；已有激活缓存可能仍被读取,请求失败也执行命令，读当前Firebase状态并写MMKV,b0同名键；默认MMKV
+key_neeeex_minus_one_open_ad_enabled,boolean,true,H/r → b0.z → x → OpenSceneAdPolicy.canShowOnMinusOneSwipe,全部设备；另受归因/就绪/首次时长/冷却限制,开关false直接拒绝负一屏广告资格,成功应用时缺值/转换异常回退true；初始化source=0不写,失败完成回调不应用该键，保留业务缓存,b0同名键；默认MMKV
+key_neeeex_minus_one_open_ad_interval_seconds,long,300 秒,F/L/J → b0.C → t → MinusOneAdPolicy.eligible,全部设备；只有负一屏广告间隔,满足冷却才有资格；与首次启动10分钟门槛独立,有效1≤值<9223372036854776；0/负/越界/异常回退300秒,失败完成回调不应用该键；getter仍校验旧MMKV值,原始秒存MMKV；t() ×1000毫秒
+key_neeeex_home_clear_default_enabled,boolean,true,H/r → b0.z → v → HomeResolverPromptController.handleHomeSignal,全部设备；提示时再查归因与默认桌面,允许Home信号触发提示入口；生产8小时间隔,成功应用缺值/转换异常回退true；不能按键名认定清默认桌面,失败完成回调跳过，保留缓存,b0同名键；提示时间另存SharedPreferences last_pre_time
+key_neeeex_launcher_view_notification_enabled,boolean,true,H/r → b0.z → w → push.b.a → LauncherFloatingNotification,全部设备；另查门控/3小时/40分钟/7次,控制Launcher内浮层资格，不是系统通知总开关,成功应用缺值/转换异常回退true,失败完成回调跳过，保留缓存,b0同名MMKV；浮层时间/次数在独立SharedPreferences
+key_neeeex_max_one_day_ss,long,20 次,n/A → push.h.j → b0.C → h.c → push.l.m/p,仅Samsung判定组，且p()发送路径,当天n_count_日期达到上限时阻止该发送路径,A把0视为缺值回退20；负数未另校验，会使count>=负数成立,失败也重读当前激活值/缺省；非Samsung不写不读此键,同名MMKV；天计数在n_count_yyyy-MM-dd
+key_neeeex_ongoing_interval_ss,long,180 分钟,o/A → push.h.k → b0.C → h.f → NotifyListener.n → qi.b.a,Samsung组，且未命中缺失通知5秒特例,普通常驻刷新比较 elapsed>=60000*值,0回退180；负数未校验；不能称统一刷新频率,失败也执行；非Samsung使用30分钟分支,同名MMKV存分钟；last_refresh_ongoning_time存时间
+key_neeeex_broadcast_notify_interval_ss,long,18 分钟（未初始化写入时getter1080秒）,l/A → push.h.i → b0.C → h.a → push.c.D,Samsung组；普通推送还需其他资格,写值×60成秒，getter×1000成毫秒；比较中另减1000,0回退18；负数/乘法溢出未在该setter过滤,失败也执行；非Samsung读brNtInterSeconds，默认300秒,同名MMKV存秒；last_post_time存时间
+key_neeeex_trigger_notify_interval_ss,long,18 分钟（getter兜底1080秒）,p/A → push.h.l → b0.C → h.g → push.c.D,Samsung组且i10==2时追加第二个间隔条件,与broadcast间隔同时满足，并非二选一,0回退18；负数/溢出未另过滤,失败也执行；非Samsung读pNtInterSeconds，默认600秒,同名MMKV存秒；last_post_time存时间

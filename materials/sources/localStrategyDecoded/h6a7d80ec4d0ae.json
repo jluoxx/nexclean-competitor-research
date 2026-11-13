@@ -1,0 +1,13 @@
+{
+  "s_p_data": {},
+  "a_c": {
+    "app_st_param": "KLUv/QQAGQYACsABCJBOEIC6twMqAkFUKgJCRSoCQkcqAkhSKgJDWSoCQ1oqAkRLKgJFRSoCRkkqAkZSKgJERSoCR1IqAkhVKgJJUyoCSUUqAklUKgJMVioCTEkqAkxUKgJMVSoCTVQqAk5MKgJOTyoCUEwqAlBUKgJSTyoCU0sqAlNJKgJFUyoCU0UqAkdCKgJVSziw6gFAgIAZSAFSAhgCWLDqAWACaAFwAXgCmAEBsAECugEGCFwSAggEugEGCB4SAggCwAEC0AFkTzOtlg==",
+    "da_spl": "{\"1004631\":{\"0\":50,\"2\":50},\"1004632\":{\"0\":10,\"1\":10,\"2\":10,\"3\":10,\"4\":10},\"1004634\":{\"0\":10,\"2\":10},\"1004660\":{\"0\":100,\"1\":100,\"2\":100,\"3\":100,\"4\":100},\"1004665\":{\"0\":100,\"1\":100,\"2\":100,\"3\":100,\"4\":100},\"1004668\":{\"0\":100,\"1\":100,\"2\":100,\"3\":100,\"4\":100}}",
+    "ser_cs": "sg-A",
+    "ser_tg": "0ef51bedc832885b795f9748a78c0359",
+    "ser_vs": ""
+  },
+  "st": {
+    "anr_sw": 2
+  }
+}

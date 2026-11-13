@@ -1,0 +1,159 @@
+{
+  "package": "com.nexclean.junkclean.phoneclean",
+  "version": "1.3.5",
+  "version_code": 10305,
+  "serial": "[已移除设备序列号]",
+  "source": "installed Google Play",
+  "files": [
+    {
+      "file": "base.apk",
+      "bytes": 70283870,
+      "sha256": "777986bd4381674a7c2afda682847daabc5daa27789b0671e411411d504c054a",
+      "zip_valid": true
+    },
+    {
+      "file": "split_config.ar.apk",
+      "bytes": 364754,
+      "sha256": "462c51344830d427fd7375b4103127bdcc750ad57937428227b473b368a1f3dc",
+      "zip_valid": true
+    },
+    {
+      "file": "split_config.arm64_v8a.apk",
+      "bytes": 4752658,
+      "sha256": "4b5b96331115659e93781e69161e9eb7da166fe4cd262b0dbe32f0f67cfd5f70",
+      "zip_valid": true
+    },
+    {
+      "file": "split_config.de.apk",
+      "bytes": 180434,
+      "sha256": "17f557a75660997797df098b141a21d1852f0795abad3da411d85822bbda842e",
+      "zip_valid": true
+    },
+    {
+      "file": "split_config.en.apk",
+      "bytes": 520402,
+      "sha256": "b326b4198fed778eeee43b5d8e10ea9f0d1297c33ac34929a60170643862cc18",
+      "zip_valid": true
+    },
+    {
+      "file": "split_config.es.apk",
+      "bytes": 209106,
+      "sha256": "0c70d9db7db0e022f3a4eeb8519c5a8b15abe02e84bfd199e6ad77c03999a198",
+      "zip_valid": true
+    },
+    {
+      "file": "split_config.fa.apk",
+      "bytes": 131282,
+      "sha256": "ee3483c195a515eef0b655f18a5fd49797235bdf8c4c4252e2fe81c49254cce3",
+      "zip_valid": true
+    },
+    {
+      "file": "split_config.fr.apk",
+      "bytes": 209106,
+      "sha256": "5611c63b14cb8e8f7b8b1a8019e05ddb48a008fcf835b77fe50ae4280ba02d93",
+      "zip_valid": true
+    },
+    {
+      "file": "split_config.hi.apk",
+      "bytes": 147666,
+      "sha256": "b5507eb2a4dc1827abf5c6e78ad9edb66fb5b9fa070afc0034360426bc41a03d",
+      "zip_valid": true
+    },
+    {
+      "file": "split_config.in.apk",
+      "bytes": 180434,
+      "sha256": "cac521da8e5e3b41f9f509864bd91f8102f522fe04660dc016fb6f797f8b384f",
+      "zip_valid": true
+    },
+    {
+      "file": "split_config.it.apk",
+      "bytes": 176338,
+      "sha256": "7925d289bf8b5c208019bd0b809934673b863e8b06d12d1346b0dd99b93b823f",
+      "zip_valid": true
+    },
+    {
+      "file": "split_config.iw.apk",
+      "bytes": 127186,
+      "sha256": "1980415bcfbbcd040e98d045ed6b175040a1d3b0b6dec689b3bbfc8e437b4397",
+      "zip_valid": true
+    },
+    {
+      "file": "split_config.ja.apk",
+      "bytes": 188626,
+      "sha256": "e0d7c6f6de77de7a11295f23b4db76cc586fb234e3a759b5f775960d47a0524c",
+      "zip_valid": true
+    },
+    {
+      "file": "split_config.ko.apk",
+      "bytes": 176338,
+      "sha256": "bcfff5d45b2c2bb43e99c6075eed48dc33c61a375ddd7248ded2576172350fa5",
+      "zip_valid": true
+    },
+    {
+      "file": "split_config.ms.apk",
+      "bytes": 127186,
+      "sha256": "2408420c3eac6e5fea8de2f640143300a0424e0097849ab89fb8569539012e27",
+      "zip_valid": true
+    },
+    {
+      "file": "split_config.nl.apk",
+      "bytes": 168146,
+      "sha256": "999712e27ed9195e0736a94a57fcad408a8d76c1ce1d59f2df87662f0205d8ff",
+      "zip_valid": true
+    },
+    {
+      "file": "split_config.pl.apk",
+      "bytes": 123090,
+      "sha256": "af300eae33b05c8f814c19330b6e2371f0e4b2b17e0383a7b28d6f4514986279",
+      "zip_valid": true
+    },
+    {
+      "file": "split_config.pt.apk",
+      "bytes": 229586,
+      "sha256": "facd16eec81a8401952b3af683fa3c8a89fc3ffdc6bade101796ec5cb87067f2",
+      "zip_valid": true
+    },
+    {
+      "file": "split_config.ro.apk",
+      "bytes": 114898,
+      "sha256": "b4bbff89e9cb7b5e3a0bf29c3eff1983d90c7a0a0bef5327140dc1923ac10c22",
+      "zip_valid": true
+    },
+    {
+      "file": "split_config.ru.apk",
+      "bytes": 160111,
+      "sha256": "8f3f8a3de97f79aae084af71bc5098bfe4b36f30c85d0b5d43c9b2a1cd3f65dc",
+      "zip_valid": true
+    },
+    {
+      "file": "split_config.tr.apk",
+      "bytes": 176338,
+      "sha256": "7302494a35a33cc86d49d983387757bfea60d895e678037ebc232acdc17c7caf",
+      "zip_valid": true
+    },
+    {
+      "file": "split_config.uz.apk",
+      "bytes": 114898,
+      "sha256": "d0ce4d6aebe919fdaabc9e5c504adbd0bdf1177fb9a915a4f6a908801894fbe2",
+      "zip_valid": true
+    },
+    {
+      "file": "split_config.vi.apk",
+      "bytes": 184530,
+      "sha256": "9703b0ca88371b101c8aa35be73c6b15753899f4e87d0c67d6495564ca7518b0",
+      "zip_valid": true
+    },
+    {
+      "file": "split_config.xxhdpi.apk",
+      "bytes": 118331,
+      "sha256": "32f36f0496d795a96f168fba0ba7feff5777b61dcf2a958e3c903f2da702d4b0",
+      "zip_valid": true
+    },
+    {
+      "file": "split_config.zh.apk",
+      "bytes": 286930,
+      "sha256": "3bc2252f202e2fd639a9dd3b78a4f629b200bf11baf245f4b1fdbd7feac2e489",
+      "zip_valid": true
+    }
+  ]
+}

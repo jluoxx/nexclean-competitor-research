@@ -1,0 +1,10 @@
+{
+  "report_chars": 14766,
+  "findings": 29,
+  "config_rows": 11,
+  "source_locators_not_matched": [],
+  "local_links_checked": 45,
+  "missing_local_links": [],
+  "runtime_interactions": "not executed",
+  "public_research": "blocked by upstream unsupported content type"
+}

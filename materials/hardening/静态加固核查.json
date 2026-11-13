@@ -1,0 +1,508 @@
+{
+  "sample_sha256": "777986bd4381674a7c2afda682847daabc5daa27789b0671e411411d504c054a",
+  "scope": "25 APK files; all DEX class_defs and ZIP entries; native libraries filenames and selected printable strings. No native disassembly or runtime loading trace.",
+  "apk_count": 25,
+  "dexes": [
+    {
+      "apk": "base.apk",
+      "entry": "classes.dex",
+      "defined_classes": 11873
+    },
+    {
+      "apk": "base.apk",
+      "entry": "classes2.dex",
+      "defined_classes": 38
+    },
+    {
+      "apk": "base.apk",
+      "entry": "classes3.dex",
+      "defined_classes": 1
+    },
+    {
+      "apk": "base.apk",
+      "entry": "classes4.dex",
+      "defined_classes": 10547
+    },
+    {
+      "apk": "base.apk",
+      "entry": "classes5.dex",
+      "defined_classes": 9600
+    },
+    {
+      "apk": "base.apk",
+      "entry": "classes6.dex",
+      "defined_classes": 9979
+    },
+    {
+      "apk": "base.apk",
+      "entry": "classes7.dex",
+      "defined_classes": 9121
+    },
+    {
+      "apk": "base.apk",
+      "entry": "classes8.dex",
+      "defined_classes": 9480
+    }
+  ],
+  "defined_classes": 60639,
+  "profiles": [
+    {
+      "profile": "360加固",
+      "class_patterns": [
+        "com.stub.StubApp"
+      ],
+      "file_patterns": [
+        "libjiagu",
+        "assets/jiagu",
+        "assets/.jiagu"
+      ],
+      "class_definition_hits": [],
+      "file_hits": []
+    },
+    {
+      "profile": "爱加密类加固",
+      "class_patterns": [
+        "com.shell.SuperApplication",
+        "com.shell.NativeApplication",
+        "com.ijiami."
+      ],
+      "file_patterns": [
+        "libexec.so",
+        "libexecmain.so",
+        "ijiami.dat",
+        "ijiami.ajm"
+      ],
+      "class_definition_hits": [],
+      "file_hits": []
+    },
+    {
+      "profile": "梆梆类加固",
+      "class_patterns": [
+        "com.secneo.apkwrapper.",
+        "com.bangcle."
+      ],
+      "file_patterns": [
+        "libDexHelper.so",
+        "libSecShell.so",
+        "libsecexe.so"
+      ],
+      "class_definition_hits": [],
+      "file_hits": []
+    },
+    {
+      "profile": "腾讯乐固",
+      "class_patterns": [
+        "com.tencent.StubShell."
+      ],
+      "file_patterns": [
+        "libshella.so",
+        "libshellx.so",
+        "libtup.so"
+      ],
+      "class_definition_hits": [],
+      "file_hits": []
+    },
+    {
+      "profile": "Pairip许可/保护组件",
+      "class_patterns": [
+        "com.pairip."
+      ],
+      "file_patterns": [
+        "libpairipcore.so",
+        "assets/pairip",
+        "assets/vm/"
+      ],
+      "class_definition_hits": [
+        {
+          "apk": "base.apk",
+          "dex": "classes2.dex",
+          "class": "com.pairip.application.Application"
+        },
+        {
+          "apk": "base.apk",
+          "dex": "classes2.dex",
+          "class": "com.pairip.licensecheck.ILicenseV2ResultListener"
+        },
+        {
+          "apk": "base.apk",
+          "dex": "classes2.dex",
+          "class": "com.pairip.licensecheck.ILicenseV2ResultListener$Stub"
+        },
+        {
+          "apk": "base.apk",
+          "dex": "classes2.dex",
+          "class": "com.pairip.licensecheck.LicenseActivity$$ExternalSyntheticLambda0"
+        },
+        {
+          "apk": "base.apk",
+          "dex": "classes2.dex",
+          "class": "com.pairip.licensecheck.LicenseActivity$$ExternalSyntheticLambda1"
+        },
+        {
+          "apk": "base.apk",
+          "dex": "classes2.dex",
+          "class": "com.pairip.licensecheck.LicenseActivity$$ExternalSyntheticLambda2"
+        },
+        {
+          "apk": "base.apk",
+          "dex": "classes2.dex",
+          "class": "com.pairip.licensecheck.LicenseActivity$ActivityType"
+        },
+        {
+          "apk": "base.apk",
+          "dex": "classes2.dex",
+          "class": "com.pairip.licensecheck.LicenseActivity"
+        },
+        {
+          "apk": "base.apk",
+          "dex": "classes2.dex",
+          "class": "com.pairip.licensecheck.LicenseCheckException"
+        },
+        {
+          "apk": "base.apk",
+          "dex": "classes2.dex",
+          "class": "com.pairip.licensecheck.LicenseClient$$ExternalSyntheticLambda0"
+        },
+        {
+          "apk": "base.apk",
+          "dex": "classes2.dex",
+          "class": "com.pairip.licensecheck.LicenseClient$$ExternalSyntheticLambda10"
+        },
+        {
+          "apk": "base.apk",
+          "dex": "classes2.dex",
+          "class": "com.pairip.licensecheck.LicenseClient$$ExternalSyntheticLambda11"
+        },
+        {
+          "apk": "base.apk",
+          "dex": "classes2.dex",
+          "class": "com.pairip.licensecheck.LicenseClient$$ExternalSyntheticLambda12"
+        },
+        {
+          "apk": "base.apk",
+          "dex": "classes2.dex",
+          "class": "com.pairip.licensecheck.LicenseClient$$ExternalSyntheticLambda13"
+        },
+        {
+          "apk": "base.apk",
+          "dex": "classes2.dex",
+          "class": "com.pairip.licensecheck.LicenseClient$$ExternalSyntheticLambda14"
+        },
+        {
+          "apk": "base.apk",
+          "dex": "classes2.dex",
+          "class": "com.pairip.licensecheck.LicenseClient$$ExternalSyntheticLambda1"
+        },
+        {
+          "apk": "base.apk",
+          "dex": "classes2.dex",
+          "class": "com.pairip.licensecheck.LicenseClient$$ExternalSyntheticLambda2"
+        },
+        {
+          "apk": "base.apk",
+          "dex": "classes2.dex",
+          "class": "com.pairip.licensecheck.LicenseClient$$ExternalSyntheticLambda3"
+        },
+        {
+          "apk": "base.apk",
+          "dex": "classes2.dex",
+          "class": "com.pairip.licensecheck.LicenseClient$$ExternalSyntheticLambda4"
+        },
+        {
+          "apk": "base.apk",
+          "dex": "classes2.dex",
+          "class": "com.pairip.licensecheck.LicenseClient$ImmediateTaskExecutor"
+        },
+        {
+          "apk": "base.apk",
+          "dex": "classes2.dex",
+          "class": "com.pairip.licensecheck.LicenseClient$$ExternalSyntheticLambda5"
+        },
+        {
+          "apk": "base.apk",
+          "dex": "classes2.dex",
+          "class": "com.pairip.licensecheck.LicenseClient$$ExternalSyntheticLambda6"
+        },
+        {
+          "apk": "base.apk",
+          "dex": "classes2.dex",
+          "class": "com.pairip.licensecheck.LicenseClient$$ExternalSyntheticLambda7"
+        },
+        {
+          "apk": "base.apk",
+          "dex": "classes2.dex",
+          "class": "com.pairip.licensecheck.LicenseClient$$ExternalSyntheticLambda8"
+        },
+        {
+          "apk": "base.apk",
+          "dex": "classes2.dex",
+          "class": "com.pairip.licensecheck.LicenseClient$$ExternalSyntheticLambda9"
+        },
+        {
+          "apk": "base.apk",
+          "dex": "classes2.dex",
+          "class": "com.pairip.licensecheck.LicenseClient$1"
+        },
+        {
+          "apk": "base.apk",
+          "dex": "classes2.dex",
+          "class": "com.pairip.licensecheck.LicenseClient$2"
+        },
+        {
+          "apk": "base.apk",
+          "dex": "classes2.dex",
+          "class": "com.pairip.licensecheck.LicenseClient$DelayedTaskExecutor"
+        },
+        {
+          "apk": "base.apk",
+          "dex": "classes2.dex",
+          "class": "com.pairip.licensecheck.LicenseClient$DelayedTaskExecutorImpl"
+        },
+        {
+          "apk": "base.apk",
+          "dex": "classes2.dex",
+          "class": "com.pairip.licensecheck.LicenseClient$LicenseCheckState"
+        },
+        {
+          "apk": "base.apk",
+          "dex": "classes2.dex",
+          "class": "com.pairip.licensecheck.LicenseClient-IA"
+        },
+        {
+          "apk": "base.apk",
+          "dex": "classes2.dex",
+          "class": "com.pairip.licensecheck.LicenseClient"
+        },
+        {
+          "apk": "base.apk",
+          "dex": "classes2.dex",
+          "class": "com.pairip.licensecheck.LicenseContentProvider"
+        },
+        {
+          "apk": "base.apk",
+          "dex": "classes2.dex",
+          "class": "com.pairip.licensecheck.LicenseResponseHelper"
+        },
+        {
+          "apk": "base.apk",
+          "dex": "classes2.dex",
+          "class": "com.pairip.licensecheck.RepeatedCheckMetadata"
+        },
+        {
+          "apk": "base.apk",
+          "dex": "classes2.dex",
+          "class": "com.pairip.licensecheck.TrialClient"
+        },
+        {
+          "apk": "base.apk",
+          "dex": "classes2.dex",
+          "class": "com.pairip.licensecheck.TrialStatus"
+        }
+      ],
+      "file_hits": []
+    }
+  ],
+  "native_libraries": [
+    {
+      "apk": "split_config.arm64_v8a.apk",
+      "entry": "lib/arm64-v8a/libEncryptorP.so",
+      "bytes": 75744,
+      "sha256": "745352e1b6710983e5602908837089da98d6367357264792cd08a5f8e5f3f659",
+      "selected_ascii_markers": [
+        "JNI_OnLoad"
+      ]
+    },
+    {
+      "apk": "split_config.arm64_v8a.apk",
+      "entry": "lib/arm64-v8a/libandroidx.graphics.path.so",
+      "bytes": 10096,
+      "sha256": "41e9a793c43a0f4fddb19e33f346bace464f30f888ba7b9eaf96294ea115bfb6",
+      "selected_ascii_markers": [
+        "JNI_OnLoad"
+      ]
+    },
+    {
+      "apk": "split_config.arm64_v8a.apk",
+      "entry": "lib/arm64-v8a/libapminsighta.so",
+      "bytes": 102256,
+      "sha256": "4da62be9b09106a077481a376365b861f1ffdc10b03e25362c24bc7c5efafb0c",
+      "selected_ascii_markers": [
+        "JNI_OnLoad"
+      ]
+    },
+    {
+      "apk": "split_config.arm64_v8a.apk",
+      "entry": "lib/arm64-v8a/libapminsightb.so",
+      "bytes": 124352,
+      "sha256": "229c907fc65dffbf7742ed9a4b83418ac984267da3d81af3c5a5509ef1f3a5c2",
+      "selected_ascii_markers": []
+    },
+    {
+      "apk": "split_config.arm64_v8a.apk",
+      "entry": "lib/arm64-v8a/libbuffer_pgl.so",
+      "bytes": 9000,
+      "sha256": "d416381c202993e4a03fd6ae0c5b407f1531f61fc45f518ad5b7f4620d5a2133",
+      "selected_ascii_markers": []
+    },
+    {
+      "apk": "split_config.arm64_v8a.apk",
+      "entry": "lib/arm64-v8a/libdatastore_shared_counter.so",
+      "bytes": 54304,
+      "sha256": "83075d475735b5c095534d52365a8d4d983b48b48604dc0e2121a91e97245030",
+      "selected_ascii_markers": []
+    },
+    {
+      "apk": "split_config.arm64_v8a.apk",
+      "entry": "lib/arm64-v8a/libfile_lock_pgl.so",
+      "bytes": 6312,
+      "sha256": "d14096b150b4b2f21263fdb4f1c61eea3fcd76804c776de2395b13dfbe1d8ca0",
+      "selected_ascii_markers": []
+    },
+    {
+      "apk": "split_config.arm64_v8a.apk",
+      "entry": "lib/arm64-v8a/libhoko_blur.so",
+      "bytes": 14080,
+      "sha256": "7e2778114f073e9fda33249b672cc15125eff7699cfbb741cc80a5e41a13002d",
+      "selected_ascii_markers": []
+    },
+    {
+      "apk": "split_config.arm64_v8a.apk",
+      "entry": "lib/arm64-v8a/libmmkv.so",
+      "bytes": 589272,
+      "sha256": "4943cc7195c24431d1569a0659b45fc49a687ac58089515a8b5c57f672ca1dba",
+      "selected_ascii_markers": [
+        "JNI_OnLoad",
+        "JNI_OnLoad"
+      ]
+    },
+    {
+      "apk": "split_config.arm64_v8a.apk",
+      "entry": "lib/arm64-v8a/libneeeex_sm.so",
+      "bytes": 2079664,
+      "sha256": "4ac0515f293a08fc53020f94bb3d3ada62e910930acb918dd9bac5662039535e",
+      "selected_ascii_markers": [
+        "_ZNKSt6__ndk117__compressed_pairIPdNS_9allocatorIdEEE6secondEv",
+        "_ZNSt6__ndk117__compressed_pairIPmNS_9allocatorImEEE4swapERS4_",
+        "_ZNSt6__ndk117__compressed_pairIPdNS_9allocatorIdEEE6secondEv",
+        "_ZNSt6__ndk117__compressed_pairIPdNS_9allocatorIdEEE4swapERS4_",
+        "_ZNSt6__ndk117__compressed_pairIPiNS_9allocatorIiEEE6secondEv",
+        "_ZNSt6__ndk117__compressed_pairIPNS_6vectorIiNS_9allocatorIiEEEENS2_IS4_EEE5firstEv",
+        "_ZNSt6__ndk117__compressed_pairIPdRNS_9allocatorIdEEE5firstEv",
+        "_ZNSt6__ndk117__compressed_pairIPiRNS_9allocatorIiEEE6secondEv",
+        "_ZNSt6__ndk117__compressed_pairIPdRNS_9allocatorIdEEE4swapERS5_",
+        "_ZNSt6__ndk117__compressed_pairIPmNS_9allocatorImEEE5firstEv",
+        "_ZNKSt6__ndk117__compressed_pairIPNS_6vectorIiNS_9allocatorIiEEEERNS2_IS4_EEE6secondEv",
+        "UnregisterNatives",
+        "_ZNKSt6__ndk117__compressed_pairIPmNS_9allocatorImEEE5firstEv",
+        "_ZNKSt6__ndk117__compressed_pairIPiNS_9allocatorIiEEE5firstEv",
+        "_ZNSt6__ndk117__compressed_pairIPNS_6vectorIiNS_9allocatorIiEEEERNS2_IS4_EEE4swapERS8_",
+        "_ZNSt6__ndk117__compressed_pairIPdNS_9allocatorIdEEE5firstEv",
+        "_ZNKSt6__ndk117__compressed_pairIPNS_6vectorIiNS_9allocatorIiEEEENS2_IS4_EEE6secondEv",
+        "_ZNKSt6__ndk117__compressed_pairIPdNS_9allocatorIdEEE5firstEv",
+        "_ZNSt6__ndk117__compressed_pairIPNS_6vectorIiNS_9allocatorIiEEEERNS2_IS4_EEEC2IDnS7_EEOT_OT0_",
+        "_ZNSt6__ndk117__compressed_pairIPmNS_9allocatorImEEE6secondEv",
+        "_ZNSt6__ndk117__compressed_pairIPNS_6vectorIiNS_9allocatorIiEEEENS2_IS4_EEE4swapERS7_",
+        "_ZNSt6__ndk117__compressed_pairIPNS_6vectorIiNS_9allocatorIiEEEERNS2_IS4_EEE6secondEv",
+        "_ZN7_JNIEnv15RegisterNativesEP7_jclassPK15JNINativeMethodi",
+        "_ZNKSt6__ndk117__compressed_pairIPNS_6vectorIiNS_9allocatorIiEEEENS2_IS4_EEE5firstEv",
+        "_ZNKSt6__ndk117__compressed_pairIPiNS_9allocatorIiEEE6secondEv",
+        "_ZNSt6__ndk117__compressed_pairIPiNS_9allocatorIiEEE4swapERS4_",
+        "_ZNSt6__ndk117__compressed_pairIPiRNS_9allocatorIiEEE4swapERS5_",
+        "_ZN7_JNIEnv17UnregisterNativesEP7_jclass",
+        "_ZNSt6__ndk117__compressed_pairIPdRNS_9allocatorIdEEE6secondEv",
+        "_ZNKSt6__ndk117__compressed_pairIPdRNS_9allocatorIdEEE6secondEv",
+        "_ZNSt6__ndk117__compressed_pairIPiRNS_9allocatorIiEEE5firstEv",
+        "_ZNKSt6__ndk117__compressed_pairIPdRNS_9allocatorIdEEE5firstEv",
+        "_ZNKSt6__ndk117__compressed_pairIPiRNS_9allocatorIiEEE6secondEv",
+        "_ZNSt6__ndk117__compressed_pairIPNS_6vectorIiNS_9allocatorIiEEEENS2_IS4_EEE6secondEv",
+        "_ZNKSt6__ndk117__compressed_pairIPmNS_9allocatorImEEE6secondEv",
+        "_ZNKSt6__ndk117__compressed_pairIPiRNS_9allocatorIiEEE5firstEv",
+        "_ZNSt6__ndk117__compressed_pairIPNS_6vectorIiNS_9allocatorIiEEEERNS2_IS4_EEE5firstEv",
+        "_ZNSt6__ndk117__compressed_pairIPiNS_9allocatorIiEEE5firstEv",
+        "_ZNKSt6__ndk117__compressed_pairIPNS_6vectorIiNS_9allocatorIiEEEERNS2_IS4_EEE5firstEv",
+        "RegisterNatives"
+      ]
+    },
+    {
+      "apk": "split_config.arm64_v8a.apk",
+      "entry": "lib/arm64-v8a/libnms.so",
+      "bytes": 302248,
+      "sha256": "c3708e40e93f33b30595c5e19ee1328a7ab62e98050849c798035bba6ade03de",
+      "selected_ascii_markers": [
+        "JNI_OnLoad"
+      ]
+    },
+    {
+      "apk": "split_config.arm64_v8a.apk",
+      "entry": "lib/arm64-v8a/libnrb.so",
+      "bytes": 389352,
+      "sha256": "f0a77dbb768a43e5fd052dc48a5362808613cfa96b874fbc666864cb382791ac",
+      "selected_ascii_markers": [
+        "JNI_OnLoad"
+      ]
+    },
+    {
+      "apk": "split_config.arm64_v8a.apk",
+      "entry": "lib/arm64-v8a/libpglarmor.so",
+      "bytes": 68776,
+      "sha256": "69218eb7accd450feb707bfe9fa6533c390a2c0bf63b5c685c5548c18a0fe716",
+      "selected_ascii_markers": []
+    },
+    {
+      "apk": "split_config.arm64_v8a.apk",
+      "entry": "lib/arm64-v8a/libtt_ugen_layout.so",
+      "bytes": 440672,
+      "sha256": "6356784adf27dac5d18cd14a052d4ab9c161fb74eb4df3d4107d00f2549edeb2",
+      "selected_ascii_markers": [
+        "_ZNSt6__ndk112forward_listINS_4pairIPKN8facebook4yoga4NodeEmEENS_9allocatorIS7_EEE12insert_afterINS_29__forward_list_const_iteratorIPNS_19__forward_list_nodeIS7_PvEEEEEENS_9enable_ifIXsr25__is_cpp17_input_iteratorIT_EE5valueENS_23__forward_list_iteratorISG_EEE4typeESH_SJ_SJ_",
+        "_ZN12YGJNIVanilla15registerNativesEP7_JNIEnv",
+        "_ZN8facebook4yoga10vanillajni15registerNativesEP7_JNIEnvPKcPK15JNINativeMethodm",
+        "JNI_OnLoad"
+      ]
+    },
+    {
+      "apk": "split_config.arm64_v8a.apk",
+      "entry": "lib/arm64-v8a/libverbanr.so",
+      "bytes": 365600,
+      "sha256": "3dc167de331fe8cf6ce25ab799342df7d20429c03e5330aab74a0d863bb46759",
+      "selected_ascii_markers": [
+        "JNI_OnLoad"
+      ]
+    }
+  ],
+  "business_native_methods": [
+    {
+      "apk": "base.apk",
+      "dex": "classes7.dex",
+      "class": "com.neeeex.similar3p.utils.ImageNUtils",
+      "method": "aa",
+      "business_namespace": true
+    },
+    {
+      "apk": "base.apk",
+      "dex": "classes7.dex",
+      "class": "com.neeeex.similar3p.utils.ImageNUtils",
+      "method": "ab",
+      "business_namespace": true
+    },
+    {
+      "apk": "base.apk",
+      "dex": "classes7.dex",
+      "class": "com.neeeex.similar3p.utils.ImageNUtils",
+      "method": "ac",
+      "business_namespace": true
+    }
+  ],
+  "pairip_native_methods": [],
+  "manifest_pairip_lines": [
+    {
+      "line": 205,
+      "text": "<application android:theme=\"@0x7f130019\" android:label=\"@0x7f120248\" android:icon=\"@0x7f0f0001\" android:name=\"com.pairip.application.Application\" android:backupAgent=\"com.android.launcher3.LauncherBackupAgent\" android:allowBackup=\"true\" android:restoreAnyVersion=\"true\" android:hardwareAccelerated=\"true\" android:largeHeap=\"@0x7f05002f\" android:supportsRtl=\"true\" android:fullBackupOnly=\"true\" android:extractNativeLibs=\"false\" android:fullBackupContent=\"@0x7f150002\" android:usesCleartextTraffic=\"true\" android:backupInForeground=\"true\" android:networkSecurityConfig=\"@0x7f15001b\" android:roundIcon=\"@0x7f0f0008\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\" android:requestLegacyExternalStorage=\"true\" android:dataExtractionRules=\"@0x7f150004\" android:localeConfig=\"@0x7f150000\" android:enableOnBackInvokedCallback=\"false\">"
+    },
+    {
+      "line": 926,
+      "text": "<activity android:name=\"com.pairip.licensecheck.LicenseActivity\" android:exported=\"false\">"
+    }
+  ],
+  "interpretation": "Marker matching is a limited static screen. No hit does not exclude newer, renamed, removed or custom packers. Pairip presence is separated from 360/ijiami-style whole-package packing. XOR does not establish in-house authorship."
+}

@@ -1,0 +1,9 @@
+    public final boolean eligible(long now, long installedAt, long lastShownAt, boolean attributed, boolean ready, long cooldownMillis) {
+        if (!attributed || !ready || installedAt <= 0 || now < installedAt || now - installedAt < 600000) {
+            return false;
+        }
+        if (lastShownAt != 0) {
+            return now >= lastShownAt && now - lastShownAt >= cooldownMillis;
+        }
+        return true;
+    }

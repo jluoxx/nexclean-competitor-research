@@ -1,0 +1,18 @@
+    public final boolean canShowOnMinusOneSwipe() {
+        ni.i iVar = ni.i.f89495a;
+        boolean z10 = false;
+        if (!iVar.x()) {
+            return false;
+        }
+        MinusOneAdPolicy minusOneAdPolicy = MinusOneAdPolicy.INSTANCE;
+        long jCurrentTimeMillis = System.currentTimeMillis();
+        com.neeeex.eraser.utils.b0 b0Var = com.neeeex.eraser.utils.b0.f66131a;
+        long jV = b0Var.v(m0.a("vGIFr8lDsYe3TTyo3lWgvbxmO7PYeaCLonc=\n", "zxJawawm1OI=\n"), 0L);
+        long jV2 = b0Var.v(LAST_SHOWN, 0L);
+        boolean zK = com.neeeex.eraser.module.report.bytedance.a.k();
+        com.neeeex.eraser.ads.h hVar = com.neeeex.eraser.ads.h.f64923a;
+        if (hVar.l() && hVar.e().c() > -0.1d) {
+            z10 = true;
+        }
+        return minusOneAdPolicy.eligible(jCurrentTimeMillis, jV, jV2, zK, z10, iVar.t());
+    }

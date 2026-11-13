@@ -1,0 +1,94 @@
+    /* JADX WARN: Code duplicated, block: B:15:0x003b  */
+    @Override // com.neeeex.eraser.base.RootActivity, androidx.fragment.app.FragmentActivity, androidx.activity.ComponentActivity, androidx.core.app.ComponentActivity, android.app.Activity
+    public void onCreate(Bundle savedInstanceState) {
+        boolean zIsDesktopStarted;
+        Bundle extras;
+        boolean z10;
+        ji.x xVar = null;
+        if (savedInstanceState != null) {
+            zIsDesktopStarted = savedInstanceState.getBoolean(com.neeeex.eraser.m0.a("3qaN/ThVc4XJt5/kOF9nhdu3ofMiTnGj\n", "usP+lkw6A9o=\n"));
+        } else {
+            Intent intent = getIntent();
+            if (intent == null || (extras = intent.getExtras()) == null) {
+                zIsDesktopStarted = DesktopRoutePolicy.INSTANCE.isDesktopStarted();
+            } else {
+                if (!extras.containsKey(com.neeeex.eraser.m0.a("TfxvnDAFrWxG6mGNOg2te1f4eI0wGa1pV8ZvlyEPiw==\n", "I5kK+VV98gg=\n"))) {
+                    extras = null;
+                }
+                if (extras != null) {
+                    zIsDesktopStarted = extras.getBoolean(com.neeeex.eraser.m0.a("omA9oHPvNS2pdjOxeec1OrhkKrFz8zUouFo9q2LlEw==\n", "zAVYxRaXakk=\n"));
+                } else {
+                    zIsDesktopStarted = DesktopRoutePolicy.INSTANCE.isDesktopStarted();
+                }
+            }
+        }
+        this.desktopWasStartedAtLaunch = zIsDesktopStarted;
+        if (savedInstanceState != null) {
+            z10 = savedInstanceState.getBoolean(com.neeeex.eraser.m0.a("TI860qAwDkJfiCvJ\n", "KuZIodRvYiM=\n"));
+        } else {
+            z10 = !StartupStateStore.INSTANCE.requiredFlowComplete();
+        }
+        this.isFirstLaunch = z10;
+        this.desktopPrelaunchedForAd = savedInstanceState != null ? savedInstanceState.getBoolean(com.neeeex.eraser.m0.a("7FPQbd1dlaX4RMZqyEeLmeBTxw==\n", "iDajBqky5fo=\n")) : false;
+        this.needToStartNewPage = savedInstanceState != null ? savedInstanceState.getBoolean(com.neeeex.eraser.m0.a("k6uIjhseB/qHup6JKRo8\n", "4c77+3Z7WJs=\n")) : false;
+        this.adShownSuccessfully = savedInstanceState != null ? savedInstanceState.getBoolean(com.neeeex.eraser.m0.a("wYq91WMA2C7/nZfFaArcM8abjspy\n", "oO7ipgtvr0A=\n")) : false;
+        super.onCreate(savedInstanceState);
+        this.isForeground = true;
+        Application application = getApplication();
+        com.neeeex.eraser.m0.a("sG8zmGA9iimwdSvUIjvLJL9pK9Q0McspsXRymjUyh2eqYy+RYD2EKvB0OpElO5Npu2g+hyUsxQqn\nWy+ELDeIJqpzMJo=\n", "3hpf9EBe60c=\n");
+        application.getClass();
+        ((com.neeeex.eraser.y) application).markToolRuntimeInitialized();
+        com.neeeex.eraser.utils.b0 b0Var = com.neeeex.eraser.utils.b0.f66131a;
+        if (b0Var.s(com.neeeex.eraser.m0.a("HpcKv1VlJWQZgByub28fch+AG4VAeBRmGZwI\n", "cPJv2jAdegI=\n"), false)) {
+            mi.a.f88870a.t1();
+            b0Var.z(com.neeeex.eraser.m0.a("bFcC782+GuxrQBT+97Qg+m1AE9XYoyvua1wA\n", "AjJniqjGRYo=\n"), false);
+        }
+        com.neeeex.eraser.ads.e.N = false;
+        z0(this);
+        ji.x xVarC = ji.x.c(getLayoutInflater());
+        com.neeeex.eraser.m0.a("jVWsDzaZvsnKFeRK\n", "5DvKY1ft2+E=\n");
+        xVarC.getClass();
+        this.binding = xVarC;
+        if (xVarC == null) {
+            kotlin.jvm.internal.v.n(com.neeeex.eraser.m0.a("vz3Dh5cODw==\n", "3VSt4/5gaIk=\n"));
+            xVarC = null;
+        }
+        setContentView(xVarC.getRoot());
+        I0();
+        ji.x xVar2 = this.binding;
+        if (xVar2 == null) {
+            kotlin.jvm.internal.v.n(com.neeeex.eraser.m0.a("gysXnYjcYA==\n", "4UJ5+eGyBwE=\n"));
+        } else {
+            xVar = xVar2;
+        }
+        xVar.f85732e.setProgress(savedInstanceState != null ? savedInstanceState.getInt(com.neeeex.eraser.m0.a("eKiNaV6hPW1ktYNqRaopQQ==\n", "FMfsDTfPWjI=\n")) : 0);
+        N0();
+        M0();
+        if (com.neeeex.eraser.utils.a.f66125a.b()) {
+            mi.a.f88870a.u1();
+        }
+        mi.a aVar = mi.a.f88870a;
+        aVar.W();
+        aVar.X();
+        ni.i.f89495a.G();
+        if (ui.a.f100035a.a(this)) {
+            aVar.g0();
+        }
+        if (com.neeeex.eraser.utils.c0.f66142a.a(this)) {
+            aVar.U();
+        }
+        com.neeeex.eraser.utils.b.b().observe(this, new g(new Function1() { // from class: com.neeeex.eraser.module.main.k0
+            @Override // kotlin.jvm.functions.Function1
+            public final Object invoke(Object obj) {
+                return SplashNEEEEXActivity.i0(this.f65363a, (fl.m0) obj);
+            }
+        }));
+        if (this.needToStartNewPage) {
+            return;
+        }
+        if (this.sourceType == 10) {
+            C0();
+        } else {
+            P0();
+        }
+    }

@@ -1,0 +1,127 @@
+[
+  {
+    "Algorithm": "SHA256",
+    "Hash": "777986BD4381674A7C2AFDA682847DAABC5DAA27789B0671E411411D504C054A",
+    "Path": "D:\\python daima\\outputs\\nexclean_analysis_20261113\\apk\\base.apk"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "462C51344830D427FD7375B4103127BDCC750AD57937428227B473B368A1F3DC",
+    "Path": "D:\\python daima\\outputs\\nexclean_analysis_20261113\\apk\\split_config.ar.apk"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "4B5B96331115659E93781E69161E9EB7DA166FE4CD262B0DBE32F0F67CFD5F70",
+    "Path": "D:\\python daima\\outputs\\nexclean_analysis_20261113\\apk\\split_config.arm64_v8a.apk"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "17F557A75660997797DF098B141A21D1852F0795ABAD3DA411D85822BBDA842E",
+    "Path": "D:\\python daima\\outputs\\nexclean_analysis_20261113\\apk\\split_config.de.apk"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "B326B4198FED778EEEE43B5D8E10EA9F0D1297C33AC34929A60170643862CC18",
+    "Path": "D:\\python daima\\outputs\\nexclean_analysis_20261113\\apk\\split_config.en.apk"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "0C70D9DB7DB0E022F3A4EEB8519C5A8B15ABE02E84BFD199E6AD77C03999A198",
+    "Path": "D:\\python daima\\outputs\\nexclean_analysis_20261113\\apk\\split_config.es.apk"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "EE3483C195A515EEF0B655F18A5FD49797235BDF8C4C4252E2FE81C49254CCE3",
+    "Path": "D:\\python daima\\outputs\\nexclean_analysis_20261113\\apk\\split_config.fa.apk"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "5611C63B14CB8E8F7B8B1A8019E05DDB48A008FCF835B77FE50AE4280BA02D93",
+    "Path": "D:\\python daima\\outputs\\nexclean_analysis_20261113\\apk\\split_config.fr.apk"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "B5507EB2A4DC1827ABF5C6E78AD9EDB66FB5B9FA070AFC0034360426BC41A03D",
+    "Path": "D:\\python daima\\outputs\\nexclean_analysis_20261113\\apk\\split_config.hi.apk"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "CAC521DA8E5E3B41F9F509864BD91F8102F522FE04660DC016FB6F797F8B384F",
+    "Path": "D:\\python daima\\outputs\\nexclean_analysis_20261113\\apk\\split_config.in.apk"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "7925D289BF8B5C208019BD0B809934673B863E8B06D12D1346B0DD99B93B823F",
+    "Path": "D:\\python daima\\outputs\\nexclean_analysis_20261113\\apk\\split_config.it.apk"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "1980415BCFBBCD040E98D045ED6B175040A1D3B0B6DEC689B3BBFC8E437B4397",
+    "Path": "D:\\python daima\\outputs\\nexclean_analysis_20261113\\apk\\split_config.iw.apk"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "E0D7C6F6DE77DE7A11295F23B4DB76CC586FB234E3A759B5F775960D47A0524C",
+    "Path": "D:\\python daima\\outputs\\nexclean_analysis_20261113\\apk\\split_config.ja.apk"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "BCFFF5D45B2C2BB43E99C6075EED48DC33C61A375DDD7248DED2576172350FA5",
+    "Path": "D:\\python daima\\outputs\\nexclean_analysis_20261113\\apk\\split_config.ko.apk"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "2408420C3EAC6E5FEA8DE2F640143300A0424E0097849AB89FB8569539012E27",
+    "Path": "D:\\python daima\\outputs\\nexclean_analysis_20261113\\apk\\split_config.ms.apk"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "999712E27ED9195E0736A94A57FCAD408A8D76C1CE1D59F2DF87662F0205D8FF",
+    "Path": "D:\\python daima\\outputs\\nexclean_analysis_20261113\\apk\\split_config.nl.apk"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "AF300EAE33B05C8F814C19330B6E2371F0E4B2B17E0383A7B28D6F4514986279",
+    "Path": "D:\\python daima\\outputs\\nexclean_analysis_20261113\\apk\\split_config.pl.apk"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "FACD16EEC81A8401952B3AF683FA3C8A89FC3FFDC6BADE101796EC5CB87067F2",
+    "Path": "D:\\python daima\\outputs\\nexclean_analysis_20261113\\apk\\split_config.pt.apk"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "B4BBFF89E9CB7B5E3A0BF29C3EFF1983D90C7A0A0BEF5327140DC1923AC10C22",
+    "Path": "D:\\python daima\\outputs\\nexclean_analysis_20261113\\apk\\split_config.ro.apk"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "8F3F8A3DE97F79AAE084AF71BC5098BFE4B36F30C85D0B5D43C9B2A1CD3F65DC",
+    "Path": "D:\\python daima\\outputs\\nexclean_analysis_20261113\\apk\\split_config.ru.apk"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "7302494A35A33CC86D49D983387757BFEA60D895E678037EBC232ACDC17C7CAF",
+    "Path": "D:\\python daima\\outputs\\nexclean_analysis_20261113\\apk\\split_config.tr.apk"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "D0CE4D6AEBE919FDAABC9E5C504ADBD0BDF1177FB9A915A4F6A908801894FBE2",
+    "Path": "D:\\python daima\\outputs\\nexclean_analysis_20261113\\apk\\split_config.uz.apk"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "9703B0CA88371B101C8AA35BE73C6B15753899F4E87D0C67D6495564CA7518B0",
+    "Path": "D:\\python daima\\outputs\\nexclean_analysis_20261113\\apk\\split_config.vi.apk"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "32F36F0496D795A96F168FBA0BA7FEFF5777B61DCF2A958E3C903F2DA702D4B0",
+    "Path": "D:\\python daima\\outputs\\nexclean_analysis_20261113\\apk\\split_config.xxhdpi.apk"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "3BC2252F202E2FD639A9DD3B78A4F629B200BF11BAF245F4B1FDBD7FEAC2E489",
+    "Path": "D:\\python daima\\outputs\\nexclean_analysis_20261113\\apk\\split_config.zh.apk"
+  }
+]

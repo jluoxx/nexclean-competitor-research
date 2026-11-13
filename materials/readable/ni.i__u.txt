@@ -1,0 +1,29 @@
+    public final synchronized void u() {
+        try {
+            if (f89496b != null) {
+                return;
+            }
+            f89496b = kg.a.a(ag.a.f21443a);
+            p pVarB = kg.a.b(new Function1() { // from class: ni.d
+                @Override // kotlin.jvm.functions.Function1
+                public final Object invoke(Object obj) {
+                    return i.d((p.b) obj);
+                }
+            });
+            k kVar = f89496b;
+            if (kVar != null) {
+                kVar.s(pVarB);
+            }
+            k kVar2 = f89496b;
+            if (kVar2 != null) {
+                kVar2.u(y());
+            }
+            for (Map.Entry entry : z().entrySet()) {
+                f89495a.H((String) entry.getKey(), ((Boolean) entry.getValue()).booleanValue(), false);
+            }
+            J(false);
+            C();
+        } catch (Throwable th2) {
+            throw th2;
+        }
+    }

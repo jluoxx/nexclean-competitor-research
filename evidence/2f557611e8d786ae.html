@@ -1,0 +1,29 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>NexClean_加固与保护核查.md · NexClean研究</title><link rel="stylesheet" href="../assets/style.css"></head>
+<body data-section="library"><a class="skip" href="#content">跳转到正文</a><aside class="rail"><div class="brand">竞品研究</div><div class="rail-date">NexClean Screen 专题<span class="date-sep"> · </span><br>2026.11.13</div><nav aria-label="报告导航"><a href="../index.html#overview" data-nav="overview"><span class="nav-icon">01</span>研究结论</a><a href="../index.html#config" data-nav="config"><span class="nav-icon">02</span>在线参数深挖</a><a href="../index.html#ads" data-nav="ads"><span class="nav-icon">03</span>广告与推送</a><a href="../index.html#report" data-nav="report"><span class="nav-icon">04</span>完整研究报告</a><a href="../index.html#hardening" data-nav="hardening"><span class="nav-icon">05</span>加固核查</a><a href="../index.html#library" data-nav="library"><span class="nav-icon">06</span>资料与证据</a><a href="../index.html#pending" data-nav="pending"><span class="nav-icon">07</span>待验证项</a></nav><div class="rail-foot"><strong>离线可读 · 静态研究</strong><br>1 款应用 / 25 个 APK 分包<br>结论、明细与证据随包附带</div></aside>
+<div class="workspace"><div class="backbar"><a class="btn" id="back" href="../index.html#library">← 返回上一级</a><a href="../index.html#overview">研究首页</a><button class="text-button" id="print">打印当前页</button></div><main id="content" tabindex="-1"><header class="source-head"><p class="eyebrow">研究证据 / 原始材料</p><h1>NexClean_加固与保护核查.md</h1><p><code>reports/NexClean_加固与保护核查.md</code></p></header><div class="actions"><a class="btn" href="../materials/reports/NexClean_%E5%8A%A0%E5%9B%BA%E4%B8%8E%E4%BF%9D%E6%8A%A4%E6%A0%B8%E6%9F%A5.md" download>下载原始文件</a><span class="badge">静态证据 · 非运行验证</span></div><article class="prose"><h2>NexClean Screen：加固与保护核查</h2>
+<h3>先看结论</h3>
+<p><strong>这个样本能确认有 Pairip 许可检查和字符串混淆；目前没有足够证据确认使用了 360、爱加密这类第三方整包加固，也没有足够证据确认团队做了自研整包加固。</strong> “没有命中所检查的常见特征”和“完全没有加固”不是同一结论。</p>
+<div class="table-wrap" tabindex="0" role="region" aria-label="可横向滚动的数据表"><table><thead><tr><th>用户关心的问题</th><th>本次结果</th><th>通俗解释</th></tr></thead><tbody><tr><td>360 加固</td><td>本轮所查特征未命中</td><td>没看到本轮检查的 StubApp、libjiagu 等入口/文件；不能排除改名或未知版本</td></tr><tr><td>爱加密等同类加固</td><td>本轮所查特征未命中</td><td>没看到所查 SuperApplication、NativeApplication、ijiami、libexec 等标记；不是所有厂商版本的穷尽检测</td></tr><tr><td>梆梆、腾讯乐固</td><td>本轮所查特征未命中</td><td>已检查各自一组常见入口/文件标记，具体范围保留在原始审计</td></tr><tr><td>Pairip 许可检查</td><td>已确认接入启动调用链</td><td>启动时调用许可检查，并有连接 Google Play 许可服务的代码；不能据此直接等同为 360 类整包壳</td></tr><tr><td>字符串保护 / 代码混淆</td><td>已确认</td><td>一部分文字先变成难读的内容，用到时再 XOR 还原；许多类名、方法名也较短，不能单凭这些认定整包壳</td></tr><tr><td>自研整包加固</td><td>未确认</td><td>现有证据没有建立“团队自行实现整包保护”的链路；自定义函数、应用前缀或能解码不证明原创归属</td></tr></tbody></table></div>
+<h3>这几类保护有什么区别</h3>
+<ul>
+<li><strong>第三方整包加固：</strong> 用户提到的 360、爱加密等属于这类核查对象，重点看是否有对应的壳入口、壳文件、代码加载或还原链。仅出现普通原生库或混淆类名，证据不够。</li>
+<li><strong>许可检查：</strong> 重点检查安装许可和应用来源是否满足要求。这个样本的 Pairip 入口可确认调用检查，不代表我们已经验证其全部运行效果，也不代表存在完整 VM 代码保护。</li>
+<li><strong>字符串混淆：</strong> 让代码里的文字不容易直接阅读。样本中的 XOR 还原函数已读到，但这种处理本身不等于把整个应用“套壳”。</li>
+<li><strong>自研加固：</strong> 还需要证明有自行设计的整包代码保护、加载/解密或执行方案，并有足够归属证据。当前做不到这一点，不能写成“已自研”。</li>
+</ul>
+<h3>本次实际检查了什么</h3>
+<p>本轮继承同一份样本，base SHA-256 为 <code>777986bd4381674a7c2afda682847daabc5daa27789b0671e411411d504c054a</code>。静态检查覆盖全部 25 个 APK 文件（base 加 24 个分包）、8 个 DEX 的 60,639 个类定义、包内文件路径与 15 个原生库的文件名及部分可打印标记。没有连接手机，没有执行许可绕过，没有进行原生库逐函数反汇编或运行时加载追踪。</p>
+<p>本轮匹配词是有限的静态筛查规则，不是厂商完整签名库；改名、裁剪、新版本或动态下载都可能影响检出率。0 命中只对本轮规则和样本成立。<a data-reader href="../evidence/862fd6f3166b3924.html">完整匹配规则、命中结果和原生方法</a> / <a data-reader href="../evidence/8e269ee0f0cd0f9c.html">15 个原生库清单</a>。</p>
+<h3>为什么说 Pairip 已确认，但不直接写成三方整包壳</h3>
+<p>Manifest 声明 <code>com.pairip.application.Application</code>，该类继承 <code>LawnchairApp</code>，在 <code>attachBaseContext</code> 调用 <code>LicenseClient.checkLicense(context)</code>，再继续父类逻辑。<code>LicenseClient</code> 中有 Google Play 包 <code>com.android.vending</code> 和许可服务接口。DEX 中有 37 个 Pairip 定义类；本轮没有发现所查 <code>libpairipcore.so</code> / <code>assets/vm/</code> 文件标记，Pairip 类中也没有 native 方法声明。</p>
+<p>这足以确认“启动调用许可检查”。它不足以证明完整 Pairip VM 代码保护，更不能用来替代“360/爱加密是否套壳”的独立判断。实际许可响应、拦截行为与保护效果没有真机验证。</p>
+<p><a data-reader href="../evidence/e3a41170a0127bbb.html">Manifest 原始声明</a> / <a data-reader href="../evidence/15f8bde2896546dd.html">Pairip 启动入口</a> / <a data-reader href="../evidence/ffc40592cb73e515.html">许可检查代码</a>。</p>
+<h3>为什么包内有自定义原生库，也不能说自研加固</h3>
+<p><code>libneeeex_sm.so</code> 看起来带应用前缀，但 <code>ImageNUtils</code> 实际加载它，并声明 3 个原生方法：输入是 Bitmap、图片哈希数组等；原生库导出对应 JNI 接口及 AndroidBitmap 相关接口。调用方拿它计算图片特征，并按哈希和阈值整理相似图片。</p>
+<p>因此，已追到的这条链支持图片计算/分组用途，不支持把它当作自研壳。它是否还包含其他未追功能，需要原生逆向才能继续判断。<code>libpglarmor.so</code>、<code>libEncryptorP.so</code> 等名字同样不能单凭“armor / Encryptor”判定 App 做了整包加固；本轮不按文件名替任何 SDK 或库认定完整保护能力。</p>
+<p><a data-reader href="../evidence/0fd6814cdc4cbfcc.html">加载与原生方法</a> / <a data-reader href="../evidence/29e035e0ca864674.html">Bitmap 调用方</a> / <a data-reader href="../evidence/964c803052fff67e.html">图片分组调用方</a> / <a data-reader href="../evidence/694df47cc17ffbf3.html">原生接口摘录</a>。</p>
+<h3>字符串混淆能确认到哪一步</h3>
+<p><code>nb.a.b</code> 对字节数组执行循环 XOR，<code>nb.a.a</code> 把结果转成 UTF-8 字符串。原研究已经保留原反编译和解码注释，说明主要业务逻辑在这个样本中仍可分析。这不证明保护没有效果，也不能证明该算法由应用团队原创。</p>
+<p><a data-reader href="../evidence/98318ee8a7b91075.html">XOR 还原函数</a>。</p>
+<h3>仍然缺什么</h3>
+<p>要进一步判断自研整包保护或隐藏的原生加载方案，需要补原生库逆向、动态加载/内存行为以及归属证据。要证明许可检查实际拦截，还需要指定安装来源、设备与版本条件下的运行观察。目前维持“部分保护机制已确认，所查商业壳未命中，自研整包加固未确认”。</p></article></main><footer>研究快照 2026-11-13 · APK 1.3.5（10305）<br>包内默认值、客户端逻辑与线上运行事实分开呈现。网页交互验证不代表 APK 真机验证。</footer></div><script src="../assets/app.js"></script></body></html>

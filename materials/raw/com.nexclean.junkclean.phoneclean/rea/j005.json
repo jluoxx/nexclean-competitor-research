@@ -1,0 +1,265 @@
+{
+  "job": {
+    "id": "j005",
+    "package": "com.nexclean.junkclean.phoneclean",
+    "tool": "inspect_android_class",
+    "args": {
+      "path": "D:\\python daima\\outputs\\nexclean_analysis_20261113\\apk\\base.apk",
+      "class_name": "com.neeeex.eraser.launcher.NewUserDesktopFunnelTracker"
+    }
+  },
+  "start": "2026-11-13T07:47:39.470Z",
+  "end": "2026-11-13T07:47:39.864Z",
+  "result": {
+    "_meta": {
+      "provenance": {
+        "untrusted_content": true,
+        "source": "analysis_target"
+      }
+    },
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"evidence_id\":\"ev_bba9828300ea60113a4cb086d11fb37487a35bdf107d3c9b01a8d99a08102fd4\",\"subject\":{\"name\":\"base.apk\",\"digest\":{\"sha256\":\"777986bd4381674a7c2afda682847daabc5daa27789b0671e411411d504c054a\"},\"local_path\":\"D:\\\\python daima\\\\outputs\\\\nexclean_analysis_20261113\\\\apk\\\\base.apk\",\"format\":\"apk\",\"architecture\":null},\"provider\":{\"id\":\"jadx\",\"name\":\"JADX headless\",\"version\":\"0.7.1\"},\"analysis_profile\":null,\"predicate_type\":\"rea.analysis\",\"operation\":\"inspect_android_class\",\"parameters\":{\"path\":\"D:\\\\python daima\\\\outputs\\\\nexclean_analysis_20261113\\\\apk\\\\base.apk\",\"class_name\":\"com.neeeex.eraser.launcher.NewUserDesktopFunnelTracker\"},\"raw_result\":{\"server\":{\"name\":\"rea-jadx-bridge\",\"version\":\"7\"},\"bridge_sha256\":\"e5044a8312dd0731f53af3f095508b3e5cff54df6b971c95d4305e2f39b4fa30\",\"jar_sha256\":\"6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75\",\"loaded\":{\"state\":\"LOADED\",\"apk_path\":\"C:\\\\Users\\\\asus\\\\AppData\\\\Local\\\\Temp\\\\rea-android-71cf32c2f1400d5da1817238bdb5c8bc\\\\target.apk\",\"class_count\":34574,\"resource_count\":3764,\"threads\":1,\"resources\":\"full\"},\"calls\":[{\"operation\":\"rea_jvm_status\",\"input\":{},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"engine_reported_version\\\":\\\"0.7.1\\\",\\\"available_processors\\\":3,\\\"java_version\\\":\\\"17.0.12\\\",\\\"max_heap_bytes\\\":3221225472,\\\"metadata_scope\\\":\\\"parsed_members\\\"}\"}],\"isError\":false}},{\"operation\":\"get_class_summary\",\"input\":{\"class_name\":\"com.neeeex.eraser.launcher.NewUserDesktopFunnelTracker\",\"dex_static_values\":true},\"response\":{\"content\":[{\"type\":\"text\",\"text\":\"{\\\"inner_classes\\\":[],\\\"methods\\\":[{\\\"dex_descriptor\\\":\\\"()V\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"\\\\u003cclinit\\\\u003e\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"\\\\u003cclinit\\\\u003e(): void\\\"},{\\\"dex_descriptor\\\":\\\"()V\\\",\\\"is_constructor\\\":true,\\\"name\\\":\\\"\\\\u003cinit\\\\u003e\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"\\\\u003cinit\\\\u003e(): void\\\"},{\\\"dex_descriptor\\\":\\\"(Lcom/neeeex/eraser/launcher/FirstMinusOneEntryPath;)Lfl/m0;\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"a\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"a(com.neeeex.eraser.launcher.FirstMinusOneEntryPath): fl.m0\\\"},{\\\"dex_descriptor\\\":\\\"(Ljava/lang/String;)Z\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"b\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"b(java.lang.String): boolean\\\"},{\\\"dex_descriptor\\\":\\\"()Ljava/lang/String;\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"c\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"c(): java.lang.String\\\"},{\\\"dex_descriptor\\\":\\\"()Z\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"isActive\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"isActive(): boolean\\\"},{\\\"dex_descriptor\\\":\\\"(Lcom/neeeex/eraser/launcher/FirstMinusOneEntryPath;)V\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"recordFirstMinusOneEntry\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"recordFirstMinusOneEntry(com.neeeex.eraser.launcher.FirstMinusOneEntryPath): void\\\"},{\\\"dex_descriptor\\\":\\\"()V\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"reportDefaultHomeGuideShown\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"reportDefaultHomeGuideShown(): void\\\"},{\\\"dex_descriptor\\\":\\\"()V\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"reportDefaultHomeSelected\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"reportDefaultHomeSelected(): void\\\"},{\\\"dex_descriptor\\\":\\\"(Ljava/lang/String;Ljava/lang/String;)V\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"reportDefaultHomeSettingsShown\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"reportDefaultHomeSettingsShown(java.lang.String, java.lang.String): void\\\"},{\\\"dex_descriptor\\\":\\\"(Landroid/content/Context;Z)Z\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"reportDesktopFirstScreenShown\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"reportDesktopFirstScreenShown(android.content.Context, boolean): boolean\\\"},{\\\"dex_descriptor\\\":\\\"(Landroid/content/Context;)Z\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"reportFirstMinusOneShown\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"reportFirstMinusOneShown(android.content.Context): boolean\\\"},{\\\"dex_descriptor\\\":\\\"(Ljava/lang/String;Lkotlin/jvm/functions/Function0;)V\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"reportOnce\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"reportOnce(java.lang.String, kotlin.jvm.functions.Function0): void\\\"},{\\\"dex_descriptor\\\":\\\"()V\\\",\\\"is_constructor\\\":false,\\\"name\\\":\\\"start\\\",\\\"def_pos\\\":0,\\\"signature\\\":\\\"start(): void\\\"}],\\\"fields\\\":[{\\\"name\\\":\\\"INSTANCE\\\",\\\"def_pos\\\":0,\\\"type\\\":\\\"com.neeeex.eraser.launcher.NewUserDesktopFunnelTracker\\\"},{\\\"name\\\":\\\"KEY_DEFAULT_SELECTED\\\",\\\"def_pos\\\":0,\\\"type\\\":\\\"java.lang.String\\\"},{\\\"name\\\":\\\"KEY_DESKTOP_FIRST_SCREEN_SHOWN\\\",\\\"def_pos\\\":0,\\\"type\\\":\\\"java.lang.String\\\"},{\\\"name\\\":\\\"KEY_FIRST_MINUS_ONE_STATE\\\",\\\"def_pos\\\":0,\\\"type\\\":\\\"java.lang.String\\\"},{\\\"name\\\":\\\"KEY_FUNNEL_ACTIVE\\\",\\\"def_pos\\\":0,\\\"type\\\":\\\"java.lang.String\\\"},{\\\"name\\\":\\\"KEY_GUIDE_SHOWN\\\",\\\"def_pos\\\":0,\\\"type\\\":\\\"java.lang.String\\\"},{\\\"name\\\":\\\"KEY_SETTINGS_SHOWN\\\",\\\"def_pos\\\":0,\\\"type\\\":\\\"java.lang.String\\\"},{\\\"name\\\":\\\"firstMinusOne\\\",\\\"def_pos\\\":0,\\\"type\\\":\\\"com.neeeex.eraser.launcher.FirstMinusOneFunnel\\\"}],\\\"raw_name\\\":\\\"com.neeeex.eraser.launcher.NewUserDesktopFunnelTracker\\\",\\\"method_count\\\":14,\\\"full_name\\\":\\\"com.neeeex.eraser.launcher.NewUserDesktopFunnelTracker\\\",\\\"field_count\\\":8,\\\"name\\\":\\\"NewUserDesktopFunnelTracker\\\",\\\"inner_class_count\\\":0}\"}],\"isError\":false}}]},\"normalized_result\":{\"engine\":{\"name\":\"jadx-headless-mcp\",\"version\":\"0.7.1\",\"artifact_sha256\":\"6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75\",\"source_revision\":\"5844800a486d2248fa949b74c9896285f5b54de2\",\"worker_count\":1,\"heap_limit_mib\":3072},\"class_name\":\"com.neeeex.eraser.launcher.NewUserDesktopFunnelTracker\",\"methods\":[{\"name\":\"<clinit>\",\"reported_signature\":\"<clinit>(): void\",\"overload_index\":0,\"is_constructor\":false,\"dex_descriptor\":\"()V\"},{\"name\":\"<init>\",\"reported_signature\":\"<init>(): void\",\"overload_index\":0,\"is_constructor\":true,\"dex_descriptor\":\"()V\"},{\"name\":\"a\",\"reported_signature\":\"a(com.neeeex.eraser.launcher.FirstMinusOneEntryPath): fl.m0\",\"overload_index\":0,\"is_constructor\":false,\"dex_descriptor\":\"(Lcom/neeeex/eraser/launcher/FirstMinusOneEntryPath;)Lfl/m0;\"},{\"name\":\"b\",\"reported_signature\":\"b(java.lang.String): boolean\",\"overload_index\":0,\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/String;)Z\"},{\"name\":\"c\",\"reported_signature\":\"c(): java.lang.String\",\"overload_index\":0,\"is_constructor\":false,\"dex_descriptor\":\"()Ljava/lang/String;\"},{\"name\":\"isActive\",\"reported_signature\":\"isActive(): boolean\",\"overload_index\":0,\"is_constructor\":false,\"dex_descriptor\":\"()Z\"},{\"name\":\"recordFirstMinusOneEntry\",\"reported_signature\":\"recordFirstMinusOneEntry(com.neeeex.eraser.launcher.FirstMinusOneEntryPath): void\",\"overload_index\":0,\"is_constructor\":false,\"dex_descriptor\":\"(Lcom/neeeex/eraser/launcher/FirstMinusOneEntryPath;)V\"},{\"name\":\"reportDefaultHomeGuideShown\",\"reported_signature\":\"reportDefaultHomeGuideShown(): void\",\"overload_index\":0,\"is_constructor\":false,\"dex_descriptor\":\"()V\"},{\"name\":\"reportDefaultHomeSelected\",\"reported_signature\":\"reportDefaultHomeSelected(): void\",\"overload_index\":0,\"is_constructor\":false,\"dex_descriptor\":\"()V\"},{\"name\":\"reportDefaultHomeSettingsShown\",\"reported_signature\":\"reportDefaultHomeSettingsShown(java.lang.String, java.lang.String): void\",\"overload_index\":0,\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/String;Ljava/lang/String;)V\"},{\"name\":\"reportDesktopFirstScreenShown\",\"reported_signature\":\"reportDesktopFirstScreenShown(android.content.Context, boolean): boolean\",\"overload_index\":0,\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/content/Context;Z)Z\"},{\"name\":\"reportFirstMinusOneShown\",\"reported_signature\":\"reportFirstMinusOneShown(android.content.Context): boolean\",\"overload_index\":0,\"is_constructor\":false,\"dex_descriptor\":\"(Landroid/content/Context;)Z\"},{\"name\":\"reportOnce\",\"reported_signature\":\"reportOnce(java.lang.String, kotlin.jvm.functions.Function0): void\",\"overload_index\":0,\"is_constructor\":false,\"dex_descriptor\":\"(Ljava/lang/String;Lkotlin/jvm/functions/Function0;)V\"},{\"name\":\"start\",\"reported_signature\":\"start(): void\",\"overload_index\":0,\"is_constructor\":false,\"dex_descriptor\":\"()V\"}],\"fields\":[{\"name\":\"INSTANCE\",\"reported_type\":\"com.neeeex.eraser.launcher.NewUserDesktopFunnelTracker\",\"dex_static_value\":null},{\"name\":\"KEY_DEFAULT_SELECTED\",\"reported_type\":\"java.lang.String\",\"dex_static_value\":null},{\"name\":\"KEY_DESKTOP_FIRST_SCREEN_SHOWN\",\"reported_type\":\"java.lang.String\",\"dex_static_value\":null},{\"name\":\"KEY_FIRST_MINUS_ONE_STATE\",\"reported_type\":\"java.lang.String\",\"dex_static_value\":null},{\"name\":\"KEY_FUNNEL_ACTIVE\",\"reported_type\":\"java.lang.String\",\"dex_static_value\":null},{\"name\":\"KEY_GUIDE_SHOWN\",\"reported_type\":\"java.lang.String\",\"dex_static_value\":null},{\"name\":\"KEY_SETTINGS_SHOWN\",\"reported_type\":\"java.lang.String\",\"dex_static_value\":null},{\"name\":\"firstMinusOne\",\"reported_type\":\"com.neeeex.eraser.launcher.FirstMinusOneFunnel\",\"dex_static_value\":null}],\"inner_classes\":[]},\"confidence\":\"observed\",\"authority\":\"shipped-artifact\",\"environment\":null,\"limitations\":[\"Static decompiler observations do not establish runtime behavior; the APK is never executed.\",\"Method signatures use provider display types; DEX prototypes come from frozen JADX metadata. Display names may be aliases, and overload indices are local to this engine and artifact.\",\"Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.\",\"Incoming reference totals count JADX using nodes. Direct invoke entries within a using method report raw DEX code-unit offsets and method indexes, but coverage is limited to those nodes and directly matched invokes; it does not establish every possible dynamic or reflective call site.\",\"Manifest summaries are parsed once by REA's bridge from the exact root AndroidManifest.xml resource, using namespace-aware XML attributes; decoded XML is retained. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider.\"],\"relationship_coverage\":null,\"locations\":[],\"evidence_links\":[]}"
+      }
+    ],
+    "structuredContent": {
+      "evidence_id": "ev_bba9828300ea60113a4cb086d11fb37487a35bdf107d3c9b01a8d99a08102fd4",
+      "subject": {
+        "name": "base.apk",
+        "digest": {
+          "sha256": "777986bd4381674a7c2afda682847daabc5daa27789b0671e411411d504c054a"
+        },
+        "local_path": "D:\\python daima\\outputs\\nexclean_analysis_20261113\\apk\\base.apk",
+        "format": "apk",
+        "architecture": null
+      },
+      "provider": {
+        "id": "jadx",
+        "name": "JADX headless",
+        "version": "0.7.1"
+      },
+      "analysis_profile": null,
+      "predicate_type": "rea.analysis",
+      "operation": "inspect_android_class",
+      "parameters": {
+        "path": "D:\\python daima\\outputs\\nexclean_analysis_20261113\\apk\\base.apk",
+        "class_name": "com.neeeex.eraser.launcher.NewUserDesktopFunnelTracker"
+      },
+      "raw_result": {
+        "server": {
+          "name": "rea-jadx-bridge",
+          "version": "7"
+        },
+        "bridge_sha256": "e5044a8312dd0731f53af3f095508b3e5cff54df6b971c95d4305e2f39b4fa30",
+        "jar_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+        "loaded": {
+          "state": "LOADED",
+          "apk_path": "C:\\Users\\asus\\AppData\\Local\\Temp\\rea-android-71cf32c2f1400d5da1817238bdb5c8bc\\target.apk",
+          "class_count": 34574,
+          "resource_count": 3764,
+          "threads": 1,
+          "resources": "full"
+        },
+        "calls": [
+          {
+            "operation": "rea_jvm_status",
+            "input": {},
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"engine_reported_version\":\"0.7.1\",\"available_processors\":3,\"java_version\":\"17.0.12\",\"max_heap_bytes\":3221225472,\"metadata_scope\":\"parsed_members\"}"
+                }
+              ],
+              "isError": false
+            }
+          },
+          {
+            "operation": "get_class_summary",
+            "input": {
+              "class_name": "com.neeeex.eraser.launcher.NewUserDesktopFunnelTracker",
+              "dex_static_values": true
+            },
+            "response": {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "{\"inner_classes\":[],\"methods\":[{\"dex_descriptor\":\"()V\",\"is_constructor\":false,\"name\":\"\\u003cclinit\\u003e\",\"def_pos\":0,\"signature\":\"\\u003cclinit\\u003e(): void\"},{\"dex_descriptor\":\"()V\",\"is_constructor\":true,\"name\":\"\\u003cinit\\u003e\",\"def_pos\":0,\"signature\":\"\\u003cinit\\u003e(): void\"},{\"dex_descriptor\":\"(Lcom/neeeex/eraser/launcher/FirstMinusOneEntryPath;)Lfl/m0;\",\"is_constructor\":false,\"name\":\"a\",\"def_pos\":0,\"signature\":\"a(com.neeeex.eraser.launcher.FirstMinusOneEntryPath): fl.m0\"},{\"dex_descriptor\":\"(Ljava/lang/String;)Z\",\"is_constructor\":false,\"name\":\"b\",\"def_pos\":0,\"signature\":\"b(java.lang.String): boolean\"},{\"dex_descriptor\":\"()Ljava/lang/String;\",\"is_constructor\":false,\"name\":\"c\",\"def_pos\":0,\"signature\":\"c(): java.lang.String\"},{\"dex_descriptor\":\"()Z\",\"is_constructor\":false,\"name\":\"isActive\",\"def_pos\":0,\"signature\":\"isActive(): boolean\"},{\"dex_descriptor\":\"(Lcom/neeeex/eraser/launcher/FirstMinusOneEntryPath;)V\",\"is_constructor\":false,\"name\":\"recordFirstMinusOneEntry\",\"def_pos\":0,\"signature\":\"recordFirstMinusOneEntry(com.neeeex.eraser.launcher.FirstMinusOneEntryPath): void\"},{\"dex_descriptor\":\"()V\",\"is_constructor\":false,\"name\":\"reportDefaultHomeGuideShown\",\"def_pos\":0,\"signature\":\"reportDefaultHomeGuideShown(): void\"},{\"dex_descriptor\":\"()V\",\"is_constructor\":false,\"name\":\"reportDefaultHomeSelected\",\"def_pos\":0,\"signature\":\"reportDefaultHomeSelected(): void\"},{\"dex_descriptor\":\"(Ljava/lang/String;Ljava/lang/String;)V\",\"is_constructor\":false,\"name\":\"reportDefaultHomeSettingsShown\",\"def_pos\":0,\"signature\":\"reportDefaultHomeSettingsShown(java.lang.String, java.lang.String): void\"},{\"dex_descriptor\":\"(Landroid/content/Context;Z)Z\",\"is_constructor\":false,\"name\":\"reportDesktopFirstScreenShown\",\"def_pos\":0,\"signature\":\"reportDesktopFirstScreenShown(android.content.Context, boolean): boolean\"},{\"dex_descriptor\":\"(Landroid/content/Context;)Z\",\"is_constructor\":false,\"name\":\"reportFirstMinusOneShown\",\"def_pos\":0,\"signature\":\"reportFirstMinusOneShown(android.content.Context): boolean\"},{\"dex_descriptor\":\"(Ljava/lang/String;Lkotlin/jvm/functions/Function0;)V\",\"is_constructor\":false,\"name\":\"reportOnce\",\"def_pos\":0,\"signature\":\"reportOnce(java.lang.String, kotlin.jvm.functions.Function0): void\"},{\"dex_descriptor\":\"()V\",\"is_constructor\":false,\"name\":\"start\",\"def_pos\":0,\"signature\":\"start(): void\"}],\"fields\":[{\"name\":\"INSTANCE\",\"def_pos\":0,\"type\":\"com.neeeex.eraser.launcher.NewUserDesktopFunnelTracker\"},{\"name\":\"KEY_DEFAULT_SELECTED\",\"def_pos\":0,\"type\":\"java.lang.String\"},{\"name\":\"KEY_DESKTOP_FIRST_SCREEN_SHOWN\",\"def_pos\":0,\"type\":\"java.lang.String\"},{\"name\":\"KEY_FIRST_MINUS_ONE_STATE\",\"def_pos\":0,\"type\":\"java.lang.String\"},{\"name\":\"KEY_FUNNEL_ACTIVE\",\"def_pos\":0,\"type\":\"java.lang.String\"},{\"name\":\"KEY_GUIDE_SHOWN\",\"def_pos\":0,\"type\":\"java.lang.String\"},{\"name\":\"KEY_SETTINGS_SHOWN\",\"def_pos\":0,\"type\":\"java.lang.String\"},{\"name\":\"firstMinusOne\",\"def_pos\":0,\"type\":\"com.neeeex.eraser.launcher.FirstMinusOneFunnel\"}],\"raw_name\":\"com.neeeex.eraser.launcher.NewUserDesktopFunnelTracker\",\"method_count\":14,\"full_name\":\"com.neeeex.eraser.launcher.NewUserDesktopFunnelTracker\",\"field_count\":8,\"name\":\"NewUserDesktopFunnelTracker\",\"inner_class_count\":0}"
+                }
+              ],
+              "isError": false
+            }
+          }
+        ]
+      },
+      "normalized_result": {
+        "engine": {
+          "name": "jadx-headless-mcp",
+          "version": "0.7.1",
+          "artifact_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+          "source_revision": "5844800a486d2248fa949b74c9896285f5b54de2",
+          "worker_count": 1,
+          "heap_limit_mib": 3072
+        },
+        "class_name": "com.neeeex.eraser.launcher.NewUserDesktopFunnelTracker",
+        "methods": [
+          {
+            "name": "<clinit>",
+            "reported_signature": "<clinit>(): void",
+            "overload_index": 0,
+            "is_constructor": false,
+            "dex_descriptor": "()V"
+          },
+          {
+            "name": "<init>",
+            "reported_signature": "<init>(): void",
+            "overload_index": 0,
+            "is_constructor": true,
+            "dex_descriptor": "()V"
+          },
+          {
+            "name": "a",
+            "reported_signature": "a(com.neeeex.eraser.launcher.FirstMinusOneEntryPath): fl.m0",
+            "overload_index": 0,
+            "is_constructor": false,
+            "dex_descriptor": "(Lcom/neeeex/eraser/launcher/FirstMinusOneEntryPath;)Lfl/m0;"
+          },
+          {
+            "name": "b",
+            "reported_signature": "b(java.lang.String): boolean",
+            "overload_index": 0,
+            "is_constructor": false,
+            "dex_descriptor": "(Ljava/lang/String;)Z"
+          },
+          {
+            "name": "c",
+            "reported_signature": "c(): java.lang.String",
+            "overload_index": 0,
+            "is_constructor": false,
+            "dex_descriptor": "()Ljava/lang/String;"
+          },
+          {
+            "name": "isActive",
+            "reported_signature": "isActive(): boolean",
+            "overload_index": 0,
+            "is_constructor": false,
+            "dex_descriptor": "()Z"
+          },
+          {
+            "name": "recordFirstMinusOneEntry",
+            "reported_signature": "recordFirstMinusOneEntry(com.neeeex.eraser.launcher.FirstMinusOneEntryPath): void",
+            "overload_index": 0,
+            "is_constructor": false,
+            "dex_descriptor": "(Lcom/neeeex/eraser/launcher/FirstMinusOneEntryPath;)V"
+          },
+          {
+            "name": "reportDefaultHomeGuideShown",
+            "reported_signature": "reportDefaultHomeGuideShown(): void",
+            "overload_index": 0,
+            "is_constructor": false,
+            "dex_descriptor": "()V"
+          },
+          {
+            "name": "reportDefaultHomeSelected",
+            "reported_signature": "reportDefaultHomeSelected(): void",
+            "overload_index": 0,
+            "is_constructor": false,
+            "dex_descriptor": "()V"
+          },
+          {
+            "name": "reportDefaultHomeSettingsShown",
+            "reported_signature": "reportDefaultHomeSettingsShown(java.lang.String, java.lang.String): void",
+            "overload_index": 0,
+            "is_constructor": false,
+            "dex_descriptor": "(Ljava/lang/String;Ljava/lang/String;)V"
+          },
+          {
+            "name": "reportDesktopFirstScreenShown",
+            "reported_signature": "reportDesktopFirstScreenShown(android.content.Context, boolean): boolean",
+            "overload_index": 0,
+            "is_constructor": false,
+            "dex_descriptor": "(Landroid/content/Context;Z)Z"
+          },
+          {
+            "name": "reportFirstMinusOneShown",
+            "reported_signature": "reportFirstMinusOneShown(android.content.Context): boolean",
+            "overload_index": 0,
+            "is_constructor": false,
+            "dex_descriptor": "(Landroid/content/Context;)Z"
+          },
+          {
+            "name": "reportOnce",
+            "reported_signature": "reportOnce(java.lang.String, kotlin.jvm.functions.Function0): void",
+            "overload_index": 0,
+            "is_constructor": false,
+            "dex_descriptor": "(Ljava/lang/String;Lkotlin/jvm/functions/Function0;)V"
+          },
+          {
+            "name": "start",
+            "reported_signature": "start(): void",
+            "overload_index": 0,
+            "is_constructor": false,
+            "dex_descriptor": "()V"
+          }
+        ],
+        "fields": [
+          {
+            "name": "INSTANCE",
+            "reported_type": "com.neeeex.eraser.launcher.NewUserDesktopFunnelTracker",
+            "dex_static_value": null
+          },
+          {
+            "name": "KEY_DEFAULT_SELECTED",
+            "reported_type": "java.lang.String",
+            "dex_static_value": null
+          },
+          {
+            "name": "KEY_DESKTOP_FIRST_SCREEN_SHOWN",
+            "reported_type": "java.lang.String",
+            "dex_static_value": null
+          },
+          {
+            "name": "KEY_FIRST_MINUS_ONE_STATE",
+            "reported_type": "java.lang.String",
+            "dex_static_value": null
+          },
+          {
+            "name": "KEY_FUNNEL_ACTIVE",
+            "reported_type": "java.lang.String",
+            "dex_static_value": null
+          },
+          {
+            "name": "KEY_GUIDE_SHOWN",
+            "reported_type": "java.lang.String",
+            "dex_static_value": null
+          },
+          {
+            "name": "KEY_SETTINGS_SHOWN",
+            "reported_type": "java.lang.String",
+            "dex_static_value": null
+          },
+          {
+            "name": "firstMinusOne",
+            "reported_type": "com.neeeex.eraser.launcher.FirstMinusOneFunnel",
+            "dex_static_value": null
+          }
+        ],
+        "inner_classes": []
+      },
+      "confidence": "observed",
+      "authority": "shipped-artifact",
+      "environment": null,
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; DEX prototypes come from frozen JADX metadata. Display names may be aliases, and overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Incoming reference totals count JADX using nodes. Direct invoke entries within a using method report raw DEX code-unit offsets and method indexes, but coverage is limited to those nodes and directly matched invokes; it does not establish every possible dynamic or reflective call site.",
+        "Manifest summaries are parsed once by REA's bridge from the exact root AndroidManifest.xml resource, using namespace-aware XML attributes; decoded XML is retained. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ],
+      "relationship_coverage": null,
+      "locations": [],
+      "evidence_links": []
+    }
+  }
+}

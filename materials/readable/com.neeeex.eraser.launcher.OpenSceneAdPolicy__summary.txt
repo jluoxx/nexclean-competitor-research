@@ -1,0 +1,75 @@
+{
+  "engine": {
+    "name": "jadx-headless-mcp",
+    "version": "0.7.1",
+    "artifact_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+    "source_revision": "5844800a486d2248fa949b74c9896285f5b54de2",
+    "worker_count": 1,
+    "heap_limit_mib": 3072
+  },
+  "class_name": "com.neeeex.eraser.launcher.OpenSceneAdPolicy",
+  "method_name": null,
+  "overload_index": null,
+  "reported_signature": null,
+  "dex_descriptor": null,
+  "total": 5,
+  "references": [
+    {
+      "kind": "class",
+      "name": "ToolOverlayManager",
+      "reported_full_name": "com.neeeex.eraser.launcher.tool.ToolOverlayManager",
+      "containing_class": "",
+      "top_class": "com.neeeex.eraser.launcher.tool.ToolOverlayManager",
+      "source_line": null,
+      "dex_offset": null,
+      "direct_invokes_exhaustive": null,
+      "direct_invokes": null
+    },
+    {
+      "kind": "class",
+      "name": "SplashNEEEEXActivity",
+      "reported_full_name": "com.neeeex.eraser.module.main.SplashNEEEEXActivity",
+      "containing_class": "",
+      "top_class": "com.neeeex.eraser.module.main.SplashNEEEEXActivity",
+      "source_line": null,
+      "dex_offset": null,
+      "direct_invokes_exhaustive": null,
+      "direct_invokes": null
+    },
+    {
+      "kind": "class",
+      "name": "d",
+      "reported_full_name": "com.neeeex.eraser.module.main.SplashNEEEEXActivity.d",
+      "containing_class": "com.neeeex.eraser.module.main.SplashNEEEEXActivity",
+      "top_class": "com.neeeex.eraser.module.main.SplashNEEEEXActivity",
+      "source_line": null,
+      "dex_offset": null,
+      "direct_invokes_exhaustive": null,
+      "direct_invokes": null
+    },
+    {
+      "kind": "class",
+      "name": "SplashNEEEEXHotActivity",
+      "reported_full_name": "com.neeeex.eraser.module.main.SplashNEEEEXHotActivity",
+      "containing_class": "",
+      "top_class": "com.neeeex.eraser.module.main.SplashNEEEEXHotActivity",
+      "source_line": null,
+      "dex_offset": null,
+      "direct_invokes_exhaustive": null,
+      "direct_invokes": null
+    },
+    {
+      "kind": "class",
+      "name": "a",
+      "reported_full_name": "com.neeeex.eraser.module.main.SplashNEEEEXHotActivity.c.a",
+      "containing_class": "com.neeeex.eraser.module.main.SplashNEEEEXHotActivity.c",
+      "top_class": "com.neeeex.eraser.module.main.SplashNEEEEXHotActivity",
+      "source_line": null,
+      "dex_offset": null,
+      "direct_invokes_exhaustive": null,
+      "direct_invokes": null
+    }
+  ],
+  "coverage": "complete",
+  "reference_unit": "using_node"
+}

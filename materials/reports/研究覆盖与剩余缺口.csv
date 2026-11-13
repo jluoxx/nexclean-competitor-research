@@ -1,0 +1,10 @@
+﻿主题,入口,条件动作状态,已完成,证据,缺口
+身份与完整性,已定位,已核对,base+24 splits，逐文件SHA256与ZIP校验,sample-manifest.json,商店标题与开发者未核实；签名证书见sources/apk-certificate.txt
+Google获客,部分覆盖,未验证,归因SDK支持Google等来源，未取得素材/广告主记录,decoded/com.neeeex.eraser.module.report.bytedance.a.java,公开检索工具返回Unsupported content type；无买量效果数据
+商业化,已定位入口,已追条件与回调,启动、引导、负一屏、工具完成/退出、原生刷新,reports/主要发现与证据索引.csv,线上路由/所有SDK内部算法/曝光未验证
+在线参数与分层,已定位,客户端链已追,fetch/activate、偏好缓存、getter、场景消费,decoded/ni.i.java,无真实配置快照、真实归因与线上人群分配
+推送召回,已定位,已追关键频控与落点,开机恢复、系统通知、桌面浮层、点击路由,decoded/com.neeeex.eraser.push.b.java,Samsung分支已由字节码补全；送达率及后台存活未知
+功能,已定位,清理/查杀/推荐链已追,文件删除、Trustlook云扫描、功能推荐,decoded/com.neeeex.similar3p.junk.ui.JunkCleanNEEEEXActivity.java,清理效果/误报/恢复效果未实测
+采集监听,已定位,字段与SDK入口已追,app/init、Firebase、AppLog、SolarEngine、通知点,decoded/li.a.java,SDK内部全量字段、上传频率、服务端接收未知
+保护,已定位,部分确认,25个分包壳标记/类定义/15库清单；Pairip启动许可链、XOR与图片JNI用途,hardening/静态加固核查.json；reports/NexClean_加固与保护核查.md,有限规则未命中不等于无壳；未做原生逐函数逆向、动态加载追踪或自研归属确认
+真机,APK提取已完成,本轮未执行交互,用户选择先静态分析；runtime目录无交互证据,sources/device_apk_paths.txt,不能声称广告已曝光或功能验证通过

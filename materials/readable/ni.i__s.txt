@@ -1,0 +1,16 @@
+    public final void s() {
+        k kVar = f89496b;
+        if (kVar != null && f89497c.compareAndSet(false, true)) {
+            try {
+                kVar.j().addOnCompleteListener(new OnCompleteListener() { // from class: ni.e
+                    @Override // com.google.android.gms.tasks.OnCompleteListener
+                    public final void onComplete(Task task) {
+                        i.a(task);
+                    }
+                });
+            } catch (RuntimeException e10) {
+                f89497c.set(false);
+                throw e10;
+            }
+        }
+    }
